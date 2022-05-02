@@ -1,117 +1,159 @@
-.article-content pre,
-.article-content .highlight {
-  background: #fff;
-  margin: 1.5em 0;
-  padding: 15px 15px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-  overflow: hidden;
-  border-radius: 5px;
-  color: #ccc;
+@font-face {
+  font-family: "Noto Sans";
+  src: url("fonts/Noto_Sans/NotoSans-Regular.ttf");
+  font-weight: normal;
 }
-.article-content .highlight .gutter pre,
-.article-content .gist .gist-file .gist-data .line-numbers {
+@font-face {
+  font-family: "Noto Sans";
+  src: url("fonts/Noto_Sans/NotoSans-Italic.ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Noto Serif";
+  src: url("fonts/Noto_Serif/NotoSerif-Regular.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-familiy: "Inconsolata";
+  src: url("fonts/Inconsolata/Inconsolata-Regular.ttf");
+}
+article pre,
+article .highlight {
+  background: #ebefef;
+  padding: 15px;
+  overflow: auto;
+  color: #333;
+}
+article pre a,
+article .highlight a {
+  text-shadow: 0.03em 0 #ebefef, -0.03em 0 #ebefef, 0 0.03em #ebefef, 0 -0.03em #ebefef, 0.06em 0 #ebefef, -0.06em 0 #ebefef, 0.09em 0 #ebefef, -0.09em 0 #ebefef, 0.12em 0 #ebefef, -0.12em 0 #ebefef, 0.15em 0 #ebefef, -0.15em 0 #ebefef;
+  background-image: linear-gradient(#0ba6d7, #0ba6d7);
+  background-size: 1px 1px;
+  background-repeat: repeat-x;
+  background-position: 0% 95%;
+  color: #0ba6d7;
+  text-decoration: none;
+}
+article pre a::selection,
+article .highlight a::selection {
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
+}
+article pre a::-moz-selection,
+article .highlight a::-moz-selection {
+  text-shadow: 0.03em 0 #0ba6d7, -0.03em 0 #0ba6d7, 0 0.03em #0ba6d7, 0 -0.03em #0ba6d7, 0.06em 0 #0ba6d7, -0.06em 0 #0ba6d7, 0.09em 0 #0ba6d7, -0.09em 0 #0ba6d7, 0.12em 0 #0ba6d7, -0.12em 0 #0ba6d7, 0.15em 0 #0ba6d7, -0.15em 0 #0ba6d7;
+  background: #0ba6d7;
+}
+article pre a *,
+article .highlight a *,
+article pre a *:after,
+article .highlight a *:after,
+article pre a:after,
+article .highlight a:after,
+article pre a *:before,
+article .highlight a *:before,
+article pre a:before,
+article .highlight a:before {
+  text-shadow: none;
+}
+article pre a:visited,
+article .highlight a:visited {
+  color: #0ba6d7;
+}
+article .highlight .gutter pre,
+article .gist .gist-file .gist-data .line-numbers {
   color: #666;
-  font-size: 0.85em;
 }
-.article-content pre,
-.article-content code {
-  font-family: Courier New, Courier, monospace;
-  font-weight: bold;
+code {
+  background-color: #ebefef;
+  border-radius: 0.2em;
 }
-.article-content code {
-  background: #fff;
+.highlight .line.marked {
+  background-color: #d1dada;
+}
+article pre,
+article code {
+  font-family: "Inconsolata", monospace;
+}
+article code {
+  background: color-background;
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
-.article-content pre code {
+article pre code {
   background: none;
   text-shadow: none;
   padding: 0;
 }
-.article-content .highlight pre {
+article .highlight pre {
   border: none;
   margin: 0;
   padding: 0;
 }
-.article-content .highlight table {
+article .highlight table {
   margin: 0;
   width: auto;
 }
-.article-content .highlight td {
+article .highlight td {
   border: none;
   padding: 0;
 }
-.article-content .highlight figcaption {
+article .highlight figcaption {
   font-size: 0.85em;
   color: #999;
   line-height: 1em;
   margin-bottom: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.article-content .highlight figcaption a {
-  float: right;
-}
-.article-content .highlight figcaption span {
-  font: monospace;
-}
-.article-content .highlight .gutter pre {
+article .highlight .gutter pre {
   text-align: right;
   padding-right: 20px;
 }
-.article-content .highlight .line,
-.article-content .highlight .line.marked {
-  background: #fff;
-}
-.article-content .gist {
-  margin: 0 0;
+article .gist {
   border-style: solid;
-  border-color: #808080;
+  border-color: #99c0cc;
   border-width: 1px 0;
-  background: #2d2d2d;
-  padding: 15px 0 15px 0;
+  background: #f9fafa;
 }
-.article-content .gist .gist-file {
+article .gist .gist-file {
   border: none;
+  font-family: font-mono;
   margin: 0;
 }
-.article-content .gist .gist-file .gist-data {
+article .gist .gist-file .gist-data {
   background: none;
   border: none;
 }
-.article-content .gist .gist-file .gist-data .line-numbers {
+article .gist .gist-file .gist-data .line-numbers {
   background: none;
   border: none;
   padding: 0 20px 0 0;
 }
-.article-content .gist .gist-file .gist-data .line-data {
+article .gist .gist-file .gist-data .line-data {
   padding: 0 !important;
 }
-.article-content .gist .gist-file .highlight {
+article .gist .gist-file .highlight {
   margin: 0;
   padding: 0;
   border: none;
 }
-.article-content .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+article .gist .gist-file .gist-meta {
+  background: #f9fafa;
   color: #999;
-  font: 0.85em;
+  font: 0.85em font-sans;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
-  margin-left: 0;
+  margin-left: article-padding;
 }
-.article-content .gist .gist-file .gist-meta a {
-  font-weight: normal;
-}
-.article-content .gist .gist-file .gist-meta a:hover {
-  text-decoration: underline;
-}
-pre .comment {
+pre .comment,
+pre .title {
   color: #999;
 }
 pre .variable,
-pre .attr,
+pre .attribute,
 pre .tag,
 pre .regexp,
 pre .ruby .constant,
@@ -122,7 +164,7 @@ pre .html .doctype,
 pre .css .id,
 pre .css .class,
 pre .css .pseudo {
-  color: #f2777a;
+  color: #a626a4;
 }
 pre .number,
 pre .preprocessor,
@@ -130,12 +172,12 @@ pre .built_in,
 pre .literal,
 pre .params,
 pre .constant {
-  color: #f99157;
+  color: #986801;
 }
 pre .class,
 pre .ruby .class .title,
-pre .css .rules .attr {
-  color: #9c9;
+pre .css .rules .attribute {
+  color: #50a14f;
 }
 pre .string,
 pre .value,
@@ -143,7 +185,7 @@ pre .inheritance,
 pre .header,
 pre .ruby .symbol,
 pre .xml .cdata {
-  color: #9c9;
+  color: #50a14f;
 }
 pre .css .hexcolor {
   color: #6cc;
@@ -156,9 +198,9 @@ pre .ruby .title .keyword,
 pre .perl .sub,
 pre .javascript .title,
 pre .coffeescript .title {
-  color: #69c;
+  color: #a626a4;
 }
 pre .keyword,
 pre .javascript .function {
-  color: #c9c;
+  color: #a626a4;
 }
