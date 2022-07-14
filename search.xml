@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>C++ Tips</title>
+    <url>/2022/07/14/C-Tips/</url>
+    <content><![CDATA[<h2 id="start"><a class="markdownIt-Anchor" href="#start"></a> Start</h2>
+<ul>
+<li><strong>让我们写下第一个C++文件!</strong></li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//hello.cpp</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>使用Linux命令行来调用编译器</strong></li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">huayi:~/demo$ g++ -o hello hello.cpp</span><br></pre></td></tr></table></figure>
+<ul>
+<li><strong>运行编译好的程序</strong></li>
+</ul>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">huayi:~/demo$ ./hello</span><br><span class="line">Hello World!</span><br></pre></td></tr></table></figure>
+]]></content>
+      <tags>
+        <tag>C++</tag>
+        <tag>Shell</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>First</title>
     <url>/2022/07/13/First/</url>
     <content><![CDATA[<h1 id="first"><a class="markdownIt-Anchor" href="#first"></a> First</h1>
@@ -148,28 +170,6 @@ s-65,47,-65,47z M834 80H400000v40H845z"/></svg></span></span></span><span class=
 ]]></content>
       <tags>
         <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C++ Tips</title>
-    <url>/2022/07/14/C-Tips/</url>
-    <content><![CDATA[<h2 id="start"><a class="markdownIt-Anchor" href="#start"></a> Start</h2>
-<ul>
-<li><strong>让我们写下第一个C++文件!</strong></li>
-</ul>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">//hello.cpp</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello World!&quot;</span> &lt;&lt; endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>使用Linux命令行来调用编译器</strong></li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">huayi:~/demo$ g++ -o hello hello.cpp</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>运行编译好的程序</strong></li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">huayi:~/demo$ ./hello</span><br><span class="line">Hello World!</span><br></pre></td></tr></table></figure>
-]]></content>
-      <tags>
-        <tag>C++</tag>
-        <tag>Shell</tag>
       </tags>
   </entry>
 </search>
