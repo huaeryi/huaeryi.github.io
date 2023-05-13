@@ -433,8 +433,8 @@ Maybe Learning later…</p>
   <entry>
     <title>MIT 6.S081 Lab thread</title>
     <url>/2023/05/03/6-S081-Lab-thread/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-4">Compulsory exercises</h3>
-<h4 id="Preparation-4">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-5">Compulsory exercises</h3>
+<h4 id="Preparation-5">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">reading<br>
 <img src="/2023/05/03/6-S081-Lab-thread/pre.png" alt><br>
@@ -445,7 +445,7 @@ To start the lab, switch to the thread branch:</li>
 <h4 id="Uthread-switching-between-threads-moderate">Uthread: switching between threads (moderate)</h4>
 <h4 id="Using-threads-moderate">Using threads (moderate)</h4>
 <h4 id="Barrier-moderate">Barrier(moderate)</h4>
-<h3 id="Optional-challenge-exercises-4">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-5">Optional challenge exercises</h3>
 <p>The user-level thread package interacts badly with the operating system in several ways. For example, if one user-level thread blocks in a system call, another user-level thread won’t run, because the user-level threads scheduler doesn’t know that one of its threads has been descheduled by the xv6 scheduler. As another example, two user-level threads will not run concurrently on different cores, because the xv6 scheduler isn’t aware that there are multiple threads that could run in parallel. Note that if two user-level threads were to run truly in parallel, this implementation won’t work because of several races (e.g., two threads on different processors could call thread_schedule concurrently, select the same runnable thread, and both run it on different processors.)</p>
 <p>There are several ways of addressing these problems. One is using scheduler activations and another is to use one kernel thread per user-level thread (as Linux kernels do). Implement one of these ways in xv6. This is not easy to get right; for example, you will need to implement TLB shootdown when updating a page table for a multithreaded user process.</p>
 <p>Add locks, condition variables, barriers, etc. to your thread package.</p>
@@ -463,7 +463,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 17: Virtual memory for applications</title>
     <url>/2023/04/28/6-S081-Lecture-17/</url>
-    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/appel-li.pdf">Read Virtual Memory Primitives for User Programs (1991)</a></li>
 </ul>
@@ -802,8 +802,8 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lab cow</title>
     <url>/2023/04/23/6-S081-Lab-cow/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises">Compulsory exercises</h3>
-<h4 id="Preparation">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-2">Compulsory exercises</h3>
+<h4 id="Preparation-2">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">To start the lab, switch to the cow branch:</li>
 </ul>
@@ -850,7 +850,7 @@ To start the lab, switch to the thread branch:</li>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>kalloc.c</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">spinlock</span> <span class="title">cnt_lock</span>;</span></span><br><span class="line"><span class="type">int</span> cnt[PHYSTOP &gt;&gt; <span class="number">12</span>];</span><br></pre></td></tr></table></figure>
-<h3 id="Optional-challenge-exercises">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-2">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Modify xv6 to support both lazy page allocation and COW.</p>
@@ -873,7 +873,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 16: File system performance and fast crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-16/</url>
-    <content><![CDATA[<h3 id="Reading-7">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/microkernel.pdf">Read Journaling the Linux ext2fs Filesystem (1998)</a></li>
 </ul>
@@ -915,7 +915,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 15: Crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-15/</url>
-    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-7">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read logging sections of “File system”</a></li>
 <li class="lvl-2">read code<br>
@@ -1536,8 +1536,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab traps</title>
     <url>/2023/04/13/6-S081-Lab-traps/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-5">Compulsory exercises</h3>
-<h4 id="Preparation-5">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-4">Compulsory exercises</h3>
+<h4 id="Preparation-4">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">reading<br>
 <img src="/2023/04/13/6-S081-Lab-traps/pre.png" alt></li>
@@ -1677,7 +1677,7 @@ $</p>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>trap.c usertrap() >folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">//test12</span></span><br><span class="line"><span class="keyword">if</span>(which_dev == <span class="number">2</span> &amp;&amp; p-&gt;inhandler == <span class="number">0</span>) &#123;</span><br><span class="line">  p-&gt;gonetick += <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (p-&gt;ticks &amp;&amp; p-&gt;gonetick == p-&gt;ticks) &#123;</span><br><span class="line">    p-&gt;gonetick = <span class="number">0</span>;</span><br><span class="line">    p-&gt;inhandler = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    p-&gt;ra = p-&gt;trapframe-&gt;ra;</span><br><span class="line">    p-&gt;sp = p-&gt;trapframe-&gt;sp;</span><br><span class="line">    p-&gt;gp = p-&gt;trapframe-&gt;gp;</span><br><span class="line">    p-&gt;tp = p-&gt;trapframe-&gt;tp;</span><br><span class="line">    p-&gt;t0 = p-&gt;trapframe-&gt;t0;</span><br><span class="line">    p-&gt;t1 = p-&gt;trapframe-&gt;t1;</span><br><span class="line">    p-&gt;t2 = p-&gt;trapframe-&gt;t2;</span><br><span class="line">    p-&gt;s0 = p-&gt;trapframe-&gt;s0;</span><br><span class="line">    p-&gt;s1 = p-&gt;trapframe-&gt;s1;</span><br><span class="line">    p-&gt;a0 = p-&gt;trapframe-&gt;a0;</span><br><span class="line">    p-&gt;a1 = p-&gt;trapframe-&gt;a1;</span><br><span class="line">    p-&gt;a2 = p-&gt;trapframe-&gt;a2;</span><br><span class="line">    p-&gt;a3 = p-&gt;trapframe-&gt;a3;</span><br><span class="line">    p-&gt;a4 = p-&gt;trapframe-&gt;a4;</span><br><span class="line">    p-&gt;a5 = p-&gt;trapframe-&gt;a5;</span><br><span class="line">    p-&gt;a6 = p-&gt;trapframe-&gt;a6;</span><br><span class="line">    p-&gt;a7 = p-&gt;trapframe-&gt;a7;</span><br><span class="line">    p-&gt;s2 = p-&gt;trapframe-&gt;s2;</span><br><span class="line">    p-&gt;s3 = p-&gt;trapframe-&gt;s3;</span><br><span class="line">    p-&gt;s4 = p-&gt;trapframe-&gt;s4;</span><br><span class="line">    p-&gt;s5 = p-&gt;trapframe-&gt;s5;</span><br><span class="line">    p-&gt;s6 = p-&gt;trapframe-&gt;s6;</span><br><span class="line">    p-&gt;s7 = p-&gt;trapframe-&gt;s7;</span><br><span class="line">    p-&gt;s8 = p-&gt;trapframe-&gt;s8;</span><br><span class="line">    p-&gt;s9 = p-&gt;trapframe-&gt;s9;</span><br><span class="line">    p-&gt;s10 = p-&gt;trapframe-&gt;s10;</span><br><span class="line">    p-&gt;s11 = p-&gt;trapframe-&gt;s11;</span><br><span class="line">    p-&gt;t3 = p-&gt;trapframe-&gt;t3;</span><br><span class="line">    p-&gt;t4 = p-&gt;trapframe-&gt;t4;</span><br><span class="line">    p-&gt;t5 = p-&gt;trapframe-&gt;t5;</span><br><span class="line">    p-&gt;t6 = p-&gt;trapframe-&gt;t6;   </span><br><span class="line"></span><br><span class="line">    p-&gt;epc = p-&gt;trapframe-&gt;epc;     </span><br><span class="line"></span><br><span class="line">    p-&gt;trapframe-&gt;epc = p-&gt;handler;</span><br><span class="line">  &#125;</span><br><span class="line">  yield();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 
-<h3 id="Optional-challenge-exercises-5">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-4">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Print the names of the functions and line numbers in backtrace() instead of numerical addresses (hard).</p>
@@ -2173,8 +2173,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab pgtbl</title>
     <url>/2023/04/05/6-S081-Lab-pgtbl/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-2">Compulsory exercises</h3>
-<h4 id="Preparation-2">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-3">Compulsory exercises</h3>
+<h4 id="Preparation-3">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>reading<br>
@@ -2269,7 +2269,7 @@ $</p>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>vm.c</span></figcaption><table><tr><td class="code"><pre><span class="line">uint64</span><br><span class="line"><span class="title function_">pgaccess</span><span class="params">(<span class="type">pagetable_t</span> pagetable, uint64 firstpte, <span class="type">int</span> num, uint64 buf)</span> &#123;</span><br><span class="line">  uint64 mask = <span class="number">0</span>;</span><br><span class="line">  uint64 limit = <span class="number">64</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (uint64 i = <span class="number">0</span>; i &lt; num &amp;&amp; i &lt; limit; i++) &#123;</span><br><span class="line">    <span class="type">pte_t</span> *pte_ptr;</span><br><span class="line">    pte_ptr = walk(pagetable, firstpte + i * (uint64)PGSIZE, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">if</span> ((pte_ptr != <span class="number">0</span>) &amp;&amp; (*pte_ptr &amp; PTE_A)) &#123;</span><br><span class="line">        mask = mask | (<span class="number">1L</span> &lt;&lt; i);</span><br><span class="line">        *pte_ptr = *pte_ptr &amp; (~PTE_A);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  copyout(pagetable, buf, (<span class="type">char</span> *)&amp;mask, <span class="number">8</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Optional-challenge-exercises-2">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-3">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Use super-pages to reduce the number of PTEs in page tables.</p>
@@ -2295,7 +2295,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 7: Page faults</title>
     <url>/2023/04/04/6-S081-Lecture-7/</url>
-    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read 4.6</a></li>
 </ul>
@@ -2459,7 +2459,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 6: Isolation &amp; system call entry/exit</title>
     <url>/2023/04/01/6-S081-Lecture-6/</url>
-    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter4</a><br>
 <img src="/2023/04/01/6-S081-Lecture-6/Chapter4.png" alt="Chapter4"></li>
@@ -2570,8 +2570,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab syscall</title>
     <url>/2023/03/31/6-S081-Lab-syscall/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-3">Compulsory exercises</h3>
-<h4 id="Preparation-3">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises">Compulsory exercises</h3>
+<h4 id="Preparation">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>reading<br>
@@ -2674,7 +2674,7 @@ $</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">// add in proc.c</span></span><br><span class="line">uint64</span><br><span class="line"><span class="title function_">procnumber</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    uint64 count = <span class="number">0</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">proc</span> *<span class="title">p</span>;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (p = proc; p &lt; &amp;proc[NPROC]; p++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (p-&gt;state != UNUSED) &#123;</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> count;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
     </div>
 </div>
-<h3 id="Optional-challenge-exercises-3">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Print the system call arguments for traced system calls (easy).</p>
@@ -2920,7 +2920,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 4: Page tables</title>
     <url>/2023/03/29/6-S081-Lecture-4/</url>
-    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter3</a><br>
 <img src="/2023/03/29/6-S081-Lecture-4/Chapter3.png" alt="Chapter3"></li>
@@ -2997,7 +2997,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 3: OS organization and system calls</title>
     <url>/2023/03/28/6-S081-Lecture-3/</url>
-    <content><![CDATA[<h3 id="Reading-9">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter2</a><br>
 <img src="/2023/03/28/6-S081-Lecture-3/Chapter2.png" alt="Chapter2"></li>
@@ -3073,7 +3073,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>MIT 6.S081 Lecture 2: C and gdb</title>
     <url>/2023/03/28/6-S081-Lecture-2/</url>
-    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-9">Reading</h3>
 <h4 id="C">C</h4>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/lec/6S081-Intro-to-C-Fa21.pdf">Intro to C</a></li>
@@ -3487,7 +3487,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
     <url>/2023/03/26/MIT-6-031/</url>
     <content><![CDATA[<h3 id="Course-About-4">Course About</h3>
 <p><strong>介绍有关软件工程的问题</strong></p>
-<h3 id="Links-9">Links</h3>
+<h3 id="Links-8">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="http://web.mit.edu/6.031/www/sp21/">课程主页</a></p>
@@ -3511,7 +3511,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
 </blockquote>
 <h3 id="Feeling-5">Feeling</h3>
 <p>操作系统层的编程以它注重硬件直接交互，兼顾性能与安全的特征而为人所知。操作系统和机器架构方面的问题，时常让我在想，先有鸡还是先有蛋。所谓的Shell是内核之外的用户程序，它执行不同种类的系统调用以让我觉得，Shell就是内核的包装和外壳(Shell)。但是在Shell之前的事情呢，机器如何摆放它在屏幕上的文字，以让我觉得我在使用Shell？如果没有Shell，事情又会变得怎样呢？网络是一种I/O设备，它在操作系统下的接口是怎样的？我们所熟悉的C语言中那些理所应当的函数和数据结构，是怎样由操作系统封装提供的？操作系统是硬件与用户层之间的重要桥梁，它不仅仅是某种&quot;Cache&quot;，不仅仅是某种GUI，它是很多东西的集合和封装，但幸运的是，它是运行中的程序，它不由谁提供环境，它要自己适应环境。</p>
-<h3 id="Links-8">Links</h3>
+<h3 id="Links-9">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://pdos.csail.mit.edu/6.828/2021/schedule.html">课程主页(Fall21)</a></p>
