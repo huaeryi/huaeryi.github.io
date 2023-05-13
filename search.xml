@@ -142,8 +142,8 @@ Maybe Learning later…</p>
         <category>Others</category>
       </categories>
       <tags>
-        <tag>Plan</tag>
         <tag>Math</tag>
+        <tag>Plan</tag>
       </tags>
   </entry>
   <entry>
@@ -533,7 +533,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>Python</title>
     <url>/2023/04/25/Python/</url>
-    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-12">Introduction</h3>
 <p>Python是一种面向对象的编程语言，不同于C和C++，它是一种解释型语言。</p>
 <span id="more"></span>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -873,7 +873,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 16: File system performance and fast crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-16/</url>
-    <content><![CDATA[<h3 id="Reading-9">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/microkernel.pdf">Read Journaling the Linux ext2fs Filesystem (1998)</a></li>
 </ul>
@@ -915,7 +915,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 15: Crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-15/</url>
-    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-5">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read logging sections of “File system”</a></li>
 <li class="lvl-2">read code<br>
@@ -1041,7 +1041,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 14: File systems</title>
     <url>/2023/04/20/6-S081-Lecture-14/</url>
-    <content><![CDATA[<h3 id="Reading-5">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-4">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter8</a></li>
 <li class="lvl-2">read code<br>
@@ -1351,7 +1351,7 @@ $</p>
   <entry>
     <title>RISC-V</title>
     <url>/2023/04/16/RISC-V/</url>
-    <content><![CDATA[<h3 id="Introduction-12">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
 <p>RISC-V是一种精简指令集架构的汇编语言</p>
 <h3 id="Feeling-7">Feeling</h3>
 <p>RISC-V的核心说明文档只有一页纸那么大，相比起x86臃肿的指令集架构，RISC-V的简单易学很适合作为汇编语言的入门，近年来指令集架构也有从CISC到RISC转变的倾向，但是大部分的机器仍然在x86下运行，整个世界的结构可以说是以x86为主流的。</p>
@@ -1377,7 +1377,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 12: Scheduling 2</title>
     <url>/2023/04/15/6-S081-Lecture-12/</url>
-    <content><![CDATA[<h3 id="Reading-4">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-3">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read remainder of “Scheduling”</a></li>
 <li class="lvl-2">read code<br>
@@ -1411,7 +1411,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 11: Scheduling 1</title>
     <url>/2023/04/15/6-S081-Lecture-11/</url>
-    <content><![CDATA[<h3 id="Reading-3">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-2">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read “Scheduling” through Section 7.4</a></li>
 <li class="lvl-2">read code<br>
@@ -1910,7 +1910,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 10: Multiprocessors and locking</title>
     <url>/2023/04/08/6-S081-Lecture-10/</url>
-    <content><![CDATA[<h3 id="Reading">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Locking</a></li>
 <li class="lvl-2">read code<br>
@@ -2295,7 +2295,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 7: Page faults</title>
     <url>/2023/04/04/6-S081-Lecture-7/</url>
-    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read 4.6</a></li>
 </ul>
@@ -2459,7 +2459,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 6: Isolation &amp; system call entry/exit</title>
     <url>/2023/04/01/6-S081-Lecture-6/</url>
-    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter4</a><br>
 <img src="/2023/04/01/6-S081-Lecture-6/Chapter4.png" alt="Chapter4"></li>
@@ -2823,7 +2823,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 5: GDB, calling conventions and stack frames RISC-V</title>
     <url>/2023/03/29/6-S081-Lecture-5/</url>
-    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-12">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Calling Convention</a></li>
 </ul>
@@ -2920,7 +2920,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 4: Page tables</title>
     <url>/2023/03/29/6-S081-Lecture-4/</url>
-    <content><![CDATA[<h3 id="Reading-12">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter3</a><br>
 <img src="/2023/03/29/6-S081-Lecture-4/Chapter3.png" alt="Chapter3"></li>
@@ -2997,7 +2997,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 3: OS organization and system calls</title>
     <url>/2023/03/28/6-S081-Lecture-3/</url>
-    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter2</a><br>
 <img src="/2023/03/28/6-S081-Lecture-3/Chapter2.png" alt="Chapter2"></li>
@@ -3073,7 +3073,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>MIT 6.S081 Lecture 2: C and gdb</title>
     <url>/2023/03/28/6-S081-Lecture-2/</url>
-    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-9">Reading</h3>
 <h4 id="C">C</h4>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/lec/6S081-Intro-to-C-Fa21.pdf">Intro to C</a></li>
@@ -3096,7 +3096,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>MIT 6.S081 Lecture 1: Introduction and examples</title>
     <url>/2023/03/28/6-S081-Lecture-1/</url>
-    <content><![CDATA[<h3 id="Reading-2">Reading</h3>
+    <content><![CDATA[<h3 id="Reading">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter1</a><br>
 <img src="/2023/03/28/6-S081-Lecture-1/Chapter1.png" alt="Chapter1"></li>
@@ -3410,7 +3410,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
     <content><![CDATA[<h2 id="Introduction-8">Introduction</h2>
 <p>GNU Make是GNU项目中的构建工具，构建文件为Makefile。而CMake是更为强大的构建工具，构建文件为CMakeList.txt，CLion使用CMake作为其构建工具。</p>
 <h2 id="Feeling-6">Feeling</h2>
-<h2 id="Links-9">Links</h2>
+<h2 id="Links-10">Links</h2>
 <ul class="lvl-0">
 <li class="lvl-2">
 <h4 id="GNU-Make">GNU Make</h4>
@@ -3485,9 +3485,9 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>MIT 6.031: Software Construction</title>
     <url>/2023/03/26/MIT-6-031/</url>
-    <content><![CDATA[<h3 id="Course-About-5">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-4">Course About</h3>
 <p><strong>介绍有关软件工程的问题</strong></p>
-<h3 id="Links-11">Links</h3>
+<h3 id="Links-8">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="http://web.mit.edu/6.031/www/sp21/">课程主页</a></p>
@@ -3511,7 +3511,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
 </blockquote>
 <h3 id="Feeling-5">Feeling</h3>
 <p>操作系统层的编程以它注重硬件直接交互，兼顾性能与安全的特征而为人所知。操作系统和机器架构方面的问题，时常让我在想，先有鸡还是先有蛋。所谓的Shell是内核之外的用户程序，它执行不同种类的系统调用以让我觉得，Shell就是内核的包装和外壳(Shell)。但是在Shell之前的事情呢，机器如何摆放它在屏幕上的文字，以让我觉得我在使用Shell？如果没有Shell，事情又会变得怎样呢？网络是一种I/O设备，它在操作系统下的接口是怎样的？我们所熟悉的C语言中那些理所应当的函数和数据结构，是怎样由操作系统封装提供的？操作系统是硬件与用户层之间的重要桥梁，它不仅仅是某种&quot;Cache&quot;，不仅仅是某种GUI，它是很多东西的集合和封装，但幸运的是，它是运行中的程序，它不由谁提供环境，它要自己适应环境。</p>
-<h3 id="Links-8">Links</h3>
+<h3 id="Links-9">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://pdos.csail.mit.edu/6.828/2021/schedule.html">课程主页(Fall21)</a></p>
@@ -3540,9 +3540,9 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>Maki Abstract algebra</title>
     <url>/2023/03/26/Maki-%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<h3 id="Course-About-4">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-6">Course About</h3>
 <p><strong>抽象代数I是用代数方法研究代数结构的第一门课。介绍群论、环论、多项式理论和域论的基础知识。先修课程是数学分析和高等代数。</strong></p>
-<h3 id="Links-10">Links</h3>
+<h3 id="Links-12">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://www.maki-math.com/#/courses/21">课程主页</a></p>
@@ -3563,9 +3563,9 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>Maki Topology</title>
     <url>/2023/03/26/Maki-%E7%82%B9%E9%9B%86%E6%8B%93%E6%89%91%E5%AD%A6/</url>
-    <content><![CDATA[<h3 id="Course-About-6">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-5">Course About</h3>
 <p><strong>介绍了拓扑空间、连续映射、经典的拓扑不变量以及一些重要的拓扑学定理。</strong></p>
-<h3 id="Links-12">Links</h3>
+<h3 id="Links-11">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://www.maki-math.com/#/courses/83">课程主页</a></p>
