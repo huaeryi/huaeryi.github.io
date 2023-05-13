@@ -172,7 +172,7 @@ Maybe Learning later…</p>
   <entry>
     <title>Docker</title>
     <url>/2023/05/12/Docker/</url>
-    <content><![CDATA[<h2 id="Introduction-4">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction-5">Introduction</h2>
 <ul class="lvl-0">
 <li class="lvl-2">Docker是一个轻量级的虚拟机管理工具，可以用于搭建环境，分发项目等等。</li>
 <li class="lvl-2">它的结构如下图右所示<br>
@@ -433,8 +433,8 @@ Maybe Learning later…</p>
   <entry>
     <title>MIT 6.S081 Lab thread</title>
     <url>/2023/05/03/6-S081-Lab-thread/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-3">Compulsory exercises</h3>
-<h4 id="Preparation-3">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-4">Compulsory exercises</h3>
+<h4 id="Preparation-4">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">reading<br>
 <img src="/2023/05/03/6-S081-Lab-thread/pre.png" alt><br>
@@ -445,7 +445,7 @@ To start the lab, switch to the thread branch:</li>
 <h4 id="Uthread-switching-between-threads-moderate">Uthread: switching between threads (moderate)</h4>
 <h4 id="Using-threads-moderate">Using threads (moderate)</h4>
 <h4 id="Barrier-moderate">Barrier(moderate)</h4>
-<h3 id="Optional-challenge-exercises-3">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-4">Optional challenge exercises</h3>
 <p>The user-level thread package interacts badly with the operating system in several ways. For example, if one user-level thread blocks in a system call, another user-level thread won’t run, because the user-level threads scheduler doesn’t know that one of its threads has been descheduled by the xv6 scheduler. As another example, two user-level threads will not run concurrently on different cores, because the xv6 scheduler isn’t aware that there are multiple threads that could run in parallel. Note that if two user-level threads were to run truly in parallel, this implementation won’t work because of several races (e.g., two threads on different processors could call thread_schedule concurrently, select the same runnable thread, and both run it on different processors.)</p>
 <p>There are several ways of addressing these problems. One is using scheduler activations and another is to use one kernel thread per user-level thread (as Linux kernels do). Implement one of these ways in xv6. This is not easy to get right; for example, you will need to implement TLB shootdown when updating a page table for a multithreaded user process.</p>
 <p>Add locks, condition variables, barriers, etc. to your thread package.</p>
@@ -502,7 +502,7 @@ To start the lab, switch to the thread branch:</li>
     <url>/2023/04/26/Hung-yi-Lee-Machine-Learning/</url>
     <content><![CDATA[<h3 id="Course-About-3">Course About</h3>
 <p>介绍有关机器学习的问题。</p>
-<h3 id="Links-5">Links</h3>
+<h3 id="Links-7">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://speech.ee.ntu.edu.tw/~hylee/ml/2022-spring.php">课程主页</a></p>
@@ -519,7 +519,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>Java</title>
     <url>/2023/04/25/Java/</url>
-    <content><![CDATA[<h3 id="Introduction-6">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-7">Introduction</h3>
 <p>Java是一种面向对象的编程语言，JVM虚拟机的使用，让java的编译过程十分特殊，接口的引入，也让面向对象的特征十分突出。</p>
 <span id="more"></span>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -533,7 +533,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>Python</title>
     <url>/2023/04/25/Python/</url>
-    <content><![CDATA[<h3 id="Introduction-12">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
 <p>Python是一种面向对象的编程语言，不同于C和C++，它是一种解释型语言。</p>
 <span id="more"></span>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -873,11 +873,11 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 16: File system performance and fast crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-16/</url>
-    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-9">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/microkernel.pdf">Read Journaling the Linux ext2fs Filesystem (1998)</a></li>
 </ul>
-<h3 id="Information">Information</h3>
+<h3 id="Information-2">Information</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>第一节OS论文的阅读讲座</p>
@@ -915,13 +915,13 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 15: Crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-15/</url>
-    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read logging sections of “File system”</a></li>
 <li class="lvl-2">read code<br>
 <img src="/2023/04/22/6-S081-Lecture-15/read15.png" alt="read"></li>
 </ul>
-<h3 id="Information-2">Information</h3>
+<h3 id="Information">Information</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>最后一节关于xv6的讲座了，后面的重点会放在操作系统论文的阅读上</p>
@@ -1017,7 +1017,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>Network Protocol</title>
     <url>/2023/04/20/Network-Protocol/</url>
-    <content><![CDATA[<h3 id="Introduction-11">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-10">Introduction</h3>
 <p>计算机网络的架构分为很多层，其中主流的分类方法是四层的TCP/IP结构，本文将从这四层结构出发（又是自顶向下😆），介绍属于网络不同层的网络协议。</p>
 <span id="more"></span>
 <h3 id="Layer">Layer</h3>
@@ -1351,7 +1351,7 @@ $</p>
   <entry>
     <title>RISC-V</title>
     <url>/2023/04/16/RISC-V/</url>
-    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-12">Introduction</h3>
 <p>RISC-V是一种精简指令集架构的汇编语言</p>
 <h3 id="Feeling-7">Feeling</h3>
 <p>RISC-V的核心说明文档只有一页纸那么大，相比起x86臃肿的指令集架构，RISC-V的简单易学很适合作为汇编语言的入门，近年来指令集架构也有从CISC到RISC转变的倾向，但是大部分的机器仍然在x86下运行，整个世界的结构可以说是以x86为主流的。</p>
@@ -1697,9 +1697,9 @@ $</p>
   <entry>
     <title>CTF</title>
     <url>/2023/04/13/CTF/</url>
-    <content><![CDATA[<h3 id="Introduction-7">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-4">Introduction</h3>
 <span id="more"></span>
-<h3 id="Links-6">Links</h3>
+<h3 id="Links-4">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://ctf-wiki.org">CTF wiki</a></p>
@@ -1910,7 +1910,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 10: Multiprocessors and locking</title>
     <url>/2023/04/08/6-S081-Lecture-10/</url>
-    <content><![CDATA[<h3 id="Reading-2">Reading</h3>
+    <content><![CDATA[<h3 id="Reading">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Locking</a></li>
 <li class="lvl-2">read code<br>
@@ -2173,8 +2173,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab pgtbl</title>
     <url>/2023/04/05/6-S081-Lab-pgtbl/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-2">Compulsory exercises</h3>
-<h4 id="Preparation-2">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-3">Compulsory exercises</h3>
+<h4 id="Preparation-3">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>reading<br>
@@ -2269,7 +2269,7 @@ $</p>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>vm.c</span></figcaption><table><tr><td class="code"><pre><span class="line">uint64</span><br><span class="line"><span class="title function_">pgaccess</span><span class="params">(<span class="type">pagetable_t</span> pagetable, uint64 firstpte, <span class="type">int</span> num, uint64 buf)</span> &#123;</span><br><span class="line">  uint64 mask = <span class="number">0</span>;</span><br><span class="line">  uint64 limit = <span class="number">64</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (uint64 i = <span class="number">0</span>; i &lt; num &amp;&amp; i &lt; limit; i++) &#123;</span><br><span class="line">    <span class="type">pte_t</span> *pte_ptr;</span><br><span class="line">    pte_ptr = walk(pagetable, firstpte + i * (uint64)PGSIZE, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">if</span> ((pte_ptr != <span class="number">0</span>) &amp;&amp; (*pte_ptr &amp; PTE_A)) &#123;</span><br><span class="line">        mask = mask | (<span class="number">1L</span> &lt;&lt; i);</span><br><span class="line">        *pte_ptr = *pte_ptr &amp; (~PTE_A);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  copyout(pagetable, buf, (<span class="type">char</span> *)&amp;mask, <span class="number">8</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Optional-challenge-exercises-2">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-3">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Use super-pages to reduce the number of PTEs in page tables.</p>
@@ -2295,7 +2295,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 7: Page faults</title>
     <url>/2023/04/04/6-S081-Lecture-7/</url>
-    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read 4.6</a></li>
 </ul>
@@ -2459,7 +2459,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 6: Isolation &amp; system call entry/exit</title>
     <url>/2023/04/01/6-S081-Lecture-6/</url>
-    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter4</a><br>
 <img src="/2023/04/01/6-S081-Lecture-6/Chapter4.png" alt="Chapter4"></li>
@@ -2570,8 +2570,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab syscall</title>
     <url>/2023/03/31/6-S081-Lab-syscall/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-4">Compulsory exercises</h3>
-<h4 id="Preparation-4">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-2">Compulsory exercises</h3>
+<h4 id="Preparation-2">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>reading<br>
@@ -2674,7 +2674,7 @@ $</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">// add in proc.c</span></span><br><span class="line">uint64</span><br><span class="line"><span class="title function_">procnumber</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    uint64 count = <span class="number">0</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">proc</span> *<span class="title">p</span>;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (p = proc; p &lt; &amp;proc[NPROC]; p++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (p-&gt;state != UNUSED) &#123;</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> count;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
     </div>
 </div>
-<h3 id="Optional-challenge-exercises-4">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-2">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Print the system call arguments for traced system calls (easy).</p>
@@ -2700,9 +2700,9 @@ $</p>
     <content><![CDATA[<h3 id="Self-Introduction">Self Introduction</h3>
 <p>GPT-4 is OpenAI’s most advanced system, producing safer and more useful responses.<br>
 GPT4: I am a language model that is based on a neural network architecture known as GPT (Generative Pre-trained Transformer). This architecture is used in deep learning to generate natural language text by predicting the next word or sequence of words based on the input text. I was pre-trained on a large corpus of text and can generate human-like responses to a wide range of questions and prompts.</p>
-<h3 id="Feeling-6">Feeling</h3>
+<h3 id="Feeling-3">Feeling</h3>
 <p>用了一下ChatGPT，非常不错，确实感觉的到我在和一个知识储备很深并且十分耐心的人谈话，希望它能帮助我在后面的学习和生活过程中解答一些疑惑。此外，gpt有提问限制，我也需要精确我的表达来获取我想要的信息。</p>
-<h3 id="Links-11">Links</h3>
+<h3 id="Links-5">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://chat.openai.com/chat/">与GPT4对话</a></p>
@@ -2823,7 +2823,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 5: GDB, calling conventions and stack frames RISC-V</title>
     <url>/2023/03/29/6-S081-Lecture-5/</url>
-    <content><![CDATA[<h3 id="Reading-12">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Calling Convention</a></li>
 </ul>
@@ -2920,7 +2920,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 4: Page tables</title>
     <url>/2023/03/29/6-S081-Lecture-4/</url>
-    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-12">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter3</a><br>
 <img src="/2023/03/29/6-S081-Lecture-4/Chapter3.png" alt="Chapter3"></li>
@@ -3073,7 +3073,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>MIT 6.S081 Lecture 2: C and gdb</title>
     <url>/2023/03/28/6-S081-Lecture-2/</url>
-    <content><![CDATA[<h3 id="Reading-9">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
 <h4 id="C">C</h4>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/lec/6S081-Intro-to-C-Fa21.pdf">Intro to C</a></li>
@@ -3096,7 +3096,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>MIT 6.S081 Lecture 1: Introduction and examples</title>
     <url>/2023/03/28/6-S081-Lecture-1/</url>
-    <content><![CDATA[<h3 id="Reading">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-2">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter1</a><br>
 <img src="/2023/03/28/6-S081-Lecture-1/Chapter1.png" alt="Chapter1"></li>
@@ -3409,7 +3409,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
     <url>/2023/03/28/Make/</url>
     <content><![CDATA[<h2 id="Introduction-8">Introduction</h2>
 <p>GNU Make是GNU项目中的构建工具，构建文件为Makefile。而CMake是更为强大的构建工具，构建文件为CMakeList.txt，CLion使用CMake作为其构建工具。</p>
-<h2 id="Feeling-5">Feeling</h2>
+<h2 id="Feeling-6">Feeling</h2>
 <h2 id="Links-9">Links</h2>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -3459,11 +3459,11 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>Git and Github</title>
     <url>/2023/03/27/Git-and-Github/</url>
-    <content><![CDATA[<h2 id="Introduction-5">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction-6">Introduction</h2>
 <p>Git是Linus开发的分布式版本控制工具，而Github是在线代码托管平台</p>
-<h2 id="Feeling-3">Feeling</h2>
+<h2 id="Feeling-4">Feeling</h2>
 <p>我常常觉得git/github对我来说只有<code>git add</code> <code>git commit</code> <code>git push</code>三部曲，别人的git版本控制是有向无环图(DAG), 而我的git是链表😆。但是学会完整的git/github工作流是必要的。</p>
-<h2 id="Links-4">Links</h2>
+<h2 id="Links-6">Links</h2>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://git-scm.com/book/zh/v2">Pro Git</a> (一本在线Git学习书籍)</p>
@@ -3485,9 +3485,9 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>MIT 6.031: Software Construction</title>
     <url>/2023/03/26/MIT-6-031/</url>
-    <content><![CDATA[<h3 id="Course-About-4">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-5">Course About</h3>
 <p><strong>介绍有关软件工程的问题</strong></p>
-<h3 id="Links-7">Links</h3>
+<h3 id="Links-11">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="http://web.mit.edu/6.031/www/sp21/">课程主页</a></p>
@@ -3509,7 +3509,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
     <content><![CDATA[<blockquote>
 <p>Catalog description: Design and implementation of operating systems, and their use as a foundation for systems programming. Topics include virtual memory; file systems; threads; context switches; kernels; interrupts; system calls; interprocess communication; coordination, and interaction between software and hardware. A multi-processor operating system for RISC-V, xv6, is used to illustrate these topics. Individual laboratory assignments involve extending the xv6 operating system, for example to support sophisticated virtual memory features and networking.</p>
 </blockquote>
-<h3 id="Feeling-4">Feeling</h3>
+<h3 id="Feeling-5">Feeling</h3>
 <p>操作系统层的编程以它注重硬件直接交互，兼顾性能与安全的特征而为人所知。操作系统和机器架构方面的问题，时常让我在想，先有鸡还是先有蛋。所谓的Shell是内核之外的用户程序，它执行不同种类的系统调用以让我觉得，Shell就是内核的包装和外壳(Shell)。但是在Shell之前的事情呢，机器如何摆放它在屏幕上的文字，以让我觉得我在使用Shell？如果没有Shell，事情又会变得怎样呢？网络是一种I/O设备，它在操作系统下的接口是怎样的？我们所熟悉的C语言中那些理所应当的函数和数据结构，是怎样由操作系统封装提供的？操作系统是硬件与用户层之间的重要桥梁，它不仅仅是某种&quot;Cache&quot;，不仅仅是某种GUI，它是很多东西的集合和封装，但幸运的是，它是运行中的程序，它不由谁提供环境，它要自己适应环境。</p>
 <h3 id="Links-8">Links</h3>
 <ul class="lvl-0">
@@ -3540,7 +3540,7 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>Maki Abstract algebra</title>
     <url>/2023/03/26/Maki-%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<h3 id="Course-About-5">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-4">Course About</h3>
 <p><strong>抽象代数I是用代数方法研究代数结构的第一门课。介绍群论、环论、多项式理论和域论的基础知识。先修课程是数学分析和高等代数。</strong></p>
 <h3 id="Links-10">Links</h3>
 <ul class="lvl-0">
@@ -4103,7 +4103,7 @@ $</p>
   <entry>
     <title>Markdown and Latex</title>
     <url>/2022/07/14/MarkdownHelp/</url>
-    <content><![CDATA[<h2 id="Introduction-10">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction-11">Introduction</h2>
 <p>Markdown是一种标记语言，而Latex是一种排版系统</p>
 <span id="more"></span>
 <h2 id="Usage-2">Usage</h2>
