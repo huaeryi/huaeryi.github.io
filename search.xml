@@ -142,8 +142,8 @@ Maybe Learning later…</p>
         <category>Others</category>
       </categories>
       <tags>
-        <tag>Math</tag>
         <tag>Plan</tag>
+        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -172,7 +172,7 @@ Maybe Learning later…</p>
   <entry>
     <title>Docker</title>
     <url>/2023/05/12/Docker/</url>
-    <content><![CDATA[<h2 id="Introduction-5">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction-4">Introduction</h2>
 <ul class="lvl-0">
 <li class="lvl-2">Docker是一个轻量级的虚拟机管理工具，可以用于搭建环境，分发项目等等。</li>
 <li class="lvl-2">它的结构如下图右所示<br>
@@ -190,7 +190,7 @@ Maybe Learning later…</p>
   <entry>
     <title>C</title>
     <url>/2023/05/12/C/</url>
-    <content><![CDATA[<h3 id="Introduction-3">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-2">Introduction</h3>
 <p>C是一种面向过程的编程语言</p>
 <span id="more"></span>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -802,8 +802,8 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lab cow</title>
     <url>/2023/04/23/6-S081-Lab-cow/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises">Compulsory exercises</h3>
-<h4 id="Preparation">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-3">Compulsory exercises</h3>
+<h4 id="Preparation-3">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">To start the lab, switch to the cow branch:</li>
 </ul>
@@ -850,7 +850,7 @@ To start the lab, switch to the thread branch:</li>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>kalloc.c</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">spinlock</span> <span class="title">cnt_lock</span>;</span></span><br><span class="line"><span class="type">int</span> cnt[PHYSTOP &gt;&gt; <span class="number">12</span>];</span><br></pre></td></tr></table></figure>
-<h3 id="Optional-challenge-exercises">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-3">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Modify xv6 to support both lazy page allocation and COW.</p>
@@ -873,7 +873,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 16: File system performance and fast crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-16/</url>
-    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/microkernel.pdf">Read Journaling the Linux ext2fs Filesystem (1998)</a></li>
 </ul>
@@ -915,7 +915,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 15: Crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-15/</url>
-    <content><![CDATA[<h3 id="Reading-5">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read logging sections of “File system”</a></li>
 <li class="lvl-2">read code<br>
@@ -1017,7 +1017,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>Network Protocol</title>
     <url>/2023/04/20/Network-Protocol/</url>
-    <content><![CDATA[<h3 id="Introduction-10">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-11">Introduction</h3>
 <p>计算机网络的架构分为很多层，其中主流的分类方法是四层的TCP/IP结构，本文将从这四层结构出发（又是自顶向下😆），介绍属于网络不同层的网络协议。</p>
 <span id="more"></span>
 <h3 id="Layer">Layer</h3>
@@ -1041,7 +1041,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 14: File systems</title>
     <url>/2023/04/20/6-S081-Lecture-14/</url>
-    <content><![CDATA[<h3 id="Reading-4">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-5">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter8</a></li>
 <li class="lvl-2">read code<br>
@@ -1351,11 +1351,11 @@ $</p>
   <entry>
     <title>RISC-V</title>
     <url>/2023/04/16/RISC-V/</url>
-    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-14">Introduction</h3>
 <p>RISC-V是一种精简指令集架构的汇编语言</p>
 <h3 id="Feeling-7">Feeling</h3>
 <p>RISC-V的核心说明文档只有一页纸那么大，相比起x86臃肿的指令集架构，RISC-V的简单易学很适合作为汇编语言的入门，近年来指令集架构也有从CISC到RISC转变的倾向，但是大部分的机器仍然在x86下运行，整个世界的结构可以说是以x86为主流的。</p>
-<h3 id="Links-13">Links</h3>
+<h3 id="Links-14">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://inst.eecs.berkeley.edu/~cs61c/sp21/resources-pdfs/riscvcard_large.pdf">RISC-V Green Card in CS61C</a></p>
@@ -1377,7 +1377,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 12: Scheduling 2</title>
     <url>/2023/04/15/6-S081-Lecture-12/</url>
-    <content><![CDATA[<h3 id="Reading-3">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-4">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read remainder of “Scheduling”</a></li>
 <li class="lvl-2">read code<br>
@@ -1411,7 +1411,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 11: Scheduling 1</title>
     <url>/2023/04/15/6-S081-Lecture-11/</url>
-    <content><![CDATA[<h3 id="Reading-2">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-3">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read “Scheduling” through Section 7.4</a></li>
 <li class="lvl-2">read code<br>
@@ -1697,9 +1697,9 @@ $</p>
   <entry>
     <title>CTF</title>
     <url>/2023/04/13/CTF/</url>
-    <content><![CDATA[<h3 id="Introduction-4">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-5">Introduction</h3>
 <span id="more"></span>
-<h3 id="Links-4">Links</h3>
+<h3 id="Links-5">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://ctf-wiki.org">CTF wiki</a></p>
@@ -1720,7 +1720,7 @@ $</p>
   <entry>
     <title>Shell</title>
     <url>/2023/04/10/Shell/</url>
-    <content><![CDATA[<h3 id="Introduction-14">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
 <p>Shell通常是运行在操作系统用户层的一个程序，它的表现很像操作系统的外壳(Shell)，它接受键盘输入并执行程序，将结果写入到标准输出流中。shell的种类很多，有bash，zsh，fish等</p>
 <span id="more"></span>
 <h3 id="Common-Usage-wsl">Common Usage(wsl)</h3>
@@ -1857,7 +1857,7 @@ $</p>
 <p><code>vim ~/.bashrc</code></p>
 </li>
 </ul>
-<h3 id="Links-14">Links</h3>
+<h3 id="Links-13">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">详细命令</a></p>
@@ -1910,7 +1910,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 10: Multiprocessors and locking</title>
     <url>/2023/04/08/6-S081-Lecture-10/</url>
-    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-2">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Locking</a></li>
 <li class="lvl-2">read code<br>
@@ -2173,8 +2173,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab pgtbl</title>
     <url>/2023/04/05/6-S081-Lab-pgtbl/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-3">Compulsory exercises</h3>
-<h4 id="Preparation-3">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises">Compulsory exercises</h3>
+<h4 id="Preparation">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>reading<br>
@@ -2269,7 +2269,7 @@ $</p>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>vm.c</span></figcaption><table><tr><td class="code"><pre><span class="line">uint64</span><br><span class="line"><span class="title function_">pgaccess</span><span class="params">(<span class="type">pagetable_t</span> pagetable, uint64 firstpte, <span class="type">int</span> num, uint64 buf)</span> &#123;</span><br><span class="line">  uint64 mask = <span class="number">0</span>;</span><br><span class="line">  uint64 limit = <span class="number">64</span>;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> (uint64 i = <span class="number">0</span>; i &lt; num &amp;&amp; i &lt; limit; i++) &#123;</span><br><span class="line">    <span class="type">pte_t</span> *pte_ptr;</span><br><span class="line">    pte_ptr = walk(pagetable, firstpte + i * (uint64)PGSIZE, <span class="number">0</span>);</span><br><span class="line">    <span class="keyword">if</span> ((pte_ptr != <span class="number">0</span>) &amp;&amp; (*pte_ptr &amp; PTE_A)) &#123;</span><br><span class="line">        mask = mask | (<span class="number">1L</span> &lt;&lt; i);</span><br><span class="line">        *pte_ptr = *pte_ptr &amp; (~PTE_A);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  copyout(pagetable, buf, (<span class="type">char</span> *)&amp;mask, <span class="number">8</span>);</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h3 id="Optional-challenge-exercises-3">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Use super-pages to reduce the number of PTEs in page tables.</p>
@@ -2702,7 +2702,7 @@ $</p>
 GPT4: I am a language model that is based on a neural network architecture known as GPT (Generative Pre-trained Transformer). This architecture is used in deep learning to generate natural language text by predicting the next word or sequence of words based on the input text. I was pre-trained on a large corpus of text and can generate human-like responses to a wide range of questions and prompts.</p>
 <h3 id="Feeling-3">Feeling</h3>
 <p>用了一下ChatGPT，非常不错，确实感觉的到我在和一个知识储备很深并且十分耐心的人谈话，希望它能帮助我在后面的学习和生活过程中解答一些疑惑。此外，gpt有提问限制，我也需要精确我的表达来获取我想要的信息。</p>
-<h3 id="Links-5">Links</h3>
+<h3 id="Links-4">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://chat.openai.com/chat/">与GPT4对话</a></p>
@@ -2920,7 +2920,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 4: Page tables</title>
     <url>/2023/03/29/6-S081-Lecture-4/</url>
-    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter3</a><br>
 <img src="/2023/03/29/6-S081-Lecture-4/Chapter3.png" alt="Chapter3"></li>
@@ -2997,7 +2997,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 3: OS organization and system calls</title>
     <url>/2023/03/28/6-S081-Lecture-3/</url>
-    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter2</a><br>
 <img src="/2023/03/28/6-S081-Lecture-3/Chapter2.png" alt="Chapter2"></li>
@@ -3540,9 +3540,9 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>Maki Abstract algebra</title>
     <url>/2023/03/26/Maki-%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<h3 id="Course-About-6">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-5">Course About</h3>
 <p><strong>抽象代数I是用代数方法研究代数结构的第一门课。介绍群论、环论、多项式理论和域论的基础知识。先修课程是数学分析和高等代数。</strong></p>
-<h3 id="Links-12">Links</h3>
+<h3 id="Links-11">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://www.maki-math.com/#/courses/21">课程主页</a></p>
@@ -3563,9 +3563,9 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>Maki Topology</title>
     <url>/2023/03/26/Maki-%E7%82%B9%E9%9B%86%E6%8B%93%E6%89%91%E5%AD%A6/</url>
-    <content><![CDATA[<h3 id="Course-About-5">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-6">Course About</h3>
 <p><strong>介绍了拓扑空间、连续映射、经典的拓扑不变量以及一些重要的拓扑学定理。</strong></p>
-<h3 id="Links-11">Links</h3>
+<h3 id="Links-12">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://www.maki-math.com/#/courses/83">课程主页</a></p>
@@ -4071,7 +4071,7 @@ $</p>
   <entry>
     <title>C++</title>
     <url>/2022/07/14/C-Tips/</url>
-    <content><![CDATA[<h3 id="Introduction-2">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-3">Introduction</h3>
 <p>C++是一种兼具面向过程和面向对象特征的编程语言</p>
 <span id="more"></span>
 <h3 id="Start">Start</h3>
@@ -4096,14 +4096,14 @@ $</p>
         <category>CS Language</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>Shell</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
     <title>Markdown and Latex</title>
     <url>/2022/07/14/MarkdownHelp/</url>
-    <content><![CDATA[<h2 id="Introduction-11">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction-10">Introduction</h2>
 <p>Markdown是一种标记语言，而Latex是一种排版系统</p>
 <span id="more"></span>
 <h2 id="Usage-2">Usage</h2>
