@@ -105,7 +105,98 @@ Learning…</p>
 </ul>
 <h3 id="Book-List">Book List</h3>
 <h4 id="Computer-Science-2">Computer Science</h4>
-<p>Updating…</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>算法导论</p>
+</li>
+<li class="lvl-2">
+<p>算法第四版</p>
+</li>
+<li class="lvl-2">
+<p>数据结构和算法分析 C语言版</p>
+</li>
+<li class="lvl-2">
+<p>C++ Primer</p>
+</li>
+<li class="lvl-2">
+<p>C++ Primer Plus</p>
+</li>
+<li class="lvl-2">
+<p>深入理解计算机系统</p>
+</li>
+<li class="lvl-2">
+<p>计算机网络 自顶向下方法</p>
+</li>
+<li class="lvl-2">
+<p>离散数学及其应用</p>
+</li>
+</ul>
+<h3 id="Disadvantage-Analysis-😭">Disadvantage Analysis 😭</h3>
+<p>整理一下目前学习过程中欠缺的地方</p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>英语问题</p>
+<ul class="lvl-2">
+<li class="lvl-4">网课能听懂了，但是字幕辅助还是挺重要，听力有点进步</li>
+<li class="lvl-4">短文本教程可以看懂，长文本看的吃力，阅读论文感觉很吃力</li>
+<li class="lvl-4">慢慢进步吧，感觉主要问题还是出在看的耐心不够，读长文献很不想读</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>数学问题</p>
+<ul class="lvl-2">
+<li class="lvl-4"><strong>离散、组合</strong>没学过，算法分析看的挺吃力</li>
+<li class="lvl-4">找门课学学</li>
+<li class="lvl-4">想学学其他<strong>数学课</strong>，时间有点跟不上</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>电子问题</p>
+<ul class="lvl-2">
+<li class="lvl-4">无<strong>电子基础</strong>，缺少对硬件元件的基本认识，缺少对电路的认识</li>
+<li class="lvl-4"><strong>信号与系统</strong>不熟</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>算法问题</p>
+<ul class="lvl-2">
+<li class="lvl-4">题写的很少，只会写一点链表</li>
+<li class="lvl-4">得刷点<strong>力扣、洛谷</strong>啥的</li>
+<li class="lvl-4">可以看看算法书、算法相关的网站之类的</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>开发问题</p>
+<ul class="lvl-2">
+<li class="lvl-4">开发经验很少，遇到项目开发和课程作业总是力不从心</li>
+<li class="lvl-4">coding的熟练度不够</li>
+<li class="lvl-4">合作开发的经验不够</li>
+<li class="lvl-4">可以尝试下<strong>github造轮子的项目</strong></li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>语言问题</p>
+<ul class="lvl-2">
+<li class="lvl-4">CJP三门都用过，但用的不熟，常用的包和库也不熟</li>
+<li class="lvl-4">开发训练</li>
+<li class="lvl-4">想学新语言（<strong>Rust</strong>？），时间有点不够</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>前端问题</p>
+<ul class="lvl-2">
+<li class="lvl-4"><strong>前端</strong>一点不会，不懂html，不懂Javascript，不懂CSS</li>
+<li class="lvl-4">找门课学学，找点资料看看</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>计算机网络</p>
+<ul class="lvl-2">
+<li class="lvl-4"><strong>计算机网络</strong>学的很早，学的不熟，快忘光了</li>
+<li class="lvl-4">找门课再看看</li>
+</ul>
+</li>
+</ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>Others</category>
@@ -244,7 +335,7 @@ Learning…</p>
 <h3 id="Thread">Thread</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
-<p>posix致力于提供一个在不同操作系统中适用的半标准的线程接口</p>
+<p>posix是一种行业标准，其致力于提供一个在不同操作系统中适用的半标准的线程接口</p>
 </li>
 </ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -399,6 +490,13 @@ Learning…</p>
 <p>可以让主机和docker镜像共用目录</p>
 </li>
 </ul>
+<h3 id="Tools">Tools</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>老生常谈的几个工具了</p>
+</li>
+</ul>
+<h3 id="exercise">exercise</h3>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>操作系统</category>
@@ -2761,10 +2859,10 @@ GPT4: I am a language model that is based on a neural network architecture known
   <entry>
     <title>gdb</title>
     <url>/2023/03/29/gdb/</url>
-    <content><![CDATA[<h2 id="Introduction-16">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction">Introduction</h2>
 <p>gdb(GNU Debugger)是GNU项目中调试工具。</p>
 <span id="more"></span>
-<h2 id="Usage-4">Usage</h2>
+<h2 id="Usage">Usage</h2>
 <h3 id="Common">Common</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -2829,7 +2927,12 @@ at the specified location.<br>
 </li>
 </ul>
 <h3 id="gdbinit">.gdbinit</h3>
-<h2 id="Links-16">Links</h2>
+<h2 id="Links">Links</h2>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><a href="http://www.unknownroad.com/rtfm/gdbtut/gdbtoc.html">不错的教程</a></p>
+</li>
+</ul>
 <p>Updating…</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
