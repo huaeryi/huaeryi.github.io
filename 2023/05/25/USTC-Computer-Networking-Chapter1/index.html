@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta><title>USTC Computer Networking Chapter1 - Huayi</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Huayi"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Huayi"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="第一章 计算机网络概述 什么是Internet   Internet是一系列网络的网络   网络是一种拓扑结构，可以用图来表示  节点分为主机节点和数据交换节点 边分为接入网链路和主干链路    网络还包括不同的协议   主机&amp;#x3D;端系统（host&amp;#x3D;end system）   Internet标准  RFC: Request for comments IETF: Internet Engineerin"><meta property="og:type" content="blog"><meta property="og:title" content="USTC Computer Networking Chapter1"><meta property="og:url" content="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/"><meta property="og:site_name" content="Huayi"><meta property="og:description" content="第一章 计算机网络概述 什么是Internet   Internet是一系列网络的网络   网络是一种拓扑结构，可以用图来表示  节点分为主机节点和数据交换节点 边分为接入网链路和主干链路    网络还包括不同的协议   主机&amp;#x3D;端系统（host&amp;#x3D;end system）   Internet标准  RFC: Request for comments IETF: Internet Engineerin"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/isp.png"><meta property="og:image" content="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/du.png"><meta property="og:image" content="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/stack.png"><meta property="og:image" content="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/cap.png"><meta property="article:published_time" content="2023-05-25T14:40:56.000Z"><meta property="article:modified_time" content="2023-05-25T15:14:08.265Z"><meta property="article:author" content="huayi"><meta property="article:tag" content="Network"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/isp.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/"},"headline":"USTC Computer Networking Chapter1","image":["http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/isp.png","http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/du.png","http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/stack.png","http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/cap.png"],"datePublished":"2023-05-25T14:40:56.000Z","dateModified":"2023-05-25T15:14:08.265Z","author":{"@type":"Person","name":"huayi"},"publisher":{"@type":"Organization","name":"Huayi","logo":{"@type":"ImageObject","url":"http://huaeryi.com/img/favicon.svg"}},"description":"第一章 计算机网络概述 什么是Internet   Internet是一系列网络的网络   网络是一种拓扑结构，可以用图来表示  节点分为主机节点和数据交换节点 边分为接入网链路和主干链路    网络还包括不同的协议   主机&#x3D;端系统（host&#x3D;end system）   Internet标准  RFC: Request for comments IETF: Internet Engineerin"}</script><link rel="canonical" href="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/favicon.svg" alt="Huayi" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/huaeryi"><i class="fab fa-github"></i></a><a class="navbar-item is-hidden-tablet catalogue" title="目录" href="javascript:;"><i class="fas fa-list-ul"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-25T14:40:56.000Z" title="2023/5/25 22:40:56">2023-05-25</time>发表</span><span class="level-item"><time dateTime="2023-05-25T15:14:08.265Z" title="2023/5/25 23:14:08">2023-05-25</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></span><span class="level-item">6 分钟读完 (大约949个字)</span></div></div><h1 class="title is-3 is-size-4-mobile">USTC Computer Networking Chapter1</h1><div class="content"><h3 id="第一章-计算机网络概述">第一章 计算机网络概述</h3>
+<h4 id="什么是Internet">什么是Internet</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>Internet是一系列网络的网络</p>
+</li>
+<li class="lvl-2">
+<p>网络是一种拓扑结构，可以用图来表示</p>
+<ul class="lvl-2">
+<li class="lvl-4">节点分为主机节点和数据交换节点</li>
+<li class="lvl-4">边分为接入网链路和主干链路</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>网络还包括不同的协议</p>
+</li>
+<li class="lvl-2">
+<p>主机=端系统（host=end system）</p>
+</li>
+<li class="lvl-2">
+<p>Internet标准</p>
+<ul class="lvl-2">
+<li class="lvl-4">RFC: Request for comments</li>
+<li class="lvl-4">IETF: Internet Engineering Task Force</li>
+</ul>
+</li>
+</ul>
+<span id="more"></span>
+<h4 id="网络边缘">网络边缘</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>端系统（主机）运行应用程序</p>
+</li>
+<li class="lvl-2">
+<p>客户/服务器模式</p>
+</li>
+<li class="lvl-2">
+<p>对等（peer-peer）模式</p>
+</li>
+</ul>
+<h4 id="网络核心">网络核心</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>网络核心：路由器的网状网络</p>
+</li>
+<li class="lvl-2">
+<p>电路交换：为每个呼叫预留一条专有电路：如电话网</p>
+<ul class="lvl-2">
+<li class="lvl-4">可采用频分、时分、波分</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>分组交换：将要传送的数据分成一个个分组，Internet的实现是分组交换</p>
+</li>
+</ul>
+<h4 id="ISP">ISP</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>ISP（Internet Service Provider）</p>
+</li>
+<li class="lvl-2">
+<p>中心：第一层ISP（如UUNet, BBN/Genuity, Sprint, AT&amp;T）国家/国际覆盖，速率极高</p>
+</li>
+<li class="lvl-2">
+<p>第二层ISP: 更小些的 (通常是区域性的) ISP</p>
+</li>
+<li class="lvl-2">
+<p>第三层ISP与其他本地ISP<br>
+<img src="/2023/05/25/USTC-Computer-Networking-Chapter1/isp.png" alt></p>
+</li>
+</ul>
+<h4 id="分组延时">分组延时</h4>
+<ol>
+<li class="lvl-3">
+<p>节点处理延时:</p>
+</li>
+</ol>
+<ul class="lvl-0">
+<li class="lvl-4">
+<p>检查bit级差错</p>
+</li>
+<li class="lvl-4">
+<p>检查分组首部和决定将分组导向何处</p>
+</li>
+</ul>
+<ol start="2">
+<li class="lvl-3">
+<p>排队延时: 在输出链路上等待输出的时间</p>
+</li>
+<li class="lvl-3">
+<p>传输延时:</p>
+</li>
+</ol>
+<ul class="lvl-0">
+<li class="lvl-5">
+<p>R=链路带宽(bps)</p>
+</li>
+<li class="lvl-4">
+<p>L=分组长度(bits)</p>
+</li>
+<li class="lvl-4">
+<p>将分组发送到链路上的时间= L/R</p>
+</li>
+<li class="lvl-4">
+<p>存储转发延时</p>
+</li>
+</ul>
+<ol start="4">
+<li class="lvl-3">
+<p>传播延时:</p>
+</li>
+</ol>
+<ul class="lvl-0">
+<li class="lvl-4">
+<p>d = 物理链路的长度</p>
+</li>
+<li class="lvl-4">
+<p>s = 在媒体上的传播速度(~2x108 m/sec)</p>
+</li>
+<li class="lvl-4">
+<p>传播延时 = d/s</p>
+</li>
+</ul>
+<h4 id="吞吐量">吞吐量</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>吞吐量: 在源端和目标端之间传输的速率（数据量/单位时间）</p>
+</li>
+<li class="lvl-2">
+<p>瞬间吞吐量: 在一个时间点的速率</p>
+</li>
+<li class="lvl-2">
+<p>平均吞吐量: 在一个长时间内平均值</p>
+</li>
+<li class="lvl-2">
+<p>瓶颈链路影响端到端吞吐</p>
+</li>
+</ul>
+<h4 id="协议层次及服务模型">协议层次及服务模型</h4>
+<h5 id="服务和协议">服务和协议</h5>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>服务与协议的区别</p>
+<ul class="lvl-2">
+<li class="lvl-4">服务(Service)：低层实体向上层实体提供它们之间的通信的能力，是通过原语(primitive)来操作的，垂直</li>
+<li class="lvl-4">原语(primitive)：如一系列socket函数接口</li>
+<li class="lvl-4">协议(protocol) ：对等层实体(peer entity)之间在相互通信的过程中，需要遵循的规则的集合，水平</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>服务与协议的联系</p>
+<ul class="lvl-2">
+<li class="lvl-4">本层协议的实现要靠下层提供的服务来实现</li>
+<li class="lvl-4">本层实体通过协议为上层提供更高级的服务</li>
+</ul>
+</li>
+</ul>
+<h5 id="数据单元-DU">数据单元(DU)</h5>
+<p><img src="/2023/05/25/USTC-Computer-Networking-Chapter1/du.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>不同层的PDU</p>
+<ul class="lvl-2">
+<li class="lvl-4">应用层：报文 message</li>
+<li class="lvl-4">传输层：报文段 segment</li>
+<li class="lvl-4">网络层：分组/数据报 packet/datagram</li>
+<li class="lvl-4">链路层：帧 frame</li>
+<li class="lvl-4">物理层：比特 bit</li>
+</ul>
+</li>
+</ul>
+<h5 id="Internet-协议栈">Internet 协议栈</h5>
+<p><img src="/2023/05/25/USTC-Computer-Networking-Chapter1/stack.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>应用层: 网络应用</p>
+<ul class="lvl-2">
+<li class="lvl-4">为人类用户或者其他应用进程提供网络应用服务</li>
+<li class="lvl-4">FTP, SMTP, HTTP,DNS</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>传输层: 主机之间的数据传输</p>
+<ul class="lvl-2">
+<li class="lvl-4">在网络层提供的端到端通信基础上，细分为进程到进程，将不可靠的通信变成可靠地通信</li>
+<li class="lvl-4">TCP, UDP</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>网络层: 为数据报从源到目的选择路由</p>
+<ul class="lvl-2">
+<li class="lvl-4">主机主机之间的通信，端到端通信，不可靠</li>
+<li class="lvl-4">IP, 路由协议</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>链路层: 相邻网络节点间的数据传输</p>
+<ul class="lvl-2">
+<li class="lvl-4">2个相邻2点的通信，点到点通信，可靠或不可靠</li>
+<li class="lvl-4">点对对协议PPP, 802.11(wifi), Ethernet</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>物理层: 在线路上传送bit</p>
+</li>
+</ul>
+<h5 id="封装和解封装">封装和解封装</h5>
+<p><img src="/2023/05/25/USTC-Computer-Networking-Chapter1/cap.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>端系统5层解封装</p>
+</li>
+<li class="lvl-2">
+<p>路由器3层解封装</p>
+</li>
+<li class="lvl-2">
+<p>交换机2层解封装</p>
+</li>
+</ul>
+<h4 id="历史">历史</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>Cerf and Kahn 网络互联原则定义了今天的Internet体系结构</p>
+<ul class="lvl-2">
+<li class="lvl-4">极简、自治</li>
+<li class="lvl-4">尽力而为（best effort）服务模型</li>
+<li class="lvl-4">无状态的路由器</li>
+<li class="lvl-4">分布控制</li>
+</ul>
+</li>
+</ul>
+<h3 id="习题">习题</h3>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script></div><div class="article-licensing box"><div class="licensing-title"><p>USTC Computer Networking Chapter1</p><p><a href="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/">http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/</a></p></div><div class="licensing-meta level is-mobile"><div class="level-left"><div class="level-item is-narrow"><div><h6>作者</h6><p>huayi</p></div></div><div class="level-item is-narrow"><div><h6>发布于</h6><p>2023-05-25</p></div></div><div class="level-item is-narrow"><div><h6>更新于</h6><p>2023-05-25</p></div></div><div class="level-item is-narrow"><div><h6>许可协议</h6><p><a class="icons" rel="noopener" target="_blank" title="Creative Commons" href="https://creativecommons.org/"><i class="icon fab fa-creative-commons"></i></a><a class="icons" rel="noopener" target="_blank" title="Attribution" href="https://creativecommons.org/licenses/by/4.0/"><i class="icon fab fa-creative-commons-by"></i></a><a class="icons" rel="noopener" target="_blank" title="Noncommercial" href="https://creativecommons.org/licenses/by-nc/4.0/"><i class="icon fab fa-creative-commons-nc"></i></a></p></div></div></div></div></div><div class="article-tags is-size-7 mb-4"><span class="mr-2">#</span><a class="link-muted mr-2" rel="tag" href="/tags/Network/">Network</a></div><!--!--></article></div><!--!--><nav class="post-navigation mt-4 level is-mobile"><div class="level-end"><a class="article-nav-next level level-item link-muted" href="/2023/05/23/USTC-Computer-Networking/"><span class="level-item">USTC Computer Networking: A Top-Down Approach</span><i class="level-item fas fa-chevron-right"></i></a></div></nav><!--!--></div><div class="column column-left is-2-tablet is-2-desktop is-2-widescreen  order-1 is-sticky"><div class="card widget" id="toc" data-type="toc"><div class="card-content"><div class="menu"><h3 class="menu-label">目录</h3><ul class="menu-list"><li><a class="level is-mobile" href="#第一章-计算机网络概述"><span class="level-left"><span class="level-item">1</span><span class="level-item">第一章 计算机网络概述</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#什么是Internet"><span class="level-left"><span class="level-item">1.1</span><span class="level-item">什么是Internet</span></span></a></li><li><a class="level is-mobile" href="#网络边缘"><span class="level-left"><span class="level-item">1.2</span><span class="level-item">网络边缘</span></span></a></li><li><a class="level is-mobile" href="#网络核心"><span class="level-left"><span class="level-item">1.3</span><span class="level-item">网络核心</span></span></a></li><li><a class="level is-mobile" href="#ISP"><span class="level-left"><span class="level-item">1.4</span><span class="level-item">ISP</span></span></a></li><li><a class="level is-mobile" href="#分组延时"><span class="level-left"><span class="level-item">1.5</span><span class="level-item">分组延时</span></span></a></li><li><a class="level is-mobile" href="#吞吐量"><span class="level-left"><span class="level-item">1.6</span><span class="level-item">吞吐量</span></span></a></li><li><a class="level is-mobile" href="#协议层次及服务模型"><span class="level-left"><span class="level-item">1.7</span><span class="level-item">协议层次及服务模型</span></span></a><ul class="menu-list"><li><a class="level is-mobile" href="#服务和协议"><span class="level-left"><span class="level-item">1.7.1</span><span class="level-item">服务和协议</span></span></a></li><li><a class="level is-mobile" href="#数据单元-DU"><span class="level-left"><span class="level-item">1.7.2</span><span class="level-item">数据单元(DU)</span></span></a></li><li><a class="level is-mobile" href="#Internet-协议栈"><span class="level-left"><span class="level-item">1.7.3</span><span class="level-item">Internet 协议栈</span></span></a></li><li><a class="level is-mobile" href="#封装和解封装"><span class="level-left"><span class="level-item">1.7.4</span><span class="level-item">封装和解封装</span></span></a></li></ul></li><li><a class="level is-mobile" href="#历史"><span class="level-left"><span class="level-item">1.8</span><span class="level-item">历史</span></span></a></li></ul></li><li><a class="level is-mobile" href="#习题"><span class="level-left"><span class="level-item">2</span><span class="level-item">习题</span></span></a></li></ul></div></div><style>#toc .menu-list > li > a.is-active + .menu-list { display: block; }#toc .menu-list > li > a + .menu-list { display: none; }</style><script src="/js/toc.js" defer></script></div><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/CS-Language/"><span class="level-start"><span class="level-item">CS Language</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/categories/CS-Project/"><span class="level-start"><span class="level-item">CS Project</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/CS-Tools/"><span class="level-start"><span class="level-item">CS Tools</span></span><span class="level-end"><span class="level-item tag">10</span></span></a></li><li><a class="level is-mobile" href="/categories/CTF/"><span class="level-start"><span class="level-item">CTF</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/Others/"><span class="level-start"><span class="level-item">Others</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"><span class="level-start"><span class="level-item">人工智能</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/"><span class="level-start"><span class="level-item">抽象代数</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"><span class="level-start"><span class="level-item">操作系统</span></span><span class="level-end"><span class="level-item tag">33</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%96%87%E5%AD%A6/"><span class="level-start"><span class="level-item">文学</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"><span class="level-start"><span class="level-item">机器学习</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/%E7%82%B9%E9%9B%86%E6%8B%93%E6%89%91/"><span class="level-start"><span class="level-item">点集拓扑</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"><span class="level-start"><span class="level-item">计算机网络</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"><span class="level-start"><span class="level-item">软件工程</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/0-1/"><span class="tag">0-&gt;1</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/C/"><span class="tag">C</span><span class="tag">38</span></a></div><div class="control"><a class="tags has-addons" href="/tags/C/"><span class="tag">C++</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/CMake/"><span class="tag">CMake</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/CTF/"><span class="tag">CTF</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/ChatGPT/"><span class="tag">ChatGPT</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Docker/"><span class="tag">Docker</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/GNU-Make/"><span class="tag">GNU Make</span><span class="tag">24</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Git/"><span class="tag">Git</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Github/"><span class="tag">Github</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Java/"><span class="tag">Java</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Linux/"><span class="tag">Linux</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Markdown/"><span class="tag">Markdown</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Math/"><span class="tag">Math</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Network/"><span class="tag">Network</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/OS/"><span class="tag">OS</span><span class="tag">33</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Plan/"><span class="tag">Plan</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Python/"><span class="tag">Python</span><span class="tag">6</span></a></div><div class="control"><a class="tags has-addons" href="/tags/RISC-V/"><span class="tag">RISC-V</span><span class="tag">26</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Rust/"><span class="tag">Rust</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Shell/"><span class="tag">Shell</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Vim/"><span class="tag">Vim</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Windows/"><span class="tag">Windows</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/gdb/"><span class="tag">gdb</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/tmux/"><span class="tag">tmux</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/x86/"><span class="tag">x86</span><span class="tag">10</span></a></div></div></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-2-tablet is-2-desktop is-2-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/sheep.png" alt="Huayi"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Huayi</p><p class="is-size-6 is-block">time to code</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">69</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">13</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">26</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/huaeryi" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/huaeryi"><i class="fab fa-github"></i></a></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-05-25T14:40:56.000Z">2023-05-25</time></p><p class="title"><a href="/2023/05/25/USTC-Computer-Networking-Chapter1/">USTC Computer Networking Chapter1</a></p><p class="categories"><a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-05-23T13:58:53.000Z">2023-05-23</time></p><p class="title"><a href="/2023/05/23/USTC-Computer-Networking/">USTC Computer Networking: A Top-Down Approach</a></p><p class="categories"><a href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/">计算机网络</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-05-18T14:34:19.000Z">2023-05-18</time></p><p class="title"><a href="/2023/05/18/Rust/">Rust</a></p><p class="categories"><a href="/categories/CS-Language/">CS Language</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-05-17T13:38:56.000Z">2023-05-17</time></p><p class="title"><a href="/2023/05/17/CS162-Lecture-5/">CS162 Lecture 5: Device Drivers, Sockets, and IPC (Finished), Concurrency (Processes and Threads)</a></p><p class="categories"><a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-05-17T06:29:06.000Z">2023-05-17</time></p><p class="title"><a href="/2023/05/17/CS162-Lecture-4/">CS162 Lecture 4: Fork, Introduction to I/O</a></p><p class="categories"><a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2023/"><span class="level-start"><span class="level-item">2023</span></span><span class="level-end"><span class="level-item tag">65</span></span></a></li><li><a class="level is-mobile" href="/archives/2022/"><span class="level-start"><span class="level-item">2022</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/favicon.svg" alt="Huayi" height="28"></a><p class="is-size-7"><span>&copy; 2023 huayi</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/huaeryi"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
+            'HTML-CSS': {
+                matchFontHeight: false
+            },
+            SVG: {
+                matchFontHeight: false
+            },
+            CommonHTML: {
+                matchFontHeight: false
+            },
+            tex2jax: {
+                inlineMath: [
+                    ['$','$'],
+                    ['\\(','\\)']
+                ]
+            }
+        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
+        });</script></body></html>
