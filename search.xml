@@ -275,9 +275,107 @@ Maybe Learning later…</p>
       </tags>
   </entry>
   <entry>
+    <title>USTC Computer Networking Chapter3</title>
+    <url>/2023/05/28/USTC-Computer-Networking-Chapter3/</url>
+    <content><![CDATA[<h3 id="第三章-传输层">第三章 传输层</h3>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>Network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>USTC Computer Networking Chapter2</title>
-    <url>/2023/05/25/USTC-Computer-Networking-Chapter2/</url>
-    <content><![CDATA[<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+    <url>/2023/05/28/USTC-Computer-Networking-Chapter2/</url>
+    <content><![CDATA[<h3 id="第二章-应用层">第二章 应用层</h3>
+<h4 id="应用层原理">应用层原理</h4>
+<ul class="lvl-0">
+<li class="lvl-2">常见架构
+<ul class="lvl-2">
+<li class="lvl-4">客户-服务器模式（C/S:client/server）</li>
+<li class="lvl-4">对等模式(P2P:Peer To Peer)</li>
+<li class="lvl-4">混合体：客户-服务器和对等体系结构</li>
+</ul>
+</li>
+</ul>
+<span id="more"></span>
+<ul class="lvl-0">
+<li class="lvl-2">流行的应用层协议
+<ul class="lvl-2">
+<li class="lvl-4">HTTP</li>
+<li class="lvl-4">FTP</li>
+<li class="lvl-4">SMTP/POP3/IMAP</li>
+<li class="lvl-4">DNS</li>
+</ul>
+</li>
+<li class="lvl-2">进程编址
+<ul class="lvl-2">
+<li class="lvl-4">主机：唯一的 32位IP地址</li>
+<li class="lvl-4">仅仅有IP地址不能够唯一标示一个进程；在一台端系统上有很多应用进程在运行</li>
+<li class="lvl-4">所采用的传输层协议：TCP or UDP</li>
+<li class="lvl-4">端口号（Port Numbers）16位</li>
+<li class="lvl-4">一些知名端口号的例子：HTTP: TCP 80 Mail: TCP25 ftp:TCP 2</li>
+</ul>
+</li>
+<li class="lvl-2">TCP socket
+<ul class="lvl-2">
+<li class="lvl-4">对于使用面向连接服务（TCP）的应用而言，套接字是4元组的一个具有本地意义的标示</li>
+<li class="lvl-4">4元组：(源IP，源port，目标IP，目标port)</li>
+<li class="lvl-4">唯一的指定了一个会话（2个进程之间的会话关系）</li>
+<li class="lvl-4">应用使用这个标识，与远程的应用进程通信</li>
+</ul>
+</li>
+<li class="lvl-2">UDP socket
+<ul class="lvl-2">
+<li class="lvl-4">对于使用无连接服务（UDP）的应用而言，套接字是2元组的一个具有本地意义的标示</li>
+<li class="lvl-4">2元组：IP，port （源端指定）</li>
+<li class="lvl-4">UDP套接字指定了应用所在的一个端节点（end point）</li>
+<li class="lvl-4">在发送数据报时，采用创建好的本地套接字（标示ID），就不必在发送每个报文中指明自己所采用的ip和port</li>
+<li class="lvl-4">但是在发送报文时，必须要指定对方的ip和udp port(另外一个段节点)</li>
+</ul>
+</li>
+<li class="lvl-2">安全TCP -&gt; SSL
+<ul class="lvl-2">
+<li class="lvl-4">在TCP上面实现，提供加密的TCP连接,一般归类于应用层</li>
+<li class="lvl-4">私密性</li>
+<li class="lvl-4">数据完整性</li>
+<li class="lvl-4">端到端的鉴别</li>
+<li class="lvl-4">https = http + SSL</li>
+</ul>
+</li>
+</ul>
+<h4 id="Web-与-HTTP">Web 与 HTTP</h4>
+<ul class="lvl-0">
+<li class="lvl-2">Web<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/h1.png" alt></li>
+<li class="lvl-2">http<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/h2.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/h3.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/h4.png" alt></li>
+<li class="lvl-2">http报文<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/h5.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/h6.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/h7.png" alt></li>
+<li class="lvl-2">往返时间RTT（round-trip time）：一个小的分组从客户端到服务器，在回到客户端的时间（传输时间忽略）</li>
+<li class="lvl-2">Cookies<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/c1.png" alt></li>
+<li class="lvl-2">Web缓存（代理服务器proxy）<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/w1.png" alt></li>
+<li class="lvl-2">为解决代理服务器网页过时的问题<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/w2.png" alt></li>
+</ul>
+<h4 id="FTP">FTP</h4>
+<p><img src="/2023/05/28/USTC-Computer-Networking-Chapter2/f1.png" alt></p>
+<h4 id="EMail">EMail</h4>
+<p><img src="/2023/05/28/USTC-Computer-Networking-Chapter2/e1.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/e2.png" alt></p>
+<h4 id="DNS">DNS</h4>
+<h4 id="P2P">P2P</h4>
+<h3 id="CDN">CDN</h3>
+<h3 id="习题">习题</h3>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>计算机网络</category>
       </categories>
@@ -531,9 +629,9 @@ Maybe Learning later…</p>
   <entry>
     <title>USTC Computer Networking: A Top-Down Approach</title>
     <url>/2023/05/23/USTC-Computer-Networking/</url>
-    <content><![CDATA[<h3 id="Introduction">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-16">Introduction</h3>
 <p>介绍有关计算机网络的问题</p>
-<h3 id="Links">Links</h3>
+<h3 id="Links-17">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://www.bilibili.com/video/BV1JV411t7ow/">课程视频</a></p>
@@ -557,12 +655,12 @@ Maybe Learning later…</p>
   <entry>
     <title>Rust</title>
     <url>/2023/05/18/Rust/</url>
-    <content><![CDATA[<h3 id="Introduction">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-14">Introduction</h3>
 <p>Rust是注重于安全的一门语言，其特色是没有Garbage Collector和无需手动内存管理，广泛运用于系统设计项目中。</p>
 <h3 id="编译过程">编译过程</h3>
 <h3 id="Cargo">Cargo</h3>
 <p>Cargo是Rust的包管理工具</p>
-<h3 id="Links">Links</h3>
+<h3 id="Links-14">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://course.rs/about-book.html">Rust Course</a></p>
@@ -603,7 +701,7 @@ Maybe Learning later…</p>
 <li class="lvl-2">一个重要的观点是,Every is a “File”</li>
 </ul>
 <span id="more"></span>
-<h3 id="File-System">File System</h3>
+<h3 id="File-System-2">File System</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>File</p>
@@ -695,7 +793,7 @@ Maybe Learning later…</p>
   <entry>
     <title>C</title>
     <url>/2023/05/12/C/</url>
-    <content><![CDATA[<h3 id="Introduction-3">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-2">Introduction</h3>
 <p>C是一种面向过程的编程语言</p>
 <span id="more"></span>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -742,7 +840,7 @@ Maybe Learning later…</p>
 <img src="/2023/05/11/CS162-Lecture-3/fork.png" alt></p>
 </li>
 </ul>
-<h3 id="Thread">Thread</h3>
+<h3 id="Thread-2">Thread</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>posix pthread是一种行业标准，其致力于提供一个在不同操作系统中适用的半标准的线程接口</p>
@@ -764,7 +862,7 @@ Maybe Learning later…</p>
     <content><![CDATA[<h3 id="4-Concepts">4 Concepts</h3>
 <p><img src="/2023/05/10/CS162-Lecture-2/f.png" alt></p>
 <span id="more"></span>
-<h3 id="Thread-2">Thread</h3>
+<h3 id="Thread-3">Thread</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>独立执行的上下文单元</p>
@@ -798,7 +896,7 @@ Maybe Learning later…</p>
 <p>32bit和64bit处理器拥有的地址空间是不一样的</p>
 </li>
 </ul>
-<h3 id="Process">Process</h3>
+<h3 id="Process-2">Process</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>有隔离性的运行环境</p>
@@ -958,7 +1056,7 @@ Maybe Learning later…</p>
     <url>/2023/05/03/UCB-CS162/</url>
     <content><![CDATA[<h3 id="Course-About-7">Course About</h3>
 <p>介绍有关操作系统的问题</p>
-<h3 id="Links-15">Links</h3>
+<h3 id="Links-16">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://cs162.org/">课程主页</a></p>
@@ -983,8 +1081,8 @@ Maybe Learning later…</p>
   <entry>
     <title>MIT 6.S081 Lab thread</title>
     <url>/2023/05/03/6-S081-Lab-thread/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-5">Compulsory exercises</h3>
-<h4 id="Preparation-5">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-4">Compulsory exercises</h3>
+<h4 id="Preparation-4">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">reading<br>
 <img src="/2023/05/03/6-S081-Lab-thread/pre.png" alt><br>
@@ -995,7 +1093,7 @@ To start the lab, switch to the thread branch:</li>
 <h4 id="Uthread-switching-between-threads-moderate">Uthread: switching between threads (moderate)</h4>
 <h4 id="Using-threads-moderate">Using threads (moderate)</h4>
 <h4 id="Barrier-moderate">Barrier(moderate)</h4>
-<h3 id="Optional-challenge-exercises-5">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-4">Optional challenge exercises</h3>
 <p>The user-level thread package interacts badly with the operating system in several ways. For example, if one user-level thread blocks in a system call, another user-level thread won’t run, because the user-level threads scheduler doesn’t know that one of its threads has been descheduled by the xv6 scheduler. As another example, two user-level threads will not run concurrently on different cores, because the xv6 scheduler isn’t aware that there are multiple threads that could run in parallel. Note that if two user-level threads were to run truly in parallel, this implementation won’t work because of several races (e.g., two threads on different processors could call thread_schedule concurrently, select the same runnable thread, and both run it on different processors.)</p>
 <p>There are several ways of addressing these problems. One is using scheduler activations and another is to use one kernel thread per user-level thread (as Linux kernels do). Implement one of these ways in xv6. This is not easy to get right; for example, you will need to implement TLB shootdown when updating a page table for a multithreaded user process.</p>
 <p>Add locks, condition variables, barriers, etc. to your thread package.</p>
@@ -1013,7 +1111,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 17: Virtual memory for applications</title>
     <url>/2023/04/28/6-S081-Lecture-17/</url>
-    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/appel-li.pdf">Read Virtual Memory Primitives for User Programs (1991)</a></li>
 </ul>
@@ -1135,7 +1233,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>x86</title>
     <url>/2023/04/24/x86/</url>
-    <content><![CDATA[<h3 id="Introduction-17">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-19">Introduction</h3>
 <p>x86是一种复杂指令集架构的汇编语言</p>
 <span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
@@ -1352,8 +1450,8 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lab cow</title>
     <url>/2023/04/23/6-S081-Lab-cow/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-2">Compulsory exercises</h3>
-<h4 id="Preparation-2">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises">Compulsory exercises</h3>
+<h4 id="Preparation">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">To start the lab, switch to the cow branch:</li>
 </ul>
@@ -1400,7 +1498,7 @@ To start the lab, switch to the thread branch:</li>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>kalloc.c</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">spinlock</span> <span class="title">cnt_lock</span>;</span></span><br><span class="line"><span class="type">int</span> cnt[PHYSTOP &gt;&gt; <span class="number">12</span>];</span><br></pre></td></tr></table></figure>
-<h3 id="Optional-challenge-exercises-2">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Modify xv6 to support both lazy page allocation and COW.</p>
@@ -1423,7 +1521,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 16: File system performance and fast crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-16/</url>
-    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-7">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/microkernel.pdf">Read Journaling the Linux ext2fs Filesystem (1998)</a></li>
 </ul>
@@ -1465,7 +1563,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 15: Crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-15/</url>
-    <content><![CDATA[<h3 id="Reading-7">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read logging sections of “File system”</a></li>
 <li class="lvl-2">read code<br>
@@ -2086,8 +2184,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab traps</title>
     <url>/2023/04/13/6-S081-Lab-traps/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises-4">Compulsory exercises</h3>
-<h4 id="Preparation-4">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-5">Compulsory exercises</h3>
+<h4 id="Preparation-5">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">reading<br>
 <img src="/2023/04/13/6-S081-Lab-traps/pre.png" alt></li>
@@ -2227,7 +2325,7 @@ $</p>
 </li>
 </ul>
 <figure class="highlight c"><figcaption><span>trap.c usertrap() >folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">//test12</span></span><br><span class="line"><span class="keyword">if</span>(which_dev == <span class="number">2</span> &amp;&amp; p-&gt;inhandler == <span class="number">0</span>) &#123;</span><br><span class="line">  p-&gt;gonetick += <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">if</span> (p-&gt;ticks &amp;&amp; p-&gt;gonetick == p-&gt;ticks) &#123;</span><br><span class="line">    p-&gt;gonetick = <span class="number">0</span>;</span><br><span class="line">    p-&gt;inhandler = <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">    p-&gt;ra = p-&gt;trapframe-&gt;ra;</span><br><span class="line">    p-&gt;sp = p-&gt;trapframe-&gt;sp;</span><br><span class="line">    p-&gt;gp = p-&gt;trapframe-&gt;gp;</span><br><span class="line">    p-&gt;tp = p-&gt;trapframe-&gt;tp;</span><br><span class="line">    p-&gt;t0 = p-&gt;trapframe-&gt;t0;</span><br><span class="line">    p-&gt;t1 = p-&gt;trapframe-&gt;t1;</span><br><span class="line">    p-&gt;t2 = p-&gt;trapframe-&gt;t2;</span><br><span class="line">    p-&gt;s0 = p-&gt;trapframe-&gt;s0;</span><br><span class="line">    p-&gt;s1 = p-&gt;trapframe-&gt;s1;</span><br><span class="line">    p-&gt;a0 = p-&gt;trapframe-&gt;a0;</span><br><span class="line">    p-&gt;a1 = p-&gt;trapframe-&gt;a1;</span><br><span class="line">    p-&gt;a2 = p-&gt;trapframe-&gt;a2;</span><br><span class="line">    p-&gt;a3 = p-&gt;trapframe-&gt;a3;</span><br><span class="line">    p-&gt;a4 = p-&gt;trapframe-&gt;a4;</span><br><span class="line">    p-&gt;a5 = p-&gt;trapframe-&gt;a5;</span><br><span class="line">    p-&gt;a6 = p-&gt;trapframe-&gt;a6;</span><br><span class="line">    p-&gt;a7 = p-&gt;trapframe-&gt;a7;</span><br><span class="line">    p-&gt;s2 = p-&gt;trapframe-&gt;s2;</span><br><span class="line">    p-&gt;s3 = p-&gt;trapframe-&gt;s3;</span><br><span class="line">    p-&gt;s4 = p-&gt;trapframe-&gt;s4;</span><br><span class="line">    p-&gt;s5 = p-&gt;trapframe-&gt;s5;</span><br><span class="line">    p-&gt;s6 = p-&gt;trapframe-&gt;s6;</span><br><span class="line">    p-&gt;s7 = p-&gt;trapframe-&gt;s7;</span><br><span class="line">    p-&gt;s8 = p-&gt;trapframe-&gt;s8;</span><br><span class="line">    p-&gt;s9 = p-&gt;trapframe-&gt;s9;</span><br><span class="line">    p-&gt;s10 = p-&gt;trapframe-&gt;s10;</span><br><span class="line">    p-&gt;s11 = p-&gt;trapframe-&gt;s11;</span><br><span class="line">    p-&gt;t3 = p-&gt;trapframe-&gt;t3;</span><br><span class="line">    p-&gt;t4 = p-&gt;trapframe-&gt;t4;</span><br><span class="line">    p-&gt;t5 = p-&gt;trapframe-&gt;t5;</span><br><span class="line">    p-&gt;t6 = p-&gt;trapframe-&gt;t6;   </span><br><span class="line"></span><br><span class="line">    p-&gt;epc = p-&gt;trapframe-&gt;epc;     </span><br><span class="line"></span><br><span class="line">    p-&gt;trapframe-&gt;epc = p-&gt;handler;</span><br><span class="line">  &#125;</span><br><span class="line">  yield();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure> 
-<h3 id="Optional-challenge-exercises-4">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-5">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Print the names of the functions and line numbers in backtrace() instead of numerical addresses (hard).</p>
@@ -2270,7 +2368,7 @@ $</p>
   <entry>
     <title>Shell</title>
     <url>/2023/04/10/Shell/</url>
-    <content><![CDATA[<h3 id="Introduction-14">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-15">Introduction</h3>
 <p>Shell通常是运行在操作系统用户层的一个程序，它的表现很像操作系统的外壳(Shell)，它接受键盘输入并执行程序，将结果写入到标准输出流中。shell的种类很多，有bash，zsh，fish等</p>
 <span id="more"></span>
 <h3 id="Common-Usage-wsl">Common Usage(wsl)</h3>
@@ -2407,7 +2505,7 @@ $</p>
 <p><code>vim ~/.bashrc</code></p>
 </li>
 </ul>
-<h3 id="Links-14">Links</h3>
+<h3 id="Links-15">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">详细命令</a></p>
@@ -2425,7 +2523,7 @@ $</p>
   <entry>
     <title>Vim</title>
     <url>/2023/04/09/Vim/</url>
-    <content><![CDATA[<h3 id="Introduction-15">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-17">Introduction</h3>
 <p>Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器</p>
 <span id="more"></span>
 <h3 id="Usage-3">Usage</h3>
@@ -2845,7 +2943,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 7: Page faults</title>
     <url>/2023/04/04/6-S081-Lecture-7/</url>
-    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read 4.6</a></li>
 </ul>
@@ -3009,7 +3107,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 6: Isolation &amp; system call entry/exit</title>
     <url>/2023/04/01/6-S081-Lecture-6/</url>
-    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter4</a><br>
 <img src="/2023/04/01/6-S081-Lecture-6/Chapter4.png" alt="Chapter4"></li>
@@ -3120,8 +3218,8 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lab syscall</title>
     <url>/2023/03/31/6-S081-Lab-syscall/</url>
-    <content><![CDATA[<h3 id="Compulsory-exercises">Compulsory exercises</h3>
-<h4 id="Preparation">Preparation</h4>
+    <content><![CDATA[<h3 id="Compulsory-exercises-2">Compulsory exercises</h3>
+<h4 id="Preparation-2">Preparation</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>reading<br>
@@ -3224,7 +3322,7 @@ $</p>
 <figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">// add in proc.c</span></span><br><span class="line">uint64</span><br><span class="line"><span class="title function_">procnumber</span><span class="params">(<span class="type">void</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    uint64 count = <span class="number">0</span>;</span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">proc</span> *<span class="title">p</span>;</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (p = proc; p &lt; &amp;proc[NPROC]; p++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (p-&gt;state != UNUSED) &#123;</span><br><span class="line">            count++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> count;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
     </div>
 </div>
-<h3 id="Optional-challenge-exercises">Optional challenge exercises</h3>
+<h3 id="Optional-challenge-exercises-2">Optional challenge exercises</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>Print the system call arguments for traced system calls (easy).</p>
@@ -3269,10 +3367,10 @@ GPT4: I am a language model that is based on a neural network architecture known
   <entry>
     <title>gdb</title>
     <url>/2023/03/29/gdb/</url>
-    <content><![CDATA[<h2 id="Introduction">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction-18">Introduction</h2>
 <p>gdb(GNU Debugger)是GNU项目中调试工具。</p>
 <span id="more"></span>
-<h2 id="Usage">Usage</h2>
+<h2 id="Usage-4">Usage</h2>
 <h3 id="Common">Common</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -3337,7 +3435,7 @@ at the specified location.<br>
 </li>
 </ul>
 <h3 id="gdbinit">.gdbinit</h3>
-<h2 id="Links">Links</h2>
+<h2 id="Links-18">Links</h2>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="http://www.unknownroad.com/rtfm/gdbtut/gdbtoc.html">不错的教程</a></p>
@@ -4626,7 +4724,7 @@ $</p>
   <entry>
     <title>C++</title>
     <url>/2022/07/14/C-Tips/</url>
-    <content><![CDATA[<h3 id="Introduction-2">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-3">Introduction</h3>
 <p>C++是一种兼具面向过程和面向对象特征的编程语言</p>
 <span id="more"></span>
 <h3 id="Start">Start</h3>
@@ -4651,8 +4749,8 @@ $</p>
         <category>CS Language</category>
       </categories>
       <tags>
-        <tag>C++</tag>
         <tag>Shell</tag>
+        <tag>C++</tag>
       </tags>
   </entry>
   <entry>
