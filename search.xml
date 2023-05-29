@@ -372,8 +372,68 @@ Maybe Learning later…</p>
 <p><img src="/2023/05/28/USTC-Computer-Networking-Chapter2/e1.png" alt><br>
 <img src="/2023/05/28/USTC-Computer-Networking-Chapter2/e2.png" alt></p>
 <h4 id="DNS">DNS</h4>
+<ul class="lvl-0">
+<li class="lvl-2">DNS的空间划分是逻辑的，而不是物理的，同一空间的域名可以在不同物理空间中</li>
+<li class="lvl-2">域名结构<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d1.png" alt></li>
+<li class="lvl-2">权威DNS服务器<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d2.png" alt></li>
+<li class="lvl-2">TLD服务器<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d3.png" alt></li>
+<li class="lvl-2">资源记录<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d4.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d5.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d6.png" alt></li>
+<li class="lvl-2">查询方式：递归、迭代</li>
+<li class="lvl-2">DNS报文<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d7.png" alt></li>
+<li class="lvl-2">DNS攻击<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/d8.png" alt></li>
+</ul>
 <h4 id="P2P">P2P</h4>
-<h3 id="CDN">CDN</h3>
+<ul class="lvl-0">
+<li class="lvl-2">BitTorrent</li>
+<li class="lvl-2">Gnutella</li>
+<li class="lvl-2">KaZaA</li>
+<li class="lvl-2">Distributed Hash Table (DHT)</li>
+</ul>
+<h4 id="CDN">CDN</h4>
+<ul class="lvl-0">
+<li class="lvl-2">内容分发网络(Content Delivery Network)</li>
+<li class="lvl-2">DASH<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/cdn1.png" alt></li>
+<li class="lvl-2">CDN<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/cdn2.png" alt></li>
+<li class="lvl-2">Netflix购买亚马逊服务器实现高速的视频流化服务</li>
+<li class="lvl-2">互联网的角色
+<ul class="lvl-2">
+<li class="lvl-4">用户</li>
+<li class="lvl-4">ISP</li>
+<li class="lvl-4">ICP</li>
+<li class="lvl-4">CDN提供商</li>
+</ul>
+</li>
+</ul>
+<h4 id="TCP-Socket编程">TCP Socket编程</h4>
+<ul class="lvl-0">
+<li class="lvl-2">重要的结构体<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/s1.png" alt></li>
+<li class="lvl-2">从上到下分别是地址簇、端口号、ip地址、对齐<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/s2.png" alt></li>
+<li class="lvl-2">TCP交互模式<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/s3.png" alt></li>
+<li class="lvl-2">C客户端（TCP）</li>
+</ul>
+<figure class="highlight c"><figcaption><span>client.c</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">/* client.c */</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> *argv[])</span></span><br><span class="line">&#123; </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">sockaddr_in</span> <span class="title">sad</span>;</span> <span class="comment">/* structure to hold an IP address of server */</span> </span><br><span class="line">    <span class="type">int</span> clientSocket; <span class="comment">/* socket descriptor */</span> </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">hostent</span> *<span class="title">ptrh</span>;</span> <span class="comment">/* pointer to a host table entry */</span> </span><br><span class="line">    <span class="type">char</span> Sentence[<span class="number">128</span>]; </span><br><span class="line">    <span class="type">char</span> modifiedSentence[<span class="number">128</span>]; </span><br><span class="line">    host = argv[<span class="number">1</span>]; port = atoi(argv[<span class="number">2</span>]);</span><br><span class="line">    clientSocket = socket(PF_INET, SOCK_STREAM, <span class="number">0</span>); </span><br><span class="line">    <span class="built_in">memset</span>((<span class="type">char</span> *)&amp;sad,<span class="number">0</span>,<span class="keyword">sizeof</span>(sad)); <span class="comment">/* clear sockaddr structure */</span> </span><br><span class="line">    sad.sin_family = AF_INET; <span class="comment">/* set family to Internet */</span> </span><br><span class="line">    sad.sin_port = htons((u_short)port); </span><br><span class="line">    ptrh = gethostbyname(host); </span><br><span class="line">    <span class="comment">/* Convert host name to IP address */</span></span><br><span class="line">    <span class="built_in">memcpy</span>(&amp;sad.sin_addr, ptrh-&gt;h_addr, ptrh-&gt;hlength); </span><br><span class="line">    <span class="comment">//将IP地址拷贝到sad.sin_addr</span></span><br><span class="line">    connect(clientSocket, (<span class="keyword">struct</span> sockaddr *)&amp;sad, <span class="keyword">sizeof</span>(sad));</span><br><span class="line">    gets(Sentence);</span><br><span class="line">    n=write(clientSocket, Sentence, <span class="built_in">strlen</span>(Sentence)+<span class="number">1</span>); </span><br><span class="line">    n=read(clientSocket, modifiedSentence, <span class="keyword">sizeof</span>(modifiedSentence));</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;FROM SERVER: %s\n&quot;</span>,modifiedSentence); </span><br><span class="line">    close(clientSocket); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul class="lvl-0">
+<li class="lvl-2">C服务器（TCP）</li>
+</ul>
+<figure class="highlight c"><figcaption><span>server.c</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="comment">/* server.c */</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">main</span><span class="params">(<span class="type">int</span> argc, <span class="type">char</span> *argv[])</span></span><br><span class="line">&#123; </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">sockaddr_in</span> <span class="title">sad</span>;</span> <span class="comment">/* structure to hold an IP address of server*/</span> </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">sockaddr_in</span> <span class="title">cad</span>;</span> <span class="comment">/*client */</span></span><br><span class="line">    <span class="type">int</span> welcomeSocket, connectionSocket; <span class="comment">/* socket descriptor */</span> </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">hostent</span> *<span class="title">ptrh</span>;</span> <span class="comment">/* pointer to a host table entry */</span> </span><br><span class="line">    <span class="type">char</span> clientSentence[<span class="number">128</span>]; </span><br><span class="line">    <span class="type">char</span> capitalizedSentence[<span class="number">128</span>]; </span><br><span class="line">    port = atoi(argv[<span class="number">1</span>]);</span><br><span class="line">    welcomeSocket = socket(PF_INET, SOCK_STREAM, <span class="number">0</span>); </span><br><span class="line">    <span class="built_in">memset</span>((<span class="type">char</span> *)&amp;sad,<span class="number">0</span>,<span class="keyword">sizeof</span>(sad)); <span class="comment">/* clear sockaddr structure */</span> </span><br><span class="line">    sad.sin_family = AF_INET; <span class="comment">/* set family to Internet */</span> </span><br><span class="line">    sad.sin_addr.s_addr = INADDR_ANY; <span class="comment">/* set the local IP address */</span> </span><br><span class="line">    sad.sin_port = htons((u_short)port);<span class="comment">/* set the port number */</span> </span><br><span class="line">    bind(welcomeSocket, (<span class="keyword">struct</span> sockaddr *)&amp;sad, <span class="keyword">sizeof</span>(sad));</span><br><span class="line">    <span class="comment">/* Specify the maximum number of clients that can be queued */</span></span><br><span class="line">    listen(welcomeSocket, <span class="number">10</span>)</span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>) &#123; </span><br><span class="line">        connectionSocket=accept(welcomeSocket, (<span class="keyword">struct</span> sockaddr *)&amp;cad, &amp;alen);</span><br><span class="line">        n=read(connectionSocket, clientSentence, <span class="keyword">sizeof</span>(clientSentence));</span><br><span class="line">        <span class="comment">/* capitalize Sentence and store the result in capitalizedSentence*/</span></span><br><span class="line">        n=write(connectionSocket, capitalizedSentence, <span class="built_in">strlen</span>(capitalizedSentence)+<span class="number">1</span>); </span><br><span class="line">        close(connectionSocket); </span><br><span class="line">    &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="UDP-Socket编程">UDP Socket编程</h4>
+<ul class="lvl-0">
+<li class="lvl-2">UDP交互模式<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter2/s4.png" alt></li>
+</ul>
 <h3 id="习题">习题</h3>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
