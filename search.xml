@@ -280,11 +280,23 @@ rest video</p>
       </tags>
   </entry>
   <entry>
+    <title>USTC Computer Networking Chapter4</title>
+    <url>/2023/05/30/USTC-Computer-Networking-Chapter4/</url>
+    <content><![CDATA[<h3 id="第四章-网络层-数据平面">第四章 网络层 数据平面</h3>
+<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>Network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Wireshark</title>
     <url>/2023/05/29/Wireshark/</url>
     <content><![CDATA[<h3 id="Introduction">Introduction</h3>
 <p>Wireshark是一个网络包抓取和分析工具，支持各层各类网络协议。</p>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>CS Tools</category>
       </categories>
@@ -296,6 +308,14 @@ rest video</p>
     <title>USTC Computer Networking Chapter3</title>
     <url>/2023/05/28/USTC-Computer-Networking-Chapter3/</url>
     <content><![CDATA[<h3 id="第三章-传输层">第三章 传输层</h3>
+<h4 id="多路复用-解复用">多路复用/解复用</h4>
+<ul class="lvl-0">
+<li class="lvl-2">TCP和UDP各自的2^16个端口实现了多路复用，将IP的端到端通信进化到了进程到进程通信</li>
+</ul>
+<h4 id="UDP">UDP</h4>
+<h4 id="RDT可靠数据传输">RDT可靠数据传输</h4>
+<h4 id="TCP实现可靠数据传输">TCP实现可靠数据传输</h4>
+<h4 id="拥塞控制">拥塞控制</h4>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>计算机网络</category>
