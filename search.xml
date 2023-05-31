@@ -280,10 +280,79 @@ rest video</p>
       </tags>
   </entry>
   <entry>
+    <title>USTC Computer Networking Chapter5</title>
+    <url>/2023/05/31/USTC-Computer-Networking-Chapter5/</url>
+    <content><![CDATA[<h3 id="第五章-网络层-控制平面">第五章 网络层 控制平面</h3>
+<span id="more"></span>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>Network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>USTC Computer Networking Chapter4</title>
     <url>/2023/05/30/USTC-Computer-Networking-Chapter4/</url>
     <content><![CDATA[<h3 id="第四章-网络层-数据平面">第四章 网络层 数据平面</h3>
-<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+<h4 id="数据平面和控制平面">数据平面和控制平面</h4>
+<span id="more"></span>
+<p><img src="/2023/05/30/USTC-Computer-Networking-Chapter4/p1.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/p2.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/p3.png" alt></p>
+<h4 id="路由器组成">路由器组成</h4>
+<h4 id="IP">IP</h4>
+<p><img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip1.png" alt></p>
+<h5 id="IP数据报">IP数据报</h5>
+<p><img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip2.png" alt></p>
+<h5 id="分片和重组">分片和重组</h5>
+<p><img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip3.png" alt></p>
+<h5 id="IPv4地址">IPv4地址</h5>
+<p><img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip4.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip5.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip6.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip7.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip8.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip9.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip10.png" alt></p>
+<h5 id="DHCP">DHCP</h5>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>运行在UDP之上，自动帮用户配置好ip、mask、local nameserver、默认网关<br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/dhcp1.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/dhcp2.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/dhcp3.png" alt></p>
+</li>
+</ul>
+<h5 id="NAT">NAT</h5>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>NAT使用内网专用ip地址，这些地址不会在互联网中被用作数据传递<br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/nat1.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>提高了安全性和ip地址的有效数量，存在如何内网穿透的问题</p>
+</li>
+</ul>
+<h5 id="IPv6地址">IPv6地址</h5>
+<p><img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip61.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip62.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/ip63.png" alt></p>
+<h4 id="SDN">SDN</h4>
+<p><img src="/2023/05/30/USTC-Computer-Networking-Chapter4/s1.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/s2.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/s3.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/s4.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>流表<br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/s5.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/s6.png" alt><br>
+<img src="/2023/05/30/USTC-Computer-Networking-Chapter4/s7.png" alt></p>
+</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>计算机网络</category>
       </categories>
