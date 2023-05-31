@@ -312,10 +312,102 @@ rest video</p>
 <ul class="lvl-0">
 <li class="lvl-2">TCP和UDP各自的2^16个端口实现了多路复用，将IP的端到端通信进化到了进程到进程通信</li>
 </ul>
+<span id="more"></span>
 <h4 id="UDP">UDP</h4>
+<p><img src="/2023/05/28/USTC-Computer-Networking-Chapter3/u1.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>UDP数据报格式<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/u2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>UDP校验和<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/u3.png" alt></p>
+</li>
+</ul>
 <h4 id="RDT可靠数据传输">RDT可靠数据传输</h4>
-<h4 id="TCP实现可靠数据传输">TCP实现可靠数据传输</h4>
+<h5 id="停止等待协议">停止等待协议</h5>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>rdt1.0</p>
+</li>
+<li class="lvl-2">
+<p>rdt2.0 2.1 2.2</p>
+</li>
+<li class="lvl-2">
+<p>rdt3.0</p>
+</li>
+</ul>
+<h5 id="流水线协议">流水线协议</h5>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>通用的滑动窗口协议<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/sw1.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>GBN和SR<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/sw2.png" alt></p>
+</li>
+</ul>
+<h4 id="TCP">TCP</h4>
+<p><img src="/2023/05/28/USTC-Computer-Networking-Chapter3/t1.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>TCP报文段格式<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/t2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>TCP序号、确认号<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/t3.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/t4.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>rdt<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/t5.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/t6.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>流量控制<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/t7.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>连接管理</p>
+<ul class="lvl-2">
+<li class="lvl-4">三次握手<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/hand1.png" alt></li>
+<li class="lvl-4">四次挥手对称解除连接<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/hand2.png" alt></li>
+</ul>
+</li>
+</ul>
 <h4 id="拥塞控制">拥塞控制</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>端到端拥塞控制</p>
+</li>
+<li class="lvl-2">
+<p>网络信息辅助拥塞控制</p>
+</li>
+</ul>
+<h4 id="TCP拥塞控制">TCP拥塞控制</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>TCP采用端到端的拥塞控制</p>
+</li>
+<li class="lvl-2">
+<p>慢启动<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/c1.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/c2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>AIMD<br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/c3.png" alt><br>
+<img src="/2023/05/28/USTC-Computer-Networking-Chapter3/c4.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>TCP具有公平性，大致为每个TCP连接平分带宽</p>
+</li>
+</ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>计算机网络</category>
