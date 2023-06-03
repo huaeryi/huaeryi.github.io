@@ -280,10 +280,46 @@ rest video</p>
       </tags>
   </entry>
   <entry>
+    <title>USTC Computer Networking Chapter6</title>
+    <url>/2023/06/03/USTC-Computer-Networking-Chapter6/</url>
+    <content><![CDATA[<h3 id="第六章-链路层">第六章 链路层</h3>
+<span id="more"></span>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>Network</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>USTC Computer Networking Chapter5</title>
     <url>/2023/05/31/USTC-Computer-Networking-Chapter5/</url>
     <content><![CDATA[<h3 id="第五章-网络层-控制平面">第五章 网络层 控制平面</h3>
 <span id="more"></span>
+<h4 id="路由选择算法">路由选择算法</h4>
+<ul class="lvl-0">
+<li class="lvl-2">link state routing(LS) -&gt; Dijkstra算法，全局的</li>
+<li class="lvl-2">distance vector routing -&gt; Bellman-Ford算法，分布式<br>
+<img src="/2023/05/31/USTC-Computer-Networking-Chapter5/d1.png" alt></li>
+</ul>
+<h4 id="内路由">内路由</h4>
+<ul class="lvl-0">
+<li class="lvl-2">RIP<br>
+<img src="/2023/05/31/USTC-Computer-Networking-Chapter5/n1.png" alt></li>
+<li class="lvl-2">OSPF<br>
+<img src="/2023/05/31/USTC-Computer-Networking-Chapter5/n2.png" alt></li>
+</ul>
+<h4 id="外路由">外路由</h4>
+<ul class="lvl-0">
+<li class="lvl-2">BGP<br>
+<img src="/2023/05/31/USTC-Computer-Networking-Chapter5/b1.png" alt><br>
+<img src="/2023/05/31/USTC-Computer-Networking-Chapter5/b2.png" alt></li>
+</ul>
+<h4 id="SDN控制平面">SDN控制平面</h4>
+<ul class="lvl-0">
+<li class="lvl-2">逻辑上集中的控制平面，分离了数据平面和控制平面</li>
+</ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>计算机网络</category>
@@ -2604,17 +2640,14 @@ $</p>
   <entry>
     <title>CTF</title>
     <url>/2023/04/13/CTF/</url>
-    <content><![CDATA[<h3 id="Introduction-4">Introduction</h3>
-<span id="more"></span>
-<h3 id="Links-4">Links</h3>
+    <content><![CDATA[<h3 id="Introduction">Introduction</h3>
+<p>CTF（Capture The Flag）夺旗赛，是网络安全爱好者之间的竞技游戏。</p>
+<h3 id="Links">Links</h3>
 <ul class="lvl-0">
-<li class="lvl-2">
-<p><a href="https://ctf-wiki.org">CTF wiki</a></p>
-</li>
-<li class="lvl-2">
-<p><a href="https://www.ctfhub.com">CTFHub</a></p>
-</li>
+<li class="lvl-2"><a href="https://ctf-wiki.org">CTF wiki</a></li>
+<li class="lvl-2"><a href="https://www.ctfhub.com">CTFHub</a></li>
 </ul>
+<span id="more"></span>
 <p>updating…</p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
