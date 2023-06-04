@@ -282,8 +282,61 @@ rest video</p>
   <entry>
     <title>USTC Computer Networking Chapter6</title>
     <url>/2023/06/03/USTC-Computer-Networking-Chapter6/</url>
-    <content><![CDATA[<h3 id="第六章-链路层">第六章 链路层</h3>
+    <content><![CDATA[<h3 id="第六章-链路层和局域网">第六章 链路层和局域网</h3>
 <span id="more"></span>
+<p><img src="/2023/06/03/USTC-Computer-Networking-Chapter6/d1.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/d2.png" alt></p>
+<h4 id="差错检测和纠正">差错检测和纠正</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>奇偶校验<br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/c1.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>checksum校验和<br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/c2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>CRC循环冗余校验<br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/c3.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/c4.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>其数学推导用到了模2运算，即加减不进位不借位，加减等价于异或</p>
+</li>
+</ul>
+<h4 id="多点访问控制MAC">多点访问控制MAC</h4>
+<p><img src="/2023/06/03/USTC-Computer-Networking-Chapter6/m1.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/m2.png" alt></p>
+<h4 id="局域网LANs">局域网LANs</h4>
+<h5 id="地址解析协议ARP">地址解析协议ARP</h5>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>MAC地址<br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/a1.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/a2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>Broadcast address = FF-FF-FF-FF-FF-FF</p>
+</li>
+<li class="lvl-2">
+<p>ARP<br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/a3.png" alt></p>
+</li>
+</ul>
+<h5 id="以太网Ethernet">以太网Ethernet</h5>
+<p><img src="/2023/06/03/USTC-Computer-Networking-Chapter6/e1.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/e2.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/e3.png" alt></p>
+<h5 id="无线局域网WLAN">无线局域网WLAN</h5>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>IEEE 802.11 Wireless LAN<br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/w1.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/w2.png" alt><br>
+<img src="/2023/06/03/USTC-Computer-Networking-Chapter6/w3.png" alt></p>
+</li>
+</ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>计算机网络</category>
