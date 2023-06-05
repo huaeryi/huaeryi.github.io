@@ -201,7 +201,7 @@ rest video</p>
 <li class="lvl-2">
 <p>计算机网络</p>
 <ul class="lvl-2">
-<li class="lvl-4"><strong>计算机网络</strong>学的很早，学的不熟，快忘光了</li>
+<li class="lvl-4">计算机网络学的很早，学的不熟，快忘光了</li>
 <li class="lvl-4">找门课再看看</li>
 </ul>
 </li>
@@ -277,6 +277,75 @@ rest video</p>
       </categories>
       <tags>
         <tag>Plan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>USTC Computer Networking Chapter8</title>
+    <url>/2023/06/04/USTC-Computer-Networking-Chapter8/</url>
+    <content><![CDATA[<h3 id="第八章-网络安全">第八章 网络安全</h3>
+<span id="more"></span>
+<h4 id="加密">加密</h4>
+<h5 id="对称密钥">对称密钥</h5>
+<ul class="lvl-0">
+<li class="lvl-2">DES</li>
+<li class="lvl-2">3DES</li>
+<li class="lvl-2">AES</li>
+</ul>
+<h5 id="非对称密钥">非对称密钥</h5>
+<ul class="lvl-0">
+<li class="lvl-2">RSA</li>
+</ul>
+<h4 id="认证">认证</h4>
+<ul class="lvl-0">
+<li class="lvl-2">重复</li>
+<li class="lvl-2">中间人攻击</li>
+</ul>
+<h4 id="报文完整性">报文完整性</h4>
+<ul class="lvl-0">
+<li class="lvl-2">数字签名</li>
+<li class="lvl-2">散列函数算法
+<ul class="lvl-2">
+<li class="lvl-4">MD5</li>
+<li class="lvl-4">SHA-1</li>
+<li class="lvl-4">SHA-256</li>
+</ul>
+</li>
+</ul>
+<h4 id="密钥分发和证书">密钥分发和证书</h4>
+<ul class="lvl-0">
+<li class="lvl-2">KDC是非对称加密的权威</li>
+<li class="lvl-2">CA是公开密钥的权威</li>
+</ul>
+<h4 id="各层次安全性">各层次安全性</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>安全电子邮件PGP</p>
+</li>
+<li class="lvl-2">
+<p>安全套接字层SSL</p>
+</li>
+<li class="lvl-2">
+<p>IPsec</p>
+<ul class="lvl-2">
+<li class="lvl-4">AH</li>
+<li class="lvl-4">ESP</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>IEEE 802.11安全性</p>
+<ul class="lvl-2">
+<li class="lvl-4">WEP</li>
+</ul>
+</li>
+</ul>
+<h4 id="防火墙">防火墙</h4>
+<h4 id="攻击和对策">攻击和对策</h4>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>计算机网络</category>
+      </categories>
+      <tags>
+        <tag>Network</tag>
       </tags>
   </entry>
   <entry>
