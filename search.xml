@@ -290,6 +290,7 @@ rest video</p>
 <p><img src="/2023/06/10/Common-Code/ASCII.png" alt></p>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="http://asciitable.com/">ascii码参考网站</a></li>
+<li class="lvl-2">\x1b -&gt; ESC 很特殊， \x1b[ 后可以带上不同的东西，用于终端控制和仿真</li>
 </ul>
 <span id="more"></span>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -1637,6 +1638,7 @@ To start the lab, switch to the thread branch:</li>
 <ul class="lvl-0">
 <li class="lvl-2">将会介绍如何使用C和文本编辑器开发在Linux平台上运行的控制台应用程序</li>
 <li class="lvl-2">和HelloWorld一样😄</li>
+<li class="lvl-2">选用的项目是<a href="https://viewsourcecode.org/snaptoken/kilo/">自己写一个文本编辑器！(Build Your Own Text Editor)</a></li>
 </ul>
 <span id="more"></span>
 <h3 id="准备工作">准备工作</h3>
