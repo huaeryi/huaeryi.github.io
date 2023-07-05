@@ -33,7 +33,7 @@ hexo d部署出了点问题，不知道是代理问题还是网络波动</p>
 </li>
 <li class="lvl-2">
 <p>2023/7/1<br>
-转眼间居然已经七月了,学长学姐都毕业了🎓</p>
+转眼间居然已经七月了，学长学姐都毕业了🎓，我也该上工了👷🧱</p>
 </li>
 </ul>
 <span id="more"></span>
@@ -150,7 +150,7 @@ Maybe Learning later…</p>
 <p>整理一下目前学习过程中欠缺的地方</p>
 <ul class="lvl-0">
 <li class="lvl-2">
-<p>英语问题</p>
+<p>英语</p>
 <ul class="lvl-2">
 <li class="lvl-4">网课能听懂了，但是字幕辅助还是挺重要，听力有点进步</li>
 <li class="lvl-4">短文本教程可以看懂，长文本看的吃力，阅读论文感觉很吃力</li>
@@ -159,22 +159,34 @@ Maybe Learning later…</p>
 </ul>
 </li>
 <li class="lvl-2">
-<p>数学问题</p>
+<p>数学</p>
 <ul class="lvl-2">
 <li class="lvl-4"><strong>离散、组合</strong>没学过，算法分析看的挺吃力</li>
 <li class="lvl-4">找门课学学</li>
 <li class="lvl-4">想学学其他<strong>数学课</strong>，时间有点跟不上</li>
 </ul>
 </li>
+</ul>
+<hr>
+<ul class="lvl-0">
 <li class="lvl-2">
-<p>电子问题</p>
+<p>电子</p>
 <ul class="lvl-2">
 <li class="lvl-4">无<strong>电子基础</strong>，缺少对硬件元件的基本认识，缺少对电路的认识</li>
 <li class="lvl-4"><strong>信号与系统</strong>不熟</li>
 </ul>
 </li>
 <li class="lvl-2">
-<p>算法问题</p>
+<p>嵌入式</p>
+<ul class="lvl-2">
+<li class="lvl-4">嵌入式方面想了解下大致概念，微处理器之类的</li>
+</ul>
+</li>
+</ul>
+<hr>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>数据结构和算法</p>
 <ul class="lvl-2">
 <li class="lvl-4">题写的很少，只会写一点链表</li>
 <li class="lvl-4">得刷点<strong>力扣、洛谷</strong>啥的</li>
@@ -182,7 +194,7 @@ Maybe Learning later…</p>
 </ul>
 </li>
 <li class="lvl-2">
-<p>开发问题</p>
+<p>开发</p>
 <ul class="lvl-2">
 <li class="lvl-4">开发经验很少，遇到项目开发和课程作业总是力不从心</li>
 <li class="lvl-4">coding的熟练度不够</li>
@@ -191,7 +203,7 @@ Maybe Learning later…</p>
 </ul>
 </li>
 <li class="lvl-2">
-<p>语言问题</p>
+<p>语言</p>
 <ul class="lvl-2">
 <li class="lvl-4">CJP三门都用过，但用的不熟，常用的包和库也不熟</li>
 <li class="lvl-4">开发训练</li>
@@ -199,16 +211,29 @@ Maybe Learning later…</p>
 </ul>
 </li>
 <li class="lvl-2">
-<p>前端问题</p>
+<p>前端</p>
 <ul class="lvl-2">
 <li class="lvl-4"><strong>前端</strong>一点不会，不懂html，不懂Javascript，不懂CSS</li>
 <li class="lvl-4">找门课学学，找点资料看看</li>
 </ul>
 </li>
 <li class="lvl-2">
+<p>计算机组成</p>
+<ul class="lvl-2">
+<li class="lvl-4">玩过图灵完备🤣</li>
+<li class="lvl-4">CSAPP再看看，61C回去再看看</li>
+</ul>
+</li>
+<li class="lvl-2">
 <p>计算机网络</p>
 <ul class="lvl-2">
 <li class="lvl-4">计算机网络学的很早，学的不熟，快忘光了</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>操作系统</p>
+<ul class="lvl-2">
+<li class="lvl-4">快忘光了</li>
 </ul>
 </li>
 <li class="lvl-2">
@@ -224,12 +249,13 @@ Maybe Learning later…</p>
 </ul>
 </li>
 <li class="lvl-2">
-<p>嵌入式</p>
+<p>图形学</p>
 <ul class="lvl-2">
-<li class="lvl-4">嵌入式方面想了解下大致概念，微处理器之类的</li>
+<li class="lvl-4">没了解过</li>
 </ul>
 </li>
 </ul>
+<hr>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>Others</category>
@@ -243,7 +269,7 @@ Maybe Learning later…</p>
     <url>/2023/04/29/About-Math/</url>
     <content><![CDATA[<h3 id="Introduction">Introduction</h3>
 <p>介绍有关数学学习的问题</p>
-<h3 id="Links">Links</h3>
+<h3 id="🔗Links">🔗Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://www.bilibili.com/video/BV1XT4y1z78e">how to learn math</a></li>
 <li class="lvl-2"><a href="https://www.bilibili.com/video/BV1kY4y1R76G">lesson list</a></li>
