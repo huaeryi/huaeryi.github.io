@@ -5,7 +5,7 @@
     <url>/2023/03/27/About-Blog/</url>
     <content><![CDATA[<h3 id="Reasons-to-Write-a-Blog">Reasons to Write a Blog</h3>
 <p>这个博客是在一年之前建立的，但由于我觉得写博客很累就一直搁置着。在一年多的学习过程中，我时常感觉到遗忘和不知从何而来。前几天在翻找课程攻略时，我发现一个博客的主人曾几年不间断地每天写博客，我当然做不到这样，但是受到了莫大的激励，于是想起了这个博客，想要借此记录自己的学习和生活。不过说到做博客的经验的话，我是一点没有，但由于高中的时候写了不少随笔，因此我是擅长自言自语的。做这个博客，除了减少遗忘以外，更多的是给自己看，给自己一个念想，记录下自己的脚步。另外想说的还是，由于是给自己写的博客，技术纰漏很多，日记式自言自语的话很多，很多评价和感觉不成熟也不专业，很多感情很直接却也真实，看客们权当小孩子的把戏一笑而过。(不过应该也没人会看😆)</p>
-<h3 id="Site-Log">Site Log</h3>
+<h3 id="📖Site-Log">📖Site Log</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>2023/3/28<br>
@@ -33,11 +33,11 @@ hexo d部署出了点问题，不知道是代理问题还是网络波动</p>
 </li>
 <li class="lvl-2">
 <p>2023/7/1<br>
-转眼间居然已经七月了</p>
+转眼间居然已经七月了,学长学姐都毕业了🎓</p>
 </li>
 </ul>
 <span id="more"></span>
-<h3 id="Lesson-List-and-Progress">Lesson List and Progress</h3>
+<h3 id="📔Lesson-List-and-Progress">📔Lesson List and Progress</h3>
 <h4 id="Math">Math</h4>
 <ul class="lvl-0">
 <li class="lvl-4">
@@ -118,7 +118,7 @@ Maybe Learning later…</p>
 <p><strong>USTC Computer Networking</strong></p>
 </li>
 </ul>
-<h3 id="Book-List">Book List</h3>
+<h3 id="📚Book-List">📚Book List</h3>
 <h4 id="Computer-Science-2">Computer Science</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -146,7 +146,7 @@ Maybe Learning later…</p>
 <p>离散数学及其应用</p>
 </li>
 </ul>
-<h3 id="Disadvantage-Analysis-😭">Disadvantage Analysis 😭</h3>
+<h3 id="⚡Disadvantage-Analysis-😭">⚡Disadvantage Analysis 😭</h3>
 <p>整理一下目前学习过程中欠缺的地方</p>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -1697,7 +1697,7 @@ To start the lab, switch to the thread branch:</li>
 <h3 id="Colab">Colab</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
-<p>Colab是谷歌名下类似于jupyter的网页Python应用程序，不仅可以运行Python，提供存储空间，还可以使用云端的计算资源来进行模型训练</p>
+<p>Colab是谷歌名下类似于jupyter的网页Python应用程序，不仅可以运行Python，提供存储空间，还可以使用云端的计算资源来进行模型训练。（什么年代还在用传统IDE😆）</p>
 </li>
 <li class="lvl-2">
 <p><code>!nvidia-smi</code>查看获取的GPU计算资源</p>
