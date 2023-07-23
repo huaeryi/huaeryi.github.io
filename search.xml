@@ -35,6 +35,10 @@ hexo d部署出了点问题，不知道是代理问题还是网络波动</p>
 <p>2023/7/1<br>
 转眼间居然已经七月了，学长学姐都毕业了🎓，我也该上工了👷🧱</p>
 </li>
+<li class="lvl-2">
+<p>2023/7/23<br>
+回来学车了</p>
+</li>
 </ul>
 <span id="more"></span>
 <h3 id="📔Lesson-List-and-Progress">📔Lesson List and Progress</h3>
@@ -163,7 +167,7 @@ Maybe Learning later…</p>
 <ul class="lvl-2">
 <li class="lvl-4"><strong>离散、组合</strong>没学过，算法分析看的挺吃力</li>
 <li class="lvl-4">找门课学学</li>
-<li class="lvl-4">想学学其他<strong>数学课</strong>，时间有点跟不上</li>
+<li class="lvl-4">想学学其他<strong>数学课</strong>，时间有点跟不上，拓扑和抽代</li>
 </ul>
 </li>
 </ul>
@@ -254,6 +258,12 @@ Maybe Learning later…</p>
 <li class="lvl-4">没了解过</li>
 </ul>
 </li>
+<li class="lvl-2">
+<p>系统安全</p>
+<ul class="lvl-2">
+<li class="lvl-4">了解很少</li>
+</ul>
+</li>
 </ul>
 <hr>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -321,6 +331,23 @@ Maybe Learning later…</p>
       </categories>
       <tags>
         <tag>Plan</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>weblab Week 1</title>
+    <url>/2023/07/23/weblab-Week-1/</url>
+    <content><![CDATA[<h3 id="Intro">Intro</h3>
+<h3 id="Git">Git</h3>
+<h3 id="HTML">HTML</h3>
+<h3 id="CSS">CSS</h3>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>HTML</tag>
+        <tag>CSS</tag>
+        <tag>Javascript</tag>
       </tags>
   </entry>
   <entry>
