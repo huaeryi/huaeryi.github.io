@@ -337,9 +337,32 @@ Maybe Learning later…</p>
     <title>weblab Week 1</title>
     <url>/2023/07/23/weblab-Week-1/</url>
     <content><![CDATA[<h3 id="Intro">Intro</h3>
+<p><img src="/2023/07/23/weblab-Week-1/w1.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">这节课主要讲述前端知识和网络应用层有关内容，涉及到HTML、CSS、Javascript等等<br>
+<img src="/2023/07/23/weblab-Week-1/w2.png" alt></li>
+<li class="lvl-2">其中HTML是骨架、CSS是排版和装饰、Javascript是大脑</li>
+</ul>
+<span id="more"></span>
 <h3 id="Git">Git</h3>
 <h3 id="HTML">HTML</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>HTML(Hypertext Markup Language)超文本标记语言</p>
+</li>
+<li class="lvl-2">
+<p><code>filename.html</code></p>
+</li>
+</ul>
 <h3 id="CSS">CSS</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>CSS(Cascading Style Sheets)层叠样式表</p>
+</li>
+<li class="lvl-2">
+<p><code>filename.css</code></p>
+</li>
+</ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>前端</category>
