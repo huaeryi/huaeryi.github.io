@@ -345,14 +345,13 @@ Maybe Learning later…</p>
 </ul>
 <span id="more"></span>
 <h3 id="Git">Git</h3>
+<ul class="lvl-0">
+<li class="lvl-2">略</li>
+</ul>
 <h3 id="HTML">HTML</h3>
 <ul class="lvl-0">
-<li class="lvl-2">
-<p>HTML(Hypertext Markup Language)超文本标记语言</p>
-</li>
-<li class="lvl-2">
-<p><code>filename.html</code></p>
-</li>
+<li class="lvl-2">HTML(Hypertext Markup Language)超文本标记语言</li>
+<li class="lvl-2"><code>filename.html</code></li>
 </ul>
 <h3 id="CSS">CSS</h3>
 <ul class="lvl-0">
@@ -361,6 +360,50 @@ Maybe Learning later…</p>
 </li>
 <li class="lvl-2">
 <p><code>filename.css</code></p>
+</li>
+</ul>
+<h3 id="w0">w0</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>用HTML和CSS写一个静态网页</p>
+</li>
+</ul>
+<h3 id="UX-UI">UX &amp; UI</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>UX(User eXperience)用户体验</p>
+</li>
+<li class="lvl-2">
+<p>UI(User Interaction)用户交互</p>
+</li>
+<li class="lvl-2">
+<p>用户界面的设计近几年的趋势是从立体到扁平、从棱角到圆润</p>
+</li>
+</ul>
+<h3 id="Javascript">Javascript</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>Javascript是用于互联网的脚本语言，广泛应用于HTML和Web以及各类设备上，并且可以配合HTML和CSS实现交互</p>
+</li>
+</ul>
+<h3 id="w1">w1</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>用Javascript写一个网页贪吃蛇</p>
+</li>
+</ul>
+<h3 id="React">React</h3>
+<p><img src="/2023/07/23/weblab-Week-1/w3.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>react是流行的Javascript库，用于构建用户接口，其核心思想是，把复杂的组件用树的形式表示出来，并且用Javascript来返回HTML内容<br>
+<img src="/2023/07/23/weblab-Week-1/w4.png" alt></p>
+</li>
+</ul>
+<h3 id="Figma">Figma</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>Figma是用于绘制前端界面的网站，应用于设计当中。</p>
 </li>
 </ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
