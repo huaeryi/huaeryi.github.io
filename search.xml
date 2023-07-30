@@ -194,7 +194,7 @@ Maybe Learning later…</p>
 <li class="lvl-2">
 <p>嵌入式</p>
 <ul class="lvl-2">
-<li class="lvl-4"><strong>嵌入式</strong>方面想了解下大致概念，微处理器之类的，以及PCB设计工具</li>
+<li class="lvl-4"><strong>嵌入式</strong>方面想了解下大致概念，单片机微处理器之类的，以及PCB设计工具</li>
 </ul>
 </li>
 </ul>
@@ -419,9 +419,64 @@ Maybe Learning later…</p>
 </li>
 </ul>
 <h3 id="3-独立按键控制LED">3.独立按键控制LED</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>独立按键模块<br>
+<img src="/2023/07/29/51MCU/b1.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>也就是说，MCU从P3端口读取输入来获取独立按键是否按下的信息</p>
+</li>
+<li class="lvl-2">
+<p>按键的抖动</p>
+<ul class="lvl-2">
+<li class="lvl-4">硬件消除抖动</li>
+<li class="lvl-4">软件消除抖动</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-数码管显示">4.数码管显示</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>数码管模块</p>
+</li>
+<li class="lvl-2">
+<p>解码器模块</p>
+</li>
+<li class="lvl-2">
+<p>数码管消影</p>
+</li>
+</ul>
+<h3 id="5-模块化编程">5.模块化编程</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>.h .c分模块</p>
+</li>
+<li class="lvl-2">
+<p>LCD1602液晶屏显示用作调试工具</p>
+</li>
+</ul>
+<h3 id="6-矩阵键盘">6.矩阵键盘</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>逐行扫描和逐列扫描</p>
+</li>
+<li class="lvl-2">
+<p><strong>IO为什么既是输入又是输出？</strong><br>
+弱上拉</p>
+</li>
+</ul>
+<h3 id="7-定时器">7.定时器</h3>
+<h3 id="8-串口通信">8.串口通信</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>硬件电路</p>
+</li>
+</ul>
+<h3 id="9-LED点阵屏">9.LED点阵屏</h3>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>嵌入式</category>
+        <category>电子&amp;嵌入式</category>
       </categories>
       <tags>
         <tag>C</tag>
