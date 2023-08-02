@@ -132,6 +132,10 @@ Maybe Learning later…</p>
 <p><strong>51单片机入门教程</strong><br>
 Maybe Learning later…</p>
 </li>
+<li class="lvl-4">
+<p><strong>STM32入门教程</strong><br>
+Maybe Learning later…</p>
+</li>
 </ul>
 <h3 id="📚Book-List">📚Book List</h3>
 <h4 id="Computer-Science-2">Computer Science</h4>
@@ -187,7 +191,8 @@ Maybe Learning later…</p>
 <li class="lvl-2">
 <p>电子</p>
 <ul class="lvl-2">
-<li class="lvl-4">无<strong>电子基础</strong>，缺少对硬件元件的基本认识，缺少对电路的认识，模电数电之类的</li>
+<li class="lvl-4">无<strong>电子基础</strong>，缺少对硬件元件的基本认识，缺少对电路的认识</li>
+<li class="lvl-4"><strong>模电、数电</strong>之类的</li>
 <li class="lvl-4"><strong>信号与系统</strong>不熟</li>
 </ul>
 </li>
@@ -345,11 +350,28 @@ Maybe Learning later…</p>
       </tags>
   </entry>
   <entry>
+    <title>STM32入门教程</title>
+    <url>/2023/07/31/STM32MCU/</url>
+    <content><![CDATA[<h3 id="Links-2">Links</h3>
+<ul class="lvl-0">
+<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1th411z7sn">STM32入门教程视频</a></li>
+</ul>
+<span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>电子&amp;嵌入式</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>MCU</tag>
+        <tag>STM32</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>51单片机入门教程</title>
     <url>/2023/07/29/51MCU/</url>
     <content><![CDATA[<h3 id="Links">Links</h3>
 <ul class="lvl-0">
-<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1Mb411e7re?p=1&amp;vd_source=d5ff853a1eefaf1af9f58890897c1e49">51单片机入门教程视频</a></li>
+<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1Mb411e7re">51单片机入门教程视频</a></li>
 </ul>
 <span id="more"></span>
 <h3 id="1-课程简介">1.课程简介</h3>
@@ -438,10 +460,12 @@ Maybe Learning later…</p>
 <h3 id="4-数码管显示">4.数码管显示</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
-<p>数码管模块</p>
+<p>数码管模块<br>
+<img src="/2023/07/29/51MCU/s1.png" alt></p>
 </li>
 <li class="lvl-2">
-<p>解码器模块</p>
+<p>解码器模块<br>
+<img src="/2023/07/29/51MCU/s2.png" alt></p>
 </li>
 <li class="lvl-2">
 <p>数码管消影</p>
@@ -453,24 +477,54 @@ Maybe Learning later…</p>
 <p>.h .c分模块</p>
 </li>
 <li class="lvl-2">
-<p>LCD1602液晶屏显示用作调试工具</p>
+<p>LCD1602液晶屏显示用作调试工具<br>
+<img src="/2023/07/29/51MCU/lcd1.png" alt></p>
 </li>
 </ul>
 <h3 id="6-矩阵键盘">6.矩阵键盘</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
-<p>逐行扫描和逐列扫描</p>
+<p>逐行扫描和逐列扫描，节省IO口</p>
+</li>
+<li class="lvl-2">
+<p>由于端口IO复用，采用逐列扫描</p>
 </li>
 <li class="lvl-2">
 <p><strong>IO为什么既是输入又是输出？</strong><br>
-弱上拉</p>
+弱上拉?</p>
 </li>
 </ul>
 <h3 id="7-定时器">7.定时器</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>定时器属于单片机内部资源，可以代替主时钟的计时功能，减少时钟周期的浪费，提高CPU的运行效率</p>
+</li>
+<li class="lvl-2">
+<p>定时器工作模式<br>
+<img src="/2023/07/29/51MCU/t1.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>中断资源<br>
+<img src="/2023/07/29/51MCU/t2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>相关寄存器<br>
+<img src="/2023/07/29/51MCU/t3.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>需要设置中断处理函数在每次定时器中断时执行</p>
+</li>
+</ul>
 <h3 id="8-串口通信">8.串口通信</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
-<p>硬件电路</p>
+<p>硬件电路<br>
+<img src="/2023/07/29/51MCU/c1.png" alt><br>
+<img src="/2023/07/29/51MCU/c2.png" alt><br>
+<img src="/2023/07/29/51MCU/c3.png" alt><br>
+<img src="/2023/07/29/51MCU/c4.png" alt><br>
+<img src="/2023/07/29/51MCU/c5.png" alt><br>
+<img src="/2023/07/29/51MCU/c6.png" alt></p>
 </li>
 </ul>
 <h3 id="9-LED点阵屏">9.LED点阵屏</h3>
