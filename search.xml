@@ -528,6 +528,48 @@ Maybe Learning later…</p>
 </li>
 </ul>
 <h3 id="9-LED点阵屏">9.LED点阵屏</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>8*8的单色点阵屏<br>
+<img src="/2023/07/29/51MCU/dz1.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>74HC595移位寄存器<br>
+<img src="/2023/07/29/51MCU/dz2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p><code>code</code>关键字把变量放入flash闪存中（ROM），而不是程序堆栈中（RAM），用于存储大型数据</p>
+</li>
+</ul>
+<figure class="highlight c"><figcaption><span>example</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="type">unsigned</span> <span class="type">char</span> code Animation[] = &#123;</span><br><span class="line">   <span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,</span><br><span class="line">   <span class="number">0xFF</span>,<span class="number">0x08</span>,<span class="number">0x08</span>,<span class="number">0x08</span>,<span class="number">0xFF</span>,<span class="number">0x00</span>,<span class="number">0x0E</span>,<span class="number">0x15</span>,</span><br><span class="line">   <span class="number">0x15</span>,<span class="number">0x15</span>,<span class="number">0x08</span>,<span class="number">0x00</span>,<span class="number">0x7E</span>,<span class="number">0x01</span>,<span class="number">0x02</span>,<span class="number">0x00</span>,</span><br><span class="line">   <span class="number">0x7E</span>,<span class="number">0x01</span>,<span class="number">0x02</span>,<span class="number">0x00</span>,<span class="number">0x0E</span>,<span class="number">0x11</span>,<span class="number">0x11</span>,<span class="number">0x0E</span>,</span><br><span class="line">   <span class="number">0x00</span>,<span class="number">0x7D</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,</span><br><span class="line">   <span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,<span class="number">0x00</span>,</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<h3 id="10-DS1302时钟">10.DS1302时钟</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>RTC(Real Time Clock)实时时钟，集成电路时钟芯片<br>
+<img src="/2023/07/29/51MCU/sz1.png" alt><br>
+<img src="/2023/07/29/51MCU/sz2.png" alt></p>
+</li>
+<li class="lvl-2">
+<p>BCD码<br>
+<img src="/2023/07/29/51MCU/sz3.png" alt></p>
+</li>
+</ul>
+<h3 id="11-蜂鸣器">11.蜂鸣器</h3>
+<p><img src="/2023/07/29/51MCU/f1.png" alt><br>
+<img src="/2023/07/29/51MCU/f2.png" alt></p>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>乐理<br>
+<img src="/2023/07/29/51MCU/f3.png" alt><br>
+<img src="/2023/07/29/51MCU/f4.png" alt><br>
+<img src="/2023/07/29/51MCU/f5.png" alt></p>
+<ul class="lvl-2">
+<li class="lvl-4"><code>#</code>升音符号 半音</li>
+<li class="lvl-4"><code>b</code>降音符号 半音</li>
+<li class="lvl-4">$1=D\frac{4}{4}$代表D调，分母4表示以四分音符为标准一拍，分子4代表每小节有四拍</li>
+</ul>
+</li>
+</ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>电子&amp;嵌入式</category>
