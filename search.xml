@@ -3832,9 +3832,9 @@ GPT4: I am a language model that is based on a neural network architecture known
   <entry>
     <title>Maki Abstract algebra</title>
     <url>/2023/03/26/Maki-%E6%8A%BD%E8%B1%A1%E4%BB%A3%E6%95%B0/</url>
-    <content><![CDATA[<h3 id="Course-About-5">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About">Course About</h3>
 <p><strong>抽象代数I是用代数方法研究代数结构的第一门课。介绍群论、环论、多项式理论和域论的基础知识。先修课程是数学分析和高等代数。</strong></p>
-<h3 id="Links-12">Links</h3>
+<h3 id="Links">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://www.maki-math.com/#/courses/21">课程主页</a></p>
@@ -3846,7 +3846,7 @@ GPT4: I am a language model that is based on a neural network architecture known
 <p><strong>(Updating…)</strong></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>抽象代数</category>
+        <category>数学</category>
       </categories>
       <tags>
         <tag>Math</tag>
@@ -3855,9 +3855,9 @@ GPT4: I am a language model that is based on a neural network architecture known
   <entry>
     <title>Maki Topology</title>
     <url>/2023/03/26/Maki-%E7%82%B9%E9%9B%86%E6%8B%93%E6%89%91%E5%AD%A6/</url>
-    <content><![CDATA[<h3 id="Course-About-6">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-2">Course About</h3>
 <p><strong>介绍了拓扑空间、连续映射、经典的拓扑不变量以及一些重要的拓扑学定理。</strong></p>
-<h3 id="Links-13">Links</h3>
+<h3 id="Links-2">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://www.maki-math.com/#/courses/83">课程主页</a></p>
@@ -4354,7 +4354,7 @@ $</p>
 <p><strong>(Updating…)</strong></p>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>点集拓扑</category>
+        <category>数学</category>
       </categories>
       <tags>
         <tag>Math</tag>
@@ -5891,10 +5891,10 @@ $$</p>
   <entry>
     <title>gdb</title>
     <url>/2023/03/29/gdb/</url>
-    <content><![CDATA[<h2 id="Introduction-19">Introduction</h2>
-<p>gdb(GNU Debugger)是GNU项目中调试工具。</p>
+    <content><![CDATA[<h2 id="Introduction">Introduction</h2>
+<p>gdb(GNU Debugger)是GNU项目中的调试工具。</p>
 <span id="more"></span>
-<h2 id="Usage-4">Usage</h2>
+<h2 id="Usage">Usage</h2>
 <h3 id="Common">Common</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -5959,7 +5959,7 @@ at the specified location.<br>
 </li>
 </ul>
 <h3 id="gdbinit">.gdbinit</h3>
-<h2 id="Links-20">Links</h2>
+<h2 id="Links">Links</h2>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="http://www.unknownroad.com/rtfm/gdbtut/gdbtoc.html">不错的教程</a></p>
@@ -6189,6 +6189,44 @@ at the specified location.<br>
         <tag>C</tag>
         <tag>x86</tag>
         <tag>Golang</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构和算法笔记</title>
+    <url>/2023/09/03/algorithm-note/</url>
+    <content><![CDATA[<h3 id="Intro">Intro</h3>
+<ul class="lvl-0">
+<li class="lvl-2">记录数据结构和算法题</li>
+</ul>
+<span id="more"></span>
+<h3 id="背包dp">背包dp</h3>
+<h4 id="0-1背包">0-1背包</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>0-1背包指的是容量为W的背包，重量w[i]且价值v[i]的物品，怎样放入背包使背包中的物品价值最大。</p>
+</li>
+<li class="lvl-2">
+<p>二维数组解法</p>
+</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>一维数组解法</p>
+</li>
+</ul>
+<figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> w[<span class="number">1001</span>];</span><br><span class="line"><span class="type">int</span> v[<span class="number">1001</span>];</span><br><span class="line"><span class="type">int</span> dp[<span class="number">1001</span>];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  dp[<span class="number">0</span>] = <span class="number">0</span>;</span><br><span class="line">  <span class="type">int</span> W, N;</span><br><span class="line">  cin &gt;&gt; W &gt;&gt; N;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= N; i++) &#123;</span><br><span class="line">    cin &gt;&gt; w[i] &gt;&gt; v[i];</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt;= N; i++) &#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> j = W; j &gt;= w[i]; j--) &#123;</span><br><span class="line">      <span class="keyword">if</span> (j - w[i] &gt;= <span class="number">0</span>) &#123;</span><br><span class="line">        dp[j] = <span class="built_in">max</span>(dp[j], dp[j - w[i]] + v[i]);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  cout &lt;&lt; dp[W];</span><br><span class="line">  <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><a href="https://www.luogu.com.cn/problem/P1048">P1048 采药</a></p>
+</li>
+</ul>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>数据结构&amp;算法</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
       </tags>
   </entry>
 </search>
