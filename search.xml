@@ -294,6 +294,65 @@ Maybe Learning later…</p>
       </tags>
   </entry>
   <entry>
+    <title>About Math</title>
+    <url>/2023/04/29/About-Math/</url>
+    <content><![CDATA[<h3 id="Introduction">Introduction</h3>
+<p>介绍有关数学学习的问题</p>
+<h3 id="🔗Links">🔗Links</h3>
+<ul class="lvl-0">
+<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1XT4y1z78e">how to learn math</a></li>
+<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1kY4y1R76G">lesson list</a></li>
+</ul>
+<span id="more"></span>
+<h3 id="Branch-of-mathematics">Branch of mathematics</h3>
+<p><img src="/2023/04/29/About-Math/math.png" alt><br>
+<img src="/2023/04/29/About-Math/layer0.png" alt><br>
+<img src="/2023/04/29/About-Math/layer1.png" alt><br>
+<img src="/2023/04/29/About-Math/layer21.png" alt><br>
+<img src="/2023/04/29/About-Math/layer22.png" alt><br>
+<img src="/2023/04/29/About-Math/layer23.png" alt><br>
+<img src="/2023/04/29/About-Math/layer3.png" alt></p>
+<h4 id="线性代数">线性代数</h4>
+<h4 id="数学分析">数学分析</h4>
+<h4 id="点集拓扑">点集拓扑</h4>
+<h4 id="复分析">复分析</h4>
+<h4 id="群论和抽象代数">群论和抽象代数</h4>
+<h4 id="伽罗瓦理论">伽罗瓦理论</h4>
+<h4 id="微分几何">微分几何</h4>
+<h4 id="代数拓扑">代数拓扑</h4>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>Others</category>
+      </categories>
+      <tags>
+        <tag>Plan</tag>
+        <tag>Math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Literature and Philosophy</title>
+    <url>/2023/03/31/Literature-and-Philosophy/</url>
+    <content><![CDATA[<h3 id="Book-List">Book List</h3>
+<span id="more"></span>
+<h4 id="Literature">Literature</h4>
+<h5 id="德">德</h5>
+<ul class="lvl-0">
+<li class="lvl-2">魔山</li>
+</ul>
+<h5 id="中">中</h5>
+<ul class="lvl-0">
+<li class="lvl-2">活着</li>
+</ul>
+<h4 id="Philosophy">Philosophy</h4>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>文学</category>
+      </categories>
+      <tags>
+        <tag>Plan</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据结构和算法笔记</title>
     <url>/2023/09/03/algorithm-note/</url>
     <content><![CDATA[<h3 id="Intro">Intro</h3>
@@ -351,8 +410,10 @@ Maybe Learning later…</p>
 </li>
 </ul>
 <h3 id="线段树">线段树</h3>
+<h3 id="dfs-bfs">dfs &amp; bfs</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
+<p>dfs的常用方法在于维护一个全局数组，对访问过的节点标记处理，利用递归搜索，回溯后清除标记</p>
 </li>
 </ul>
 <h3 id="小项">小项</h3>
@@ -362,7 +423,7 @@ Maybe Learning later…</p>
 <p>快速幂是以$\Theta(log \space n)$时间复杂度计算高次幂的小技巧</p>
 </li>
 </ul>
-<figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">long</span> <span class="type">long</span> <span class="title">binpow</span><span class="params">(<span class="type">long</span> <span class="type">long</span> a, <span class="type">long</span> <span class="type">long</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (b == <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="type">long</span> <span class="type">long</span> res = <span class="built_in">binpow</span>(a, b / <span class="number">2</span>);</span><br><span class="line">  <span class="keyword">if</span> (b % <span class="number">2</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> res * res * a;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> res * res;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"></span><br><span class="line"><span class="comment">//递归</span></span><br><span class="line"><span class="function"><span class="type">long</span> <span class="type">long</span> <span class="title">binpow</span><span class="params">(<span class="type">long</span> <span class="type">long</span> a, <span class="type">long</span> <span class="type">long</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (b == <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="type">long</span> <span class="type">long</span> res = <span class="built_in">binpow</span>(a, b / <span class="number">2</span>);</span><br><span class="line">  <span class="keyword">if</span> (b % <span class="number">2</span>) &#123;</span><br><span class="line">    <span class="keyword">return</span> res * res * a;</span><br><span class="line">  &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> res * res;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//非递归</span></span><br><span class="line"><span class="function"><span class="type">long</span> <span class="type">long</span> <span class="title">binpow</span><span class="params">(<span class="type">long</span> <span class="type">long</span> a, <span class="type">long</span> <span class="type">long</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">  <span class="type">long</span> <span class="type">long</span> res = <span class="number">1</span>;</span><br><span class="line">  <span class="keyword">while</span> (b &gt; <span class="number">0</span>) &#123;</span><br><span class="line">    <span class="keyword">if</span> (b &amp; <span class="number">1</span>) res = res * a;</span><br><span class="line">    a = a * a;</span><br><span class="line">    b &gt;&gt;= <span class="number">1</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> res;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h4 id="gcd和lcm">gcd和lcm</h4>
 <ul class="lvl-0">
 <li class="lvl-2">
@@ -371,6 +432,8 @@ Maybe Learning later…</p>
 </ul>
 <figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">int</span> <span class="title">gcd</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (b == <span class="number">0</span>) <span class="keyword">return</span> a;</span><br><span class="line">  <span class="keyword">return</span> <span class="built_in">gcd</span>(b, a % b);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">lcm</span><span class="params">(<span class="type">int</span> a, <span class="type">int</span> b)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> a * b / <span class="built_in">gcd</span>(a, b);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <h3 id="常用stl库">常用stl库</h3>
+<h4 id="排序-sort">排序 <code>sort</code></h4>
+<figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="type">int</span> nums[<span class="number">100</span>];</span><br><span class="line"></span><br><span class="line"><span class="comment">//定义不同的cmp函数可以得到不同的排序</span></span><br><span class="line"><span class="function"><span class="type">bool</span> <span class="title">cmp</span><span class="params">(<span class="type">int</span> &amp;a, <span class="type">int</span> &amp;b)</span> </span>&#123;</span><br><span class="line">  <span class="keyword">return</span> a &lt; b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="built_in">sort</span>(nums, nums + n, cmp);</span><br></pre></td></tr></table></figure>
 <h4 id="二分查找-lower-bound-upper-bound">二分查找 <code>lower_bound()</code> <code>upper_bound()</code></h4>
 <figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;algorithm&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="comment">//取得最小的下标i使 a[i] &gt;= x</span></span><br><span class="line"><span class="built_in">lower_bound</span>(a,a+n,x)-a      <span class="comment">//下标从0开始</span></span><br><span class="line"><span class="built_in">lower_bound</span>(a+<span class="number">1</span>,a+n+<span class="number">1</span>,x)-a  <span class="comment">//下标从1开始</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//取得最小的下标i使 a[i] &gt; x</span></span><br><span class="line"><span class="built_in">upper_bound</span>(a,a+n,x)-a      <span class="comment">//下标从0开始</span></span><br><span class="line"><span class="built_in">upper_bound</span>(a+<span class="number">1</span>,a+n+<span class="number">1</span>,x)-a  <span class="comment">//下标从1开始</span></span><br></pre></td></tr></table></figure>
 <ul class="lvl-0">
@@ -378,71 +441,14 @@ Maybe Learning later…</p>
 <p>可以对比两函数返回值，若不同则找到了a[i] == x，差值即为x的个数</p>
 </li>
 </ul>
+<h4 id="set-map">set &amp; map</h4>
+<figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line">set&lt;<span class="type">int</span>&gt; st;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">auto</span> i : st) &#123;</span><br><span class="line">  cout &lt;&lt; *it &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">map&lt;string, <span class="type">int</span>&gt; mp;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">auto</span> it = mp.<span class="built_in">begin</span>(); it != mp.<span class="built_in">end</span>(); it++) &#123;</span><br><span class="line">  cout &lt;&lt; it-&gt;first &lt;&lt; endl;</span><br><span class="line">  cout &lt;&lt; it-&gt;second &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>数据结构&amp;算法</category>
       </categories>
       <tags>
         <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>About Math</title>
-    <url>/2023/04/29/About-Math/</url>
-    <content><![CDATA[<h3 id="Introduction">Introduction</h3>
-<p>介绍有关数学学习的问题</p>
-<h3 id="🔗Links">🔗Links</h3>
-<ul class="lvl-0">
-<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1XT4y1z78e">how to learn math</a></li>
-<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1kY4y1R76G">lesson list</a></li>
-</ul>
-<span id="more"></span>
-<h3 id="Branch-of-mathematics">Branch of mathematics</h3>
-<p><img src="/2023/04/29/About-Math/math.png" alt><br>
-<img src="/2023/04/29/About-Math/layer0.png" alt><br>
-<img src="/2023/04/29/About-Math/layer1.png" alt><br>
-<img src="/2023/04/29/About-Math/layer21.png" alt><br>
-<img src="/2023/04/29/About-Math/layer22.png" alt><br>
-<img src="/2023/04/29/About-Math/layer23.png" alt><br>
-<img src="/2023/04/29/About-Math/layer3.png" alt></p>
-<h4 id="线性代数">线性代数</h4>
-<h4 id="数学分析">数学分析</h4>
-<h4 id="点集拓扑">点集拓扑</h4>
-<h4 id="复分析">复分析</h4>
-<h4 id="群论和抽象代数">群论和抽象代数</h4>
-<h4 id="伽罗瓦理论">伽罗瓦理论</h4>
-<h4 id="微分几何">微分几何</h4>
-<h4 id="代数拓扑">代数拓扑</h4>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>Others</category>
-      </categories>
-      <tags>
-        <tag>Plan</tag>
-        <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Literature and Philosophy</title>
-    <url>/2023/03/31/Literature-and-Philosophy/</url>
-    <content><![CDATA[<h3 id="Book-List">Book List</h3>
-<span id="more"></span>
-<h4 id="Literature">Literature</h4>
-<h5 id="德">德</h5>
-<ul class="lvl-0">
-<li class="lvl-2">魔山</li>
-</ul>
-<h5 id="中">中</h5>
-<ul class="lvl-0">
-<li class="lvl-2">活着</li>
-</ul>
-<h4 id="Philosophy">Philosophy</h4>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>文学</category>
-      </categories>
-      <tags>
-        <tag>Plan</tag>
       </tags>
   </entry>
   <entry>
