@@ -2473,6 +2473,10 @@ hexo d部署出了点问题，不知道是代理问题还是网络波动</p>
 <p>2023/7/23<br>
 回来学车了</p>
 </li>
+<li class="lvl-2">
+<p>2023/9/22<br>
+新的学期又开始了</p>
+</li>
 </ul>
 <span id="more"></span>
 <h3 id="📔Lesson-List-and-Progress">📔Lesson List and Progress</h3>
@@ -2561,6 +2565,10 @@ Maybe Learning later…</p>
 </li>
 <li class="lvl-4">
 <p><strong>CS161</strong><br>
+Maybe Learning later…</p>
+</li>
+<li class="lvl-4">
+<p><strong>MIT6.858</strong><br>
 Maybe Learning later…</p>
 </li>
 </ul>
@@ -2714,7 +2722,7 @@ Maybe Learning later…</p>
 <li class="lvl-2">
 <p>系统安全</p>
 <ul class="lvl-2">
-<li class="lvl-4">了解很少</li>
+<li class="lvl-4">想要了解CTF相关内容</li>
 </ul>
 </li>
 </ul>
@@ -3104,6 +3112,35 @@ $</p>
 </li>
 </ul>
 <h3 id="Lecture-5-IND-CPA-OTP-and-Block-Ciphers">Lecture 5: IND-CPA, OTP and Block Ciphers</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>Keygen() -&gt; K</p>
+</li>
+<li class="lvl-2">
+<p>Enc(K, M) -&gt; C</p>
+</li>
+<li class="lvl-2">
+<p>Dec(K, C) -&gt; M</p>
+</li>
+<li class="lvl-2">
+<p>Correctness: $$\forall K \exist M, c \gets  Enc(K, M), Dec(K, C) = M$$</p>
+</li>
+<li class="lvl-2">
+<p>IND-CPA 选择明文攻击下的不可区分性</p>
+</li>
+<li class="lvl-2">
+<p>OTP 一次性密码</p>
+</li>
+</ul>
+<h3 id="Lecture-6-Symmetric-Key-Encryption-PRG">Lecture 6: Symmetric Key Encryption, PRG</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>分组密码 伪随机</p>
+</li>
+<li class="lvl-2">
+<p>AES</p>
+</li>
+</ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>系统安全</category>
@@ -6312,5 +6349,24 @@ at the specified location.<br>
       <categories>
         <category>CS Tools</category>
       </categories>
+  </entry>
+  <entry>
+    <title>MIT 6.858</title>
+    <url>/2023/09/22/MIT-6-858/</url>
+    <content><![CDATA[<h3 id="Links-2">Links</h3>
+<ul class="lvl-0">
+<li class="lvl-2"><a href="http://css.csail.mit.edu/6.858/2022/">课程主页</a></li>
+<li class="lvl-2"><a href="https://www.bilibili.com/video/BV1Jp4y167N5">课程视频</a></li>
+</ul>
+<span id="more"></span>
+<h3 id="LEC-1-Introduction-threat-models">LEC 1: Introduction, threat models</h3>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>系统安全</category>
+      </categories>
+      <tags>
+        <tag>C</tag>
+        <tag>Python</tag>
+      </tags>
   </entry>
 </search>
