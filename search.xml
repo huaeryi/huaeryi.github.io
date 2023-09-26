@@ -2603,7 +2603,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>Python</title>
     <url>/2023/04/25/Python/</url>
-    <content><![CDATA[<h3 id="Introduction-12">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction">Introduction</h3>
 <p>Python是一种面向对象的编程语言，不同于C和C++，它是一种解释型语言。</p>
 <span id="more"></span>
 <h3 id="jupyter">jupyter</h3>
@@ -2612,7 +2612,88 @@ To start the lab, switch to the thread branch:</li>
 <p>Jupyter Notebook（此前被称为 IPython notebook）是一个交互式笔记本，支持运行 40 多种编程语言。</p>
 </li>
 </ul>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+<h3 id="正则表达式">正则表达式</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><img src="https://regexr.com/" alt="在线匹配"></p>
+</li>
+</ul>
+<h4 id="支持普通字符">支持普通字符</h4>
+<h4 id="元字符">元字符</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><code>\d</code> 匹配一个数字(0-9)</p>
+</li>
+<li class="lvl-2">
+<p><code>\w</code> 匹配数字、字母、下划线(0-9, a-z, A-Z, _)</p>
+</li>
+<li class="lvl-2">
+<p><code>\W``\D</code> 上述的取反，除了数字字母下划线以外的内容</p>
+</li>
+<li class="lvl-2">
+<p><code>[abc]</code> 匹配a或b或c</p>
+</li>
+<li class="lvl-2">
+<p><code>[^abc]</code> 取反</p>
+</li>
+<li class="lvl-2">
+<p><code>.</code> 除了换行符以外</p>
+</li>
+</ul>
+<h4 id="量词控制元字符数量">量词控制元字符数量</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><code>+</code> 前面元字符出现1次或多次</p>
+</li>
+<li class="lvl-2">
+<p><code>*</code> 前面元字符出现0次或多次（尽可能多地贪婪匹配）</p>
+</li>
+<li class="lvl-2">
+<p><code>?</code> 前面元字符出现0次或1次</p>
+</li>
+</ul>
+<h4 id="惰性匹配">惰性匹配</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p><code>a.*b</code> 最长的axxxxxb，贪婪匹配</p>
+</li>
+<li class="lvl-2">
+<p><code>a.*?b</code> 最短的axxxxxb，懒惰匹配</p>
+</li>
+<li class="lvl-2">
+<p>可以用于爬取<code>&lt;div&gt;xxx&lt;/div&gt;</code></p>
+</li>
+</ul>
+<h4 id="python内置re模块">python内置re模块</h4>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>r&quot;&quot;用于输入原生字符串作为正则表达式，无需考虑转义字符</p>
+</li>
+</ul>
+<figure class="highlight python"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line">result = re.findall(<span class="string">r&quot;\d+&quot;</span>, <span class="string">&quot;I have 100 , buy 2 cake.&quot;</span>)</span><br><span class="line">result = re.search(<span class="string">r&quot;\d+&quot;</span>, <span class="string">&quot;I have 100 , buy 2 cake.&quot;</span>)</span><br><span class="line">result = re.finditer(<span class="string">r&quot;\d+&quot;</span>, <span class="string">&quot;I have 100 , buy 2 cake.&quot;</span>)</span><br><span class="line"></span><br><span class="line"><span class="built_in">print</span>(result.group())</span><br></pre></td></tr></table></figure>
+<h4 id="预加载正则表达式对象">预加载正则表达式对象</h4>
+<figure class="highlight python"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line">obj = re.complie(<span class="string">r&quot;d+&quot;</span>)</span><br><span class="line">obj.findall(<span class="string">&quot;I have 100 , buy 2 cake.&quot;</span>)</span><br></pre></td></tr></table></figure>
+<h4 id="提取正则表达式中的部分">提取正则表达式中的部分</h4>
+<figure class="highlight python"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line">s = <span class="string">&quot;&quot;&quot;</span></span><br><span class="line"><span class="string">&lt;div class=&quot;abc&quot;&gt;</span></span><br><span class="line"><span class="string">    &lt;div&gt;&lt;a href=&quot;baidu.com&quot;&gt;百度&lt;/div&gt; </span></span><br><span class="line"><span class="string">    &lt;div&gt;&lt;a href=&quot;163.com&quot;&gt;网易&lt;/div&gt; </span></span><br><span class="line"><span class="string">    &lt;div&gt;&lt;a href=&quot;qq.com&quot;&gt;QQ&lt;/div&gt; </span></span><br><span class="line"><span class="string">&lt;/div&gt;</span></span><br><span class="line"><span class="string">&quot;&quot;&quot;</span></span><br><span class="line"></span><br><span class="line">obj = re.<span class="built_in">compile</span>(<span class="string">r&#x27;&lt;div&gt;&lt;a href=&quot;(?P&lt;url&gt;.*?)&quot;&gt;(?P&lt;txt&gt;.*?)&lt;/div&gt;&#x27;</span>)</span><br><span class="line"></span><br><span class="line">res = obj.finditer(s)</span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> res:</span><br><span class="line">    url = item.group(<span class="string">&quot;url&quot;</span>)</span><br><span class="line">    txt = item.group(<span class="string">&quot;txt&quot;</span>)</span><br><span class="line">    <span class="built_in">print</span>(txt, url)</span><br><span class="line">    <span class="built_in">print</span>(item.groupdict())</span><br></pre></td></tr></table></figure>
+<h3 id="爬虫">爬虫</h3>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>核心的库<code>import requests</code> 发送http请求并接收回应</p>
+</li>
+<li class="lvl-2">
+<p><code>import bs4</code> 数据处理</p>
+</li>
+<li class="lvl-2">
+<p>爬取豆瓣网页的python爬虫脚本</p>
+</li>
+</ul>
+<figure class="highlight python"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> requests</span><br><span class="line"><span class="keyword">from</span> bs4 <span class="keyword">import</span> BeautifulSoup</span><br><span class="line"></span><br><span class="line">headers = &#123;</span><br><span class="line">    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.41&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">for</span> start_num <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">0</span>, <span class="number">250</span>,<span class="number">25</span>):</span><br><span class="line">    response = requests.get(<span class="string">f&quot;https://movie.douban.com/top250?start=<span class="subst">&#123;start_num&#125;</span>&quot;</span>, headers=headers)</span><br><span class="line">    html = response.text</span><br><span class="line">    soup = BeautifulSoup(html, <span class="string">&quot;html.parser&quot;</span>)</span><br><span class="line">    alltitles = soup.findAll(<span class="string">&quot;span&quot;</span>, attrs=&#123;<span class="string">&quot;class&quot;</span>: <span class="string">&quot;title&quot;</span>&#125;)</span><br><span class="line">    <span class="keyword">for</span> title <span class="keyword">in</span> alltitles:</span><br><span class="line">        title_string = title.string</span><br><span class="line">        <span class="keyword">if</span> <span class="string">&#x27;/&#x27;</span> <span class="keyword">not</span> <span class="keyword">in</span> title_string:</span><br><span class="line">            <span class="built_in">print</span>(title_string)</span><br></pre></td></tr></table></figure>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>正则表达式模式，处理换行</p>
+</li>
+</ul>
+<figure class="highlight python"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> re</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> requests</span><br><span class="line">url = <span class="string">&quot;https://movie.douban.com/top250&quot;</span></span><br><span class="line"></span><br><span class="line">head = &#123;</span><br><span class="line">    <span class="string">&quot;User-Agent&quot;</span>: <span class="string">&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.41&quot;</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">resp = requests.get(url, headers=head)</span><br><span class="line">resp.encoding = <span class="string">&#x27;utf-8&#x27;</span></span><br><span class="line"></span><br><span class="line">obj = re.<span class="built_in">compile</span>(<span class="string">r&#x27;&lt;div class=&quot;item&quot;&gt;.*?&lt;span class=&quot;title&quot;&gt;(?P&lt;name&gt;.*?)&lt;/span&gt;&#x27;</span></span><br><span class="line">                 <span class="string">r&#x27;.*?&lt;br&gt;(?P&lt;year&gt;.*?)&amp;nbsp;.*?&lt;span class=&quot;rating_num&quot; &#x27;</span></span><br><span class="line">                 <span class="string">r&#x27;property=&quot;v:average&quot;&gt;(?P&lt;score&gt;.*?)&lt;/span&gt;.*?&#x27;</span></span><br><span class="line">                 <span class="string">r&#x27;&lt;span&gt;(?P&lt;num&gt;.*?)人评价&lt;/span&gt;&#x27;</span>, re.S)</span><br><span class="line"></span><br><span class="line">res = obj.finditer(resp.text)</span><br><span class="line"><span class="keyword">for</span> item <span class="keyword">in</span> res:</span><br><span class="line">    dic = item.groupdict()</span><br><span class="line">    dic[<span class="string">&#x27;year&#x27;</span>] = dic[<span class="string">&#x27;year&#x27;</span>].strip()   <span class="comment"># 去除空格换行</span></span><br><span class="line">    <span class="built_in">print</span>(dic)</span><br></pre></td></tr></table></figure><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
         <category>CS Language</category>
       </categories>
