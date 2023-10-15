@@ -180,7 +180,7 @@ Maybe Learning later…</p>
 <p>整理一下目前学习过程中欠缺的地方</p>
 <ul class="lvl-0">
 <li class="lvl-2">
-<p>英语</p>
+<p><strong>英语</strong></p>
 <ul class="lvl-2">
 <li class="lvl-4">网课能听懂了，但是字幕辅助还是挺重要，听力有点进步</li>
 <li class="lvl-4">短文本教程可以看懂，长文本看的吃力，阅读论文感觉很吃力</li>
@@ -288,7 +288,15 @@ Maybe Learning later…</p>
 <li class="lvl-2">
 <p>系统安全</p>
 <ul class="lvl-2">
-<li class="lvl-4">想要了解CTF相关内容</li>
+<li class="lvl-4">想要了解<strong>CTF</strong>相关内容</li>
+</ul>
+</li>
+<li class="lvl-2">
+<p>lab补完</p>
+<ul class="lvl-2">
+<li class="lvl-4">CSAPPlab - arch</li>
+<li class="lvl-4">CS144lab - network</li>
+<li class="lvl-4">MIT6.S081lab - OS</li>
 </ul>
 </li>
 </ul>
