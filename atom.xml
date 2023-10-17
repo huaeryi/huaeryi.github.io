@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Huayi</title>
+  
+  <subtitle>It&#39;s time to code.</subtitle>
+  <link href="http://huaeryi.com/atom.xml" rel="self"/>
+  
+  <link href="http://huaeryi.com/"/>
+  <updated>2023-09-22T10:51:09.814Z</updated>
+  <id>http://huaeryi.com/</id>
+  
+  <author>
+    <name>huayi</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>MIT 6.858</title>
+    <link href="http://huaeryi.com/2023/09/22/MIT-6-858/"/>
+    <id>http://huaeryi.com/2023/09/22/MIT-6-858/</id>
+    <published>2023-09-22T10:42:52.000Z</published>
+    <updated>2023-09-22T10:51:09.814Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Links-10&quot;&gt;Links&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;http://css.csail.mit.edu/6.858/2022/&quot;&gt;课程主页&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Jp4y167N5&quot;&gt;课程视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="系统安全" scheme="http://huaeryi.com/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    
+    <category term="Python" scheme="http://huaeryi.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mkdocs</title>
+    <link href="http://huaeryi.com/2023/09/18/mkdocs/"/>
+    <id>http://huaeryi.com/2023/09/18/mkdocs/</id>
+    <published>2023-09-18T05:12:12.000Z</published>
+    <updated>2023-09-18T05:15:04.750Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;使用记录&quot;&gt;使用记录&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;code&gt;mkdocs serve&lt;/code&gt; 本地端口预览&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;code&gt;mkdocs build&lt;/code&gt; 生成静态网页&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;code&gt;mkdocs gh-deploy&lt;/code&gt; 推送至服务器&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构和算法笔记</title>
+    <link href="http://huaeryi.com/2023/09/03/algorithm-note/"/>
+    <id>http://huaeryi.com/2023/09/03/algorithm-note/</id>
+    <published>2023-09-03T12:21:34.000Z</published>
+    <updated>2023-09-13T04:51:22.519Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Intro&quot;&gt;Intro&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;记录数据结构和算法题&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://huaeryi.github.io/notebook/&quot;&gt;笔记&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="数据结构&amp;算法" scheme="http://huaeryi.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="C++" scheme="http://huaeryi.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CS161 Project 1</title>
+    <link href="http://huaeryi.com/2023/08/25/CS161-Project-1/"/>
+    <id>http://huaeryi.com/2023/08/25/CS161-Project-1/</id>
+    <published>2023-08-25T08:54:26.000Z</published>
+    <updated>2023-08-25T09:00:06.131Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Project1&quot;&gt;Project1&lt;/h3&gt;
+&lt;h4 id=&quot;Q0-Customizer&quot;&gt;Q0 Customizer&lt;/h4&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;以customizer - customizer身份获取后续密码&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;remus - ilearned&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="系统安全" scheme="http://huaeryi.com/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    
+    <category term="x86" scheme="http://huaeryi.com/tags/x86/"/>
+    
+    <category term="Golang" scheme="http://huaeryi.com/tags/Golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CS161</title>
+    <link href="http://huaeryi.com/2023/08/20/CS161/"/>
+    <id>http://huaeryi.com/2023/08/20/CS161/</id>
+    <published>2023-08-20T03:50:40.000Z</published>
+    <updated>2023-09-22T10:21:39.385Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;The primary way of securing a system is understanding how it works?&lt;/p&gt;
+&lt;ul class=&quot;lvl-1&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;False. Oftentimes the best defense is to remove incentives for attackers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;Links-2&quot;&gt;Links&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;ucb的一门系统安全课程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://su20.cs161.org/&quot;&gt;课程主页su20&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://su21.cs161.org/&quot;&gt;课程主页su21用作proj&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gradescope.com/courses/553556&quot;&gt;课程hw(toekn: G2DR3D)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="系统安全" scheme="http://huaeryi.com/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    
+    <category term="x86" scheme="http://huaeryi.com/tags/x86/"/>
+    
+    <category term="Golang" scheme="http://huaeryi.com/tags/Golang/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>STM32入门教程</title>
+    <link href="http://huaeryi.com/2023/07/31/STM32MCU/"/>
+    <id>http://huaeryi.com/2023/07/31/STM32MCU/</id>
+    <published>2023-07-31T01:23:35.000Z</published>
+    <updated>2023-07-31T01:26:51.811Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Links-17&quot;&gt;Links&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1th411z7sn&quot;&gt;STM32入门教程视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="电子&amp;嵌入式" scheme="http://huaeryi.com/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="MCU" scheme="http://huaeryi.com/tags/MCU/"/>
+    
+    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    
+    <category term="STM32" scheme="http://huaeryi.com/tags/STM32/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>51单片机入门教程</title>
+    <link href="http://huaeryi.com/2023/07/29/51MCU/"/>
+    <id>http://huaeryi.com/2023/07/29/51MCU/</id>
+    <published>2023-07-29T03:36:00.000Z</published>
+    <updated>2023-08-16T11:21:28.108Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Links&quot;&gt;Links&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Mb411e7re&quot;&gt;51单片机入门教程视频&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="电子&amp;嵌入式" scheme="http://huaeryi.com/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    
+    
+    <category term="8051" scheme="http://huaeryi.com/tags/8051/"/>
+    
+    <category term="MCU" scheme="http://huaeryi.com/tags/MCU/"/>
+    
+    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>weblab Week 1</title>
+    <link href="http://huaeryi.com/2023/07/23/weblab-Week-1/"/>
+    <id>http://huaeryi.com/2023/07/23/weblab-Week-1/</id>
+    <published>2023-07-23T15:31:46.000Z</published>
+    <updated>2023-07-26T12:45:42.938Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Intro-3&quot;&gt;Intro&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/2023/07/23/weblab-Week-1/w1.png&quot; alt&gt;&lt;/p&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;这节课主要讲述前端知识和网络应用层有关内容，涉及到HTML、CSS、Javascript等等&lt;br&gt;
+&lt;img src=&quot;/2023/07/23/weblab-Week-1/w2.png&quot; alt&gt;&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;其中HTML是骨架、CSS是排版和装饰、Javascript是大脑&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="前端" scheme="http://huaeryi.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+    <category term="HTML" scheme="http://huaeryi.com/tags/HTML/"/>
+    
+    <category term="CSS" scheme="http://huaeryi.com/tags/CSS/"/>
+    
+    <category term="Javascript" scheme="http://huaeryi.com/tags/Javascript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hung-yi Lee ML Lecture 3: Image as input</title>
+    <link href="http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture3/"/>
+    <id>http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture3/</id>
+    <published>2023-07-05T10:40:43.000Z</published>
+    <updated>2023-07-05T10:49:23.748Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Convolutional-Neural-Network-CNN&quot;&gt;Convolutional Neural Network(CNN)&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;卷积神经网络被广泛应用于图像识别领域，是一种带约束的神经网络架构，简化了Fully Connected Network的复杂性，并且对图像识别做了很多特化，另外值得一提的是，谷歌的AlphaGO也使用了卷积神经网络用于接收19*19的围棋棋盘输入，可见CNN的使用范围不仅仅是图像识别，具有相似结构的问题都可以使用CNN的模型进行训练。&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="机器学习" scheme="http://huaeryi.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Python" scheme="http://huaeryi.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hung-yi Lee ML Lecture 2: What to do if my network fails to train</title>
+    <link href="http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture2/"/>
+    <id>http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture2/</id>
+    <published>2023-07-05T10:30:28.000Z</published>
+    <updated>2023-07-05T10:50:00.484Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;Optimization&quot;&gt;Optimization&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;局部最小值 local minima&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;鞍点 saddle</summary>
+        
+      
+    
+    
+    
+    <category term="机器学习" scheme="http://huaeryi.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+    <category term="Python" scheme="http://huaeryi.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>jupyter</title>
+    <link href="http://huaeryi.com/2023/06/19/jupyter/"/>
+    <id>http://huaeryi.com/2023/06/19/jupyter/</id>
+    <published>2023-06-19T11:42:48.000Z</published>
+    <updated>2023-06-19T11:46:39.647Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Intro-2&quot;&gt;Intro&lt;/h3&gt;
+&lt;p&gt;jupyter是一个基于web的可交互的应用程序，广泛用于数据分析中，同时支持多种编程语言。&lt;/p&gt;
+&lt;h3 id=&quot;Links-22&quot;&gt;Links&lt;/h3&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;&lt;a href=&quot;https://jupyter.org/try-jupyter/lab/&quot;&gt;jupyter lab&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    
+    
+    <category term="jupyter" scheme="http://huaeryi.com/tags/jupyter/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Common Code</title>
+    <link href="http://huaeryi.com/2023/06/10/Common-Code/"/>
+    <id>http://huaeryi.com/2023/06/10/Common-Code/</id>
+    <published>2023-06-10T08:47:39.000Z</published>
+    <updated>2023-06-12T16:01:01.042Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;ASCII码&quot;&gt;ASCII码&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/2023/06/10/Common-Code/ASCII.png&quot; alt&gt;&lt;/p&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;http://asciitable.com/&quot;&gt;ascii码参考网站&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;\x1b -&amp;gt; ESC 很特殊， \x1b[ 后可以带上不同的东西，用于终端控制和仿真&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    
+    
+    <category term="ASCII" scheme="http://huaeryi.com/tags/ASCII/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Computer Networking Chapter8</title>
+    <link href="http://huaeryi.com/2023/06/04/USTC-Computer-Networking-Chapter8/"/>
+    <id>http://huaeryi.com/2023/06/04/USTC-Computer-Networking-Chapter8/</id>
+    <published>2023-06-04T13:06:10.000Z</published>
+    <updated>2023-06-05T11:03:58.087Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第八章-网络安全&quot;&gt;第八章 网络安全&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Computer Networking Chapter6</title>
+    <link href="http://huaeryi.com/2023/06/03/USTC-Computer-Networking-Chapter6/"/>
+    <id>http://huaeryi.com/2023/06/03/USTC-Computer-Networking-Chapter6/</id>
+    <published>2023-06-03T12:14:30.000Z</published>
+    <updated>2023-06-04T11:52:20.655Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第六章-链路层和局域网&quot;&gt;第六章 链路层和局域网&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Computer Networking Chapter5</title>
+    <link href="http://huaeryi.com/2023/05/31/USTC-Computer-Networking-Chapter5/"/>
+    <id>http://huaeryi.com/2023/05/31/USTC-Computer-Networking-Chapter5/</id>
+    <published>2023-05-31T10:45:05.000Z</published>
+    <updated>2023-06-03T12:14:24.320Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第五章-网络层-控制平面&quot;&gt;第五章 网络层 控制平面&lt;/h3&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Computer Networking Chapter4</title>
+    <link href="http://huaeryi.com/2023/05/30/USTC-Computer-Networking-Chapter4/"/>
+    <id>http://huaeryi.com/2023/05/30/USTC-Computer-Networking-Chapter4/</id>
+    <published>2023-05-30T13:02:20.000Z</published>
+    <updated>2023-05-31T10:43:16.326Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第四章-网络层-数据平面&quot;&gt;第四章 网络层 数据平面&lt;/h3&gt;
+&lt;h4 id=&quot;数据平面和控制平面&quot;&gt;数据平面和控制平面&lt;/h4&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Wireshark</title>
+    <link href="http://huaeryi.com/2023/05/29/Wireshark/"/>
+    <id>http://huaeryi.com/2023/05/29/Wireshark/</id>
+    <published>2023-05-29T14:44:45.000Z</published>
+    <updated>2023-05-29T14:54:18.325Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Introduction-18&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Wireshark是一个网络包抓取和分析工具，支持各层各类网络协议。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Computer Networking Chapter3</title>
+    <link href="http://huaeryi.com/2023/05/28/USTC-Computer-Networking-Chapter3/"/>
+    <id>http://huaeryi.com/2023/05/28/USTC-Computer-Networking-Chapter3/</id>
+    <published>2023-05-28T10:57:57.000Z</published>
+    <updated>2023-05-31T06:16:50.816Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第三章-传输层&quot;&gt;第三章 传输层&lt;/h3&gt;
+&lt;h4 id=&quot;多路复用-解复用&quot;&gt;多路复用/解复用&lt;/h4&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;TCP和UDP各自的2^16个端口实现了多路复用，将IP的端到端通信进化到了进程到进程通信&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Computer Networking Chapter2</title>
+    <link href="http://huaeryi.com/2023/05/28/USTC-Computer-Networking-Chapter2/"/>
+    <id>http://huaeryi.com/2023/05/28/USTC-Computer-Networking-Chapter2/</id>
+    <published>2023-05-28T10:38:50.000Z</published>
+    <updated>2023-05-29T08:35:50.985Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第二章-应用层&quot;&gt;第二章 应用层&lt;/h3&gt;
+&lt;h4 id=&quot;应用层原理&quot;&gt;应用层原理&lt;/h4&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;常见架构
+&lt;ul class=&quot;lvl-2&quot;&gt;
+&lt;li class=&quot;lvl-4&quot;&gt;客户-服务器模式（C/S:client/server）&lt;/li&gt;
+&lt;li class=&quot;lvl-4&quot;&gt;对等模式(P2P:Peer To Peer)&lt;/li&gt;
+&lt;li class=&quot;lvl-4&quot;&gt;混合体：客户-服务器和对等体系结构&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>USTC Computer Networking Chapter1</title>
+    <link href="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/"/>
+    <id>http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/</id>
+    <published>2023-05-25T14:40:56.000Z</published>
+    <updated>2023-05-25T15:15:48.724Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;第一章-计算机网络概述&quot;&gt;第一章 计算机网络概述&lt;/h3&gt;
+&lt;h4 id=&quot;什么是Internet&quot;&gt;什么是Internet&lt;/h4&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;Internet是一系列网络的网络&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;网络是一种拓扑结构，可以用图来表示&lt;/p&gt;
+&lt;ul class=&quot;lvl-2&quot;&gt;
+&lt;li class=&quot;lvl-4&quot;&gt;节点分为主机节点和数据交换节点&lt;/li&gt;
+&lt;li class=&quot;lvl-4&quot;&gt;边分为接入网链路和主干链路&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;网络还包括不同的协议&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;主机=端系统（host=end system）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;
+&lt;p&gt;Internet标准&lt;/p&gt;
+&lt;ul class=&quot;lvl-2&quot;&gt;
+&lt;li class=&quot;lvl-4&quot;&gt;RFC: Request for comments&lt;/li&gt;
+&lt;li class=&quot;lvl-4&quot;&gt;IETF: Internet Engineering Task Force&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    
+  </entry>
+  
+</feed>
