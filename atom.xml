@@ -6,7 +6,7 @@
   <link href="http://huaeryi.com/atom.xml" rel="self"/>
   
   <link href="http://huaeryi.com/"/>
-  <updated>2023-09-22T10:51:09.814Z</updated>
+  <updated>2023-10-20T02:20:57.226Z</updated>
   <id>http://huaeryi.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>About Physics</title>
+    <link href="http://huaeryi.com/2023/10/20/About-Physics/"/>
+    <id>http://huaeryi.com/2023/10/20/About-Physics/</id>
+    <published>2023-10-20T02:18:49.000Z</published>
+    <updated>2023-10-20T02:20:57.226Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;Introduction-2&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;介绍有关物理学习的问题&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="物理" scheme="http://huaeryi.com/categories/%E7%89%A9%E7%90%86/"/>
+    
+    
+    <category term="Plan" scheme="http://huaeryi.com/tags/Plan/"/>
+    
+    <category term="Physics" scheme="http://huaeryi.com/tags/Physics/"/>
+    
+  </entry>
   
   <entry>
     <title>MIT 6.858</title>
@@ -474,51 +496,6 @@
 &lt;li class=&quot;lvl-4&quot;&gt;客户-服务器模式（C/S:client/server）&lt;/li&gt;
 &lt;li class=&quot;lvl-4&quot;&gt;对等模式(P2P:Peer To Peer)&lt;/li&gt;
 &lt;li class=&quot;lvl-4&quot;&gt;混合体：客户-服务器和对等体系结构&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>USTC Computer Networking Chapter1</title>
-    <link href="http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/"/>
-    <id>http://huaeryi.com/2023/05/25/USTC-Computer-Networking-Chapter1/</id>
-    <published>2023-05-25T14:40:56.000Z</published>
-    <updated>2023-05-25T15:15:48.724Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;第一章-计算机网络概述&quot;&gt;第一章 计算机网络概述&lt;/h3&gt;
-&lt;h4 id=&quot;什么是Internet&quot;&gt;什么是Internet&lt;/h4&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;Internet是一系列网络的网络&lt;/p&gt;
-&lt;/li&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;网络是一种拓扑结构，可以用图来表示&lt;/p&gt;
-&lt;ul class=&quot;lvl-2&quot;&gt;
-&lt;li class=&quot;lvl-4&quot;&gt;节点分为主机节点和数据交换节点&lt;/li&gt;
-&lt;li class=&quot;lvl-4&quot;&gt;边分为接入网链路和主干链路&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;网络还包括不同的协议&lt;/p&gt;
-&lt;/li&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;主机=端系统（host=end system）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;
-&lt;p&gt;Internet标准&lt;/p&gt;
-&lt;ul class=&quot;lvl-2&quot;&gt;
-&lt;li class=&quot;lvl-4&quot;&gt;RFC: Request for comments&lt;/li&gt;
-&lt;li class=&quot;lvl-4&quot;&gt;IETF: Internet Engineering Task Force&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;</summary>
