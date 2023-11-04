@@ -485,12 +485,9 @@ Maybe Learning later…</p>
     <title>Hackergame2023</title>
     <url>/2023/11/04/hackergame2023/</url>
     <content><![CDATA[<h2 id="Hackergame2023-writeup-by-huayi">Hackergame2023 writeup by huayi</h2>
-<p>紧张刺激的Hackergame2023结束了，第一次打hackergame，最后也拿到了自己十分满意的成绩<code>当前分数：3750， 总排名：142 / 2386</code></p>
 <ul class="lvl-0">
-<li class="lvl-2">写在这个仓库的wp是我做出来的题目</li>
-<li class="lvl-2">更多的wp和题目讨论会发布在我的博客上<a href="https://huaeryi.github.io/">huayi’s blog</a></li>
-<li class="lvl-2">还有我的笔记里<a href="https://huaeryi.github.io/notebook/">huayi’s notebook</a></li>
-<li class="lvl-2">欢迎来访！不然我的博客要变成单机游戏了😭</li>
+<li class="lvl-2">紧张刺激的Hackergame2023结束了，第一次打hackergame，最后也拿到了自己十分满意的成绩</li>
+<li class="lvl-2"><code>当前分数：3750， 总排名：142 / 2386</code></li>
 </ul>
 <span id="more"></span>
 <h3 id="Hackergame-启动">Hackergame 启动 <img src="https://img.shields.io/badge/-Web-blueviolet?style=flat-square" alt></h3>
@@ -5992,6 +5989,21 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
 </li>
 <li class="lvl-2">
 <p>如果代理服务器支持socks5，设置socks5代理</p>
+</li>
+</ul>
+<h2 id="pull-request">pull request</h2>
+<ul class="lvl-0">
+<li class="lvl-2">
+<p>fork a Repository</p>
+</li>
+<li class="lvl-2">
+<p><code>git clone &lt;your fork&gt;</code></p>
+</li>
+<li class="lvl-2">
+<p>push as usual</p>
+</li>
+<li class="lvl-2">
+<p>contribute -&gt; pull request</p>
 </li>
 </ul>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
