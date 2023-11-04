@@ -6,7 +6,7 @@
   <link href="http://huaeryi.com/atom.xml" rel="self"/>
   
   <link href="http://huaeryi.com/"/>
-  <updated>2023-10-20T02:20:57.226Z</updated>
+  <updated>2023-11-04T12:07:07.804Z</updated>
   <id>http://huaeryi.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hackergame2023</title>
+    <link href="http://huaeryi.com/2023/11/04/hackergame2023/"/>
+    <id>http://huaeryi.com/2023/11/04/hackergame2023/</id>
+    <published>2023-11-04T12:01:38.000Z</published>
+    <updated>2023-11-04T12:07:07.804Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Hackergame2023-writeup-by-huayi&quot;&gt;Hackergame2023 writeup by huayi&lt;/h2&gt;
+&lt;p&gt;紧张刺激的Hackergame2023结束了，第一次打hackergame，最后也拿到了自己十分满意的成绩&lt;code&gt;当前分数：3750， 总排名：142 / 2386&lt;/code&gt;&lt;/p&gt;
+&lt;ul class=&quot;lvl-0&quot;&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;写在这个仓库的wp是我做出来的题目&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;更多的wp和题目讨论会发布在我的博客上&lt;a href=&quot;https://huaeryi.github.io/&quot;&gt;huayi’s blog&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;还有我的笔记里&lt;a href=&quot;https://huaeryi.github.io/notebook/&quot;&gt;huayi’s notebook&lt;/a&gt;&lt;/li&gt;
+&lt;li class=&quot;lvl-2&quot;&gt;欢迎来访！不然我的博客要变成单机游戏了😭&lt;/li&gt;
+&lt;/ul&gt;</summary>
+    
+    
+    
+    <category term="CTF" scheme="http://huaeryi.com/categories/CTF/"/>
+    
+    
+    <category term="CTF" scheme="http://huaeryi.com/tags/CTF/"/>
+    
+  </entry>
   
   <entry>
     <title>About Physics</title>
@@ -469,35 +495,6 @@
 &lt;h4 id=&quot;多路复用-解复用&quot;&gt;多路复用/解复用&lt;/h4&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;TCP和UDP各自的2^16个端口实现了多路复用，将IP的端到端通信进化到了进程到进程通信&lt;/li&gt;
-&lt;/ul&gt;</summary>
-    
-    
-    
-    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>USTC Computer Networking Chapter2</title>
-    <link href="http://huaeryi.com/2023/05/28/USTC-Computer-Networking-Chapter2/"/>
-    <id>http://huaeryi.com/2023/05/28/USTC-Computer-Networking-Chapter2/</id>
-    <published>2023-05-28T10:38:50.000Z</published>
-    <updated>2023-05-29T08:35:50.985Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;第二章-应用层&quot;&gt;第二章 应用层&lt;/h3&gt;
-&lt;h4 id=&quot;应用层原理&quot;&gt;应用层原理&lt;/h4&gt;
-&lt;ul class=&quot;lvl-0&quot;&gt;
-&lt;li class=&quot;lvl-2&quot;&gt;常见架构
-&lt;ul class=&quot;lvl-2&quot;&gt;
-&lt;li class=&quot;lvl-4&quot;&gt;客户-服务器模式（C/S:client/server）&lt;/li&gt;
-&lt;li class=&quot;lvl-4&quot;&gt;对等模式(P2P:Peer To Peer)&lt;/li&gt;
-&lt;li class=&quot;lvl-4&quot;&gt;混合体：客户-服务器和对等体系结构&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
 &lt;/ul&gt;</summary>
     
     
