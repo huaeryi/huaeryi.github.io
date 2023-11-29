@@ -3134,6 +3134,10 @@ To start the lab, switch to the thread branch:</li>
     <content><![CDATA[<h3 id="Introduction">Introduction</h3>
 <p>Python是一种面向对象的编程语言，不同于C和C++，它是一种解释型语言。</p>
 <span id="more"></span>
+<h3 id="包管理工具Anaconda">包管理工具Anaconda</h3>
+<ul class="lvl-0">
+<li class="lvl-2">Anaconda可以根据需要构建不同的python环境，管理python包，构建独立的python内核</li>
+</ul>
 <h3 id="jupyter">jupyter</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
