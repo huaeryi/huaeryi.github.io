@@ -6,7 +6,7 @@
   <link href="http://blog.huaeryi.top/atom.xml" rel="self"/>
   
   <link href="http://blog.huaeryi.top/"/>
-  <updated>2023-11-13T14:19:14.247Z</updated>
+  <updated>2025-08-19T18:29:35.938Z</updated>
   <id>http://blog.huaeryi.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>AtCoder Beginner Contest 419</title>
+    <link href="http://blog.huaeryi.top/2025/08/20/AtCoder-Beginner-Contest-419/"/>
+    <id>http://blog.huaeryi.top/2025/08/20/AtCoder-Beginner-Contest-419/</id>
+    <published>2025-08-19T18:27:05.000Z</published>
+    <updated>2025-08-19T18:29:35.938Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;C-特殊距离&quot;&gt;C 特殊距离&lt;/h2&gt;
+&lt;figure class=&quot;highlight cpp&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="数据结构&amp;算法" scheme="http://blog.huaeryi.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    
+    
+    <category term="OI" scheme="http://blog.huaeryi.top/tags/OI/"/>
+    
+  </entry>
   
   <entry>
     <title>CSAPP bomblab</title>
@@ -82,7 +108,7 @@
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;记录有关Latex的使用指南，润色论文格式。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;Links-9&quot;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&quot;Links-10&quot;&gt;Links&lt;/h3&gt;
 &lt;ul</summary>
         
       
@@ -127,7 +153,7 @@
     <updated>2023-10-20T02:20:57.226Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;Introduction&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Introduction-2&quot;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;介绍有关物理学习的问题&lt;/p&gt;</summary>
     
     
@@ -149,7 +175,7 @@
     <updated>2023-09-22T10:51:09.814Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Links-11&quot;&gt;Links&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Links-12&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;http://css.csail.mit.edu/6.858/2022/&quot;&gt;课程主页&lt;/a&gt;&lt;/li&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Jp4y167N5&quot;&gt;课程视频&lt;/a&gt;&lt;/li&gt;
@@ -290,7 +316,7 @@
     <updated>2023-07-31T01:26:51.811Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Links-20&quot;&gt;Links&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Links-19&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1th411z7sn&quot;&gt;STM32入门教程视频&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -423,7 +449,7 @@
     
     <summary type="html">&lt;h3 id=&quot;Intro-5&quot;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;jupyter是一个基于web的可交互的应用程序，广泛用于数据分析中，同时支持多种编程语言。&lt;/p&gt;
-&lt;h3 id=&quot;Links-24&quot;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&quot;Links-23&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://jupyter.org/try-jupyter/lab/&quot;&gt;jupyter lab&lt;/a&gt;&lt;/p&gt;
@@ -491,25 +517,6 @@
     
     
     <summary type="html">&lt;h3 id=&quot;第六章-链路层和局域网&quot;&gt;第六章 链路层和局域网&lt;/h3&gt;</summary>
-    
-    
-    
-    <category term="计算机网络" scheme="http://blog.huaeryi.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
-    
-    
-    <category term="Network" scheme="http://blog.huaeryi.top/tags/Network/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>USTC Computer Networking Chapter5</title>
-    <link href="http://blog.huaeryi.top/2023/05/31/USTC-Computer-Networking-Chapter5/"/>
-    <id>http://blog.huaeryi.top/2023/05/31/USTC-Computer-Networking-Chapter5/</id>
-    <published>2023-05-31T10:45:05.000Z</published>
-    <updated>2023-06-03T12:14:24.320Z</updated>
-    
-    
-    <summary type="html">&lt;h3 id=&quot;第五章-网络层-控制平面&quot;&gt;第五章 网络层 控制平面&lt;/h3&gt;</summary>
     
     
     
