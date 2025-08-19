@@ -24,7 +24,7 @@
     <updated>2023-11-13T14:19:14.247Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Intro-2&quot;&gt;Intro&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Intro&quot;&gt;Intro&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;CSAPP里传奇的实验&lt;/li&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;通过汇编能力拆除二进制炸弹，拯救世界！&lt;/li&gt;
@@ -82,7 +82,7 @@
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;记录有关Latex的使用指南，润色论文格式。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;Links-10&quot;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&quot;Links-9&quot;&gt;Links&lt;/h3&gt;
 &lt;ul</summary>
         
       
@@ -127,7 +127,7 @@
     <updated>2023-10-20T02:20:57.226Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Introduction-2&quot;&gt;Introduction&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Introduction&quot;&gt;Introduction&lt;/h3&gt;
 &lt;p&gt;介绍有关物理学习的问题&lt;/p&gt;</summary>
     
     
@@ -290,7 +290,7 @@
     <updated>2023-07-31T01:26:51.811Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Links-18&quot;&gt;Links&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Links-20&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1th411z7sn&quot;&gt;STM32入门教程视频&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -300,9 +300,9 @@
     <category term="电子&amp;嵌入式" scheme="http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="MCU" scheme="http://blog.huaeryi.top/tags/MCU/"/>
-    
     <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
+    
+    <category term="MCU" scheme="http://blog.huaeryi.top/tags/MCU/"/>
     
     <category term="STM32" scheme="http://blog.huaeryi.top/tags/STM32/"/>
     
@@ -326,11 +326,11 @@
     <category term="电子&amp;嵌入式" scheme="http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
+    
     <category term="8051" scheme="http://blog.huaeryi.top/tags/8051/"/>
     
     <category term="MCU" scheme="http://blog.huaeryi.top/tags/MCU/"/>
-    
-    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
   </entry>
   
