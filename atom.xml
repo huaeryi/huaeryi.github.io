@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Huayi</title>
   
-  <subtitle>It&#39;s time to code.</subtitle>
-  <link href="http://huaeryi.com/atom.xml" rel="self"/>
+  <subtitle>[object Object]</subtitle>
+  <link href="http://blog.huaeryi.top/atom.xml" rel="self"/>
   
-  <link href="http://huaeryi.com/"/>
+  <link href="http://blog.huaeryi.top/"/>
   <updated>2023-11-13T14:19:14.247Z</updated>
-  <id>http://huaeryi.com/</id>
+  <id>http://blog.huaeryi.top/</id>
   
   <author>
-    <name>huayi</name>
+    <name>Huayi</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>CSAPP bomblab</title>
-    <link href="http://huaeryi.com/2023/11/13/CSAPP-bomblab/"/>
-    <id>http://huaeryi.com/2023/11/13/CSAPP-bomblab/</id>
+    <link href="http://blog.huaeryi.top/2023/11/13/CSAPP-bomblab/"/>
+    <id>http://blog.huaeryi.top/2023/11/13/CSAPP-bomblab/</id>
     <published>2023-11-13T13:54:06.000Z</published>
     <updated>2023-11-13T14:19:14.247Z</updated>
     
@@ -32,44 +32,44 @@
     
     
     
-    <category term="体系结构" scheme="http://huaeryi.com/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+    <category term="体系结构" scheme="http://blog.huaeryi.top/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
     
     
-    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
-    <category term="x86" scheme="http://huaeryi.com/tags/x86/"/>
+    <category term="x86" scheme="http://blog.huaeryi.top/tags/x86/"/>
     
   </entry>
   
   <entry>
     <title>CSAPP datalab</title>
-    <link href="http://huaeryi.com/2023/11/11/CSAPP-datalab/"/>
-    <id>http://huaeryi.com/2023/11/11/CSAPP-datalab/</id>
+    <link href="http://blog.huaeryi.top/2023/11/11/CSAPP-datalab/"/>
+    <id>http://blog.huaeryi.top/2023/11/11/CSAPP-datalab/</id>
     <published>2023-11-11T05:46:54.000Z</published>
     <updated>2023-11-13T13:53:41.855Z</updated>
     
     
     <summary type="html">&lt;p&gt;突发奇想，重做下CSAPP的lab，顺便把以前没做完的补上，希望能坚持下来&lt;/p&gt;
-&lt;h3 id=&quot;Links&quot;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&quot;Links-5&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;http://csapp.cs.cmu.edu/3e/labs.html&quot;&gt;lab download&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     
     
     
-    <category term="体系结构" scheme="http://huaeryi.com/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
+    <category term="体系结构" scheme="http://blog.huaeryi.top/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"/>
     
     
-    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
-    <category term="x86" scheme="http://huaeryi.com/tags/x86/"/>
+    <category term="x86" scheme="http://blog.huaeryi.top/tags/x86/"/>
     
   </entry>
   
   <entry>
     <title>Latex</title>
-    <link href="http://huaeryi.com/2023/11/08/Latex/"/>
-    <id>http://huaeryi.com/2023/11/08/Latex/</id>
+    <link href="http://blog.huaeryi.top/2023/11/08/Latex/"/>
+    <id>http://blog.huaeryi.top/2023/11/08/Latex/</id>
     <published>2023-11-08T04:39:59.000Z</published>
     <updated>2023-11-08T04:42:34.385Z</updated>
     
@@ -78,28 +78,28 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;Intro-2&quot;&gt;Intro&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Intro-3&quot;&gt;Intro&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;记录有关Latex的使用指南，润色论文格式。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&quot;Links&quot;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&quot;Links-10&quot;&gt;Links&lt;/h3&gt;
 &lt;ul</summary>
         
       
     
     
     
-    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    <category term="CS Tools" scheme="http://blog.huaeryi.top/categories/CS-Tools/"/>
     
     
-    <category term="Latex" scheme="http://huaeryi.com/tags/Latex/"/>
+    <category term="Latex" scheme="http://blog.huaeryi.top/tags/Latex/"/>
     
   </entry>
   
   <entry>
     <title>Hackergame2023</title>
-    <link href="http://huaeryi.com/2023/11/04/hackergame2023/"/>
-    <id>http://huaeryi.com/2023/11/04/hackergame2023/</id>
+    <link href="http://blog.huaeryi.top/2023/11/04/hackergame2023/"/>
+    <id>http://blog.huaeryi.top/2023/11/04/hackergame2023/</id>
     <published>2023-11-04T12:01:38.000Z</published>
     <updated>2023-11-04T14:37:53.715Z</updated>
     
@@ -112,17 +112,17 @@
     
     
     
-    <category term="CTF" scheme="http://huaeryi.com/categories/CTF/"/>
+    <category term="CTF" scheme="http://blog.huaeryi.top/categories/CTF/"/>
     
     
-    <category term="CTF" scheme="http://huaeryi.com/tags/CTF/"/>
+    <category term="CTF" scheme="http://blog.huaeryi.top/tags/CTF/"/>
     
   </entry>
   
   <entry>
     <title>About Physics</title>
-    <link href="http://huaeryi.com/2023/10/20/About-Physics/"/>
-    <id>http://huaeryi.com/2023/10/20/About-Physics/</id>
+    <link href="http://blog.huaeryi.top/2023/10/20/About-Physics/"/>
+    <id>http://blog.huaeryi.top/2023/10/20/About-Physics/</id>
     <published>2023-10-20T02:18:49.000Z</published>
     <updated>2023-10-20T02:20:57.226Z</updated>
     
@@ -132,24 +132,24 @@
     
     
     
-    <category term="物理" scheme="http://huaeryi.com/categories/%E7%89%A9%E7%90%86/"/>
+    <category term="物理" scheme="http://blog.huaeryi.top/categories/%E7%89%A9%E7%90%86/"/>
     
     
-    <category term="Plan" scheme="http://huaeryi.com/tags/Plan/"/>
+    <category term="Plan" scheme="http://blog.huaeryi.top/tags/Plan/"/>
     
-    <category term="Physics" scheme="http://huaeryi.com/tags/Physics/"/>
+    <category term="Physics" scheme="http://blog.huaeryi.top/tags/Physics/"/>
     
   </entry>
   
   <entry>
     <title>MIT 6.858</title>
-    <link href="http://huaeryi.com/2023/09/22/MIT-6-858/"/>
-    <id>http://huaeryi.com/2023/09/22/MIT-6-858/</id>
+    <link href="http://blog.huaeryi.top/2023/09/22/MIT-6-858/"/>
+    <id>http://blog.huaeryi.top/2023/09/22/MIT-6-858/</id>
     <published>2023-09-22T10:42:52.000Z</published>
     <updated>2023-09-22T10:51:09.814Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Links-10&quot;&gt;Links&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Links-11&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;http://css.csail.mit.edu/6.858/2022/&quot;&gt;课程主页&lt;/a&gt;&lt;/li&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1Jp4y167N5&quot;&gt;课程视频&lt;/a&gt;&lt;/li&gt;
@@ -157,19 +157,19 @@
     
     
     
-    <category term="系统安全" scheme="http://huaeryi.com/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    <category term="系统安全" scheme="http://blog.huaeryi.top/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
     
     
-    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
-    <category term="Python" scheme="http://huaeryi.com/tags/Python/"/>
+    <category term="Python" scheme="http://blog.huaeryi.top/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>mkdocs</title>
-    <link href="http://huaeryi.com/2023/09/18/mkdocs/"/>
-    <id>http://huaeryi.com/2023/09/18/mkdocs/</id>
+    <link href="http://blog.huaeryi.top/2023/09/18/mkdocs/"/>
+    <id>http://blog.huaeryi.top/2023/09/18/mkdocs/</id>
     <published>2023-09-18T05:12:12.000Z</published>
     <updated>2023-09-18T05:15:04.750Z</updated>
     
@@ -183,20 +183,20 @@
     
     
     
-    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    <category term="CS Tools" scheme="http://blog.huaeryi.top/categories/CS-Tools/"/>
     
     
   </entry>
   
   <entry>
     <title>数据结构和算法笔记</title>
-    <link href="http://huaeryi.com/2023/09/03/algorithm-note/"/>
-    <id>http://huaeryi.com/2023/09/03/algorithm-note/</id>
+    <link href="http://blog.huaeryi.top/2023/09/03/algorithm-note/"/>
+    <id>http://blog.huaeryi.top/2023/09/03/algorithm-note/</id>
     <published>2023-09-03T12:21:34.000Z</published>
     <updated>2023-09-13T04:51:22.519Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Intro&quot;&gt;Intro&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Intro-4&quot;&gt;Intro&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;记录数据结构和算法题&lt;/li&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://huaeryi.github.io/notebook/&quot;&gt;笔记&lt;/a&gt;&lt;/li&gt;
@@ -204,17 +204,17 @@
     
     
     
-    <category term="数据结构&amp;算法" scheme="http://huaeryi.com/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
+    <category term="数据结构&amp;算法" scheme="http://blog.huaeryi.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"/>
     
     
-    <category term="C++" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C++" scheme="http://blog.huaeryi.top/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>CS161 Project 1</title>
-    <link href="http://huaeryi.com/2023/08/25/CS161-Project-1/"/>
-    <id>http://huaeryi.com/2023/08/25/CS161-Project-1/</id>
+    <link href="http://blog.huaeryi.top/2023/08/25/CS161-Project-1/"/>
+    <id>http://blog.huaeryi.top/2023/08/25/CS161-Project-1/</id>
     <published>2023-08-25T08:54:26.000Z</published>
     <updated>2023-08-25T09:00:06.131Z</updated>
     
@@ -228,21 +228,21 @@
     
     
     
-    <category term="系统安全" scheme="http://huaeryi.com/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    <category term="系统安全" scheme="http://blog.huaeryi.top/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
     
     
-    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
-    <category term="x86" scheme="http://huaeryi.com/tags/x86/"/>
+    <category term="x86" scheme="http://blog.huaeryi.top/tags/x86/"/>
     
-    <category term="Golang" scheme="http://huaeryi.com/tags/Golang/"/>
+    <category term="Golang" scheme="http://blog.huaeryi.top/tags/Golang/"/>
     
   </entry>
   
   <entry>
     <title>CS161</title>
-    <link href="http://huaeryi.com/2023/08/20/CS161/"/>
-    <id>http://huaeryi.com/2023/08/20/CS161/</id>
+    <link href="http://blog.huaeryi.top/2023/08/20/CS161/"/>
+    <id>http://blog.huaeryi.top/2023/08/20/CS161/</id>
     <published>2023-08-20T03:50:40.000Z</published>
     <updated>2023-09-22T10:21:39.385Z</updated>
     
@@ -271,47 +271,47 @@
     
     
     
-    <category term="系统安全" scheme="http://huaeryi.com/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
+    <category term="系统安全" scheme="http://blog.huaeryi.top/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"/>
     
     
-    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
-    <category term="x86" scheme="http://huaeryi.com/tags/x86/"/>
+    <category term="x86" scheme="http://blog.huaeryi.top/tags/x86/"/>
     
-    <category term="Golang" scheme="http://huaeryi.com/tags/Golang/"/>
+    <category term="Golang" scheme="http://blog.huaeryi.top/tags/Golang/"/>
     
   </entry>
   
   <entry>
     <title>STM32入门教程</title>
-    <link href="http://huaeryi.com/2023/07/31/STM32MCU/"/>
-    <id>http://huaeryi.com/2023/07/31/STM32MCU/</id>
+    <link href="http://blog.huaeryi.top/2023/07/31/STM32MCU/"/>
+    <id>http://blog.huaeryi.top/2023/07/31/STM32MCU/</id>
     <published>2023-07-31T01:23:35.000Z</published>
     <updated>2023-07-31T01:26:51.811Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Links-17&quot;&gt;Links&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Links-18&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1th411z7sn&quot;&gt;STM32入门教程视频&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
     
     
     
-    <category term="电子&amp;嵌入式" scheme="http://huaeryi.com/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="电子&amp;嵌入式" scheme="http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="MCU" scheme="http://huaeryi.com/tags/MCU/"/>
+    <category term="MCU" scheme="http://blog.huaeryi.top/tags/MCU/"/>
     
-    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
-    <category term="STM32" scheme="http://huaeryi.com/tags/STM32/"/>
+    <category term="STM32" scheme="http://blog.huaeryi.top/tags/STM32/"/>
     
   </entry>
   
   <entry>
     <title>51单片机入门教程</title>
-    <link href="http://huaeryi.com/2023/07/29/51MCU/"/>
-    <id>http://huaeryi.com/2023/07/29/51MCU/</id>
+    <link href="http://blog.huaeryi.top/2023/07/29/51MCU/"/>
+    <id>http://blog.huaeryi.top/2023/07/29/51MCU/</id>
     <published>2023-07-29T03:36:00.000Z</published>
     <updated>2023-08-16T11:21:28.108Z</updated>
     
@@ -323,26 +323,26 @@
     
     
     
-    <category term="电子&amp;嵌入式" scheme="http://huaeryi.com/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
+    <category term="电子&amp;嵌入式" scheme="http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="8051" scheme="http://huaeryi.com/tags/8051/"/>
+    <category term="8051" scheme="http://blog.huaeryi.top/tags/8051/"/>
     
-    <category term="MCU" scheme="http://huaeryi.com/tags/MCU/"/>
+    <category term="MCU" scheme="http://blog.huaeryi.top/tags/MCU/"/>
     
-    <category term="C" scheme="http://huaeryi.com/tags/C/"/>
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>weblab Week 1</title>
-    <link href="http://huaeryi.com/2023/07/23/weblab-Week-1/"/>
-    <id>http://huaeryi.com/2023/07/23/weblab-Week-1/</id>
+    <link href="http://blog.huaeryi.top/2023/07/23/weblab-Week-1/"/>
+    <id>http://blog.huaeryi.top/2023/07/23/weblab-Week-1/</id>
     <published>2023-07-23T15:31:46.000Z</published>
     <updated>2023-07-26T12:45:42.938Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Intro-3&quot;&gt;Intro&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Intro-6&quot;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&quot;/2023/07/23/weblab-Week-1/w1.png&quot; alt&gt;&lt;/p&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;这节课主要讲述前端知识和网络应用层有关内容，涉及到HTML、CSS、Javascript等等&lt;br&gt;
@@ -352,21 +352,21 @@
     
     
     
-    <category term="前端" scheme="http://huaeryi.com/categories/%E5%89%8D%E7%AB%AF/"/>
+    <category term="前端" scheme="http://blog.huaeryi.top/categories/%E5%89%8D%E7%AB%AF/"/>
     
     
-    <category term="HTML" scheme="http://huaeryi.com/tags/HTML/"/>
+    <category term="HTML" scheme="http://blog.huaeryi.top/tags/HTML/"/>
     
-    <category term="CSS" scheme="http://huaeryi.com/tags/CSS/"/>
+    <category term="CSS" scheme="http://blog.huaeryi.top/tags/CSS/"/>
     
-    <category term="Javascript" scheme="http://huaeryi.com/tags/Javascript/"/>
+    <category term="Javascript" scheme="http://blog.huaeryi.top/tags/Javascript/"/>
     
   </entry>
   
   <entry>
     <title>Hung-yi Lee ML Lecture 3: Image as input</title>
-    <link href="http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture3/"/>
-    <id>http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture3/</id>
+    <link href="http://blog.huaeryi.top/2023/07/05/Hung-yi-Lee-ML-Lecture3/"/>
+    <id>http://blog.huaeryi.top/2023/07/05/Hung-yi-Lee-ML-Lecture3/</id>
     <published>2023-07-05T10:40:43.000Z</published>
     <updated>2023-07-05T10:49:23.748Z</updated>
     
@@ -378,19 +378,19 @@
     
     
     
-    <category term="机器学习" scheme="http://huaeryi.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <category term="机器学习" scheme="http://blog.huaeryi.top/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Python" scheme="http://huaeryi.com/tags/Python/"/>
+    <category term="Python" scheme="http://blog.huaeryi.top/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>Hung-yi Lee ML Lecture 2: What to do if my network fails to train</title>
-    <link href="http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture2/"/>
-    <id>http://huaeryi.com/2023/07/05/Hung-yi-Lee-ML-Lecture2/</id>
+    <link href="http://blog.huaeryi.top/2023/07/05/Hung-yi-Lee-ML-Lecture2/"/>
+    <id>http://blog.huaeryi.top/2023/07/05/Hung-yi-Lee-ML-Lecture2/</id>
     <published>2023-07-05T10:30:28.000Z</published>
-    <updated>2023-07-05T10:50:00.484Z</updated>
+    <updated>2023-10-13T05:45:35.366Z</updated>
     
     
       
@@ -406,24 +406,24 @@
     
     
     
-    <category term="机器学习" scheme="http://huaeryi.com/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <category term="机器学习" scheme="http://blog.huaeryi.top/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
     
     
-    <category term="Python" scheme="http://huaeryi.com/tags/Python/"/>
+    <category term="Python" scheme="http://blog.huaeryi.top/tags/Python/"/>
     
   </entry>
   
   <entry>
     <title>jupyter</title>
-    <link href="http://huaeryi.com/2023/06/19/jupyter/"/>
-    <id>http://huaeryi.com/2023/06/19/jupyter/</id>
+    <link href="http://blog.huaeryi.top/2023/06/19/jupyter/"/>
+    <id>http://blog.huaeryi.top/2023/06/19/jupyter/</id>
     <published>2023-06-19T11:42:48.000Z</published>
     <updated>2023-06-19T11:46:39.647Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Intro-2&quot;&gt;Intro&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Intro-5&quot;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;jupyter是一个基于web的可交互的应用程序，广泛用于数据分析中，同时支持多种编程语言。&lt;/p&gt;
-&lt;h3 id=&quot;Links-22&quot;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&quot;Links-24&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://jupyter.org/try-jupyter/lab/&quot;&gt;jupyter lab&lt;/a&gt;&lt;/p&gt;
@@ -432,17 +432,17 @@
     
     
     
-    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    <category term="CS Tools" scheme="http://blog.huaeryi.top/categories/CS-Tools/"/>
     
     
-    <category term="jupyter" scheme="http://huaeryi.com/tags/jupyter/"/>
+    <category term="jupyter" scheme="http://blog.huaeryi.top/tags/jupyter/"/>
     
   </entry>
   
   <entry>
     <title>Common Code</title>
-    <link href="http://huaeryi.com/2023/06/10/Common-Code/"/>
-    <id>http://huaeryi.com/2023/06/10/Common-Code/</id>
+    <link href="http://blog.huaeryi.top/2023/06/10/Common-Code/"/>
+    <id>http://blog.huaeryi.top/2023/06/10/Common-Code/</id>
     <published>2023-06-10T08:47:39.000Z</published>
     <updated>2023-06-12T16:01:01.042Z</updated>
     
@@ -456,17 +456,17 @@
     
     
     
-    <category term="CS Tools" scheme="http://huaeryi.com/categories/CS-Tools/"/>
+    <category term="CS Tools" scheme="http://blog.huaeryi.top/categories/CS-Tools/"/>
     
     
-    <category term="ASCII" scheme="http://huaeryi.com/tags/ASCII/"/>
+    <category term="ASCII" scheme="http://blog.huaeryi.top/tags/ASCII/"/>
     
   </entry>
   
   <entry>
     <title>USTC Computer Networking Chapter8</title>
-    <link href="http://huaeryi.com/2023/06/04/USTC-Computer-Networking-Chapter8/"/>
-    <id>http://huaeryi.com/2023/06/04/USTC-Computer-Networking-Chapter8/</id>
+    <link href="http://blog.huaeryi.top/2023/06/04/USTC-Computer-Networking-Chapter8/"/>
+    <id>http://blog.huaeryi.top/2023/06/04/USTC-Computer-Networking-Chapter8/</id>
     <published>2023-06-04T13:06:10.000Z</published>
     <updated>2023-06-05T11:03:58.087Z</updated>
     
@@ -475,17 +475,17 @@
     
     
     
-    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="http://blog.huaeryi.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    <category term="Network" scheme="http://blog.huaeryi.top/tags/Network/"/>
     
   </entry>
   
   <entry>
     <title>USTC Computer Networking Chapter6</title>
-    <link href="http://huaeryi.com/2023/06/03/USTC-Computer-Networking-Chapter6/"/>
-    <id>http://huaeryi.com/2023/06/03/USTC-Computer-Networking-Chapter6/</id>
+    <link href="http://blog.huaeryi.top/2023/06/03/USTC-Computer-Networking-Chapter6/"/>
+    <id>http://blog.huaeryi.top/2023/06/03/USTC-Computer-Networking-Chapter6/</id>
     <published>2023-06-03T12:14:30.000Z</published>
     <updated>2023-06-04T11:52:20.655Z</updated>
     
@@ -494,17 +494,17 @@
     
     
     
-    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="http://blog.huaeryi.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    <category term="Network" scheme="http://blog.huaeryi.top/tags/Network/"/>
     
   </entry>
   
   <entry>
     <title>USTC Computer Networking Chapter5</title>
-    <link href="http://huaeryi.com/2023/05/31/USTC-Computer-Networking-Chapter5/"/>
-    <id>http://huaeryi.com/2023/05/31/USTC-Computer-Networking-Chapter5/</id>
+    <link href="http://blog.huaeryi.top/2023/05/31/USTC-Computer-Networking-Chapter5/"/>
+    <id>http://blog.huaeryi.top/2023/05/31/USTC-Computer-Networking-Chapter5/</id>
     <published>2023-05-31T10:45:05.000Z</published>
     <updated>2023-06-03T12:14:24.320Z</updated>
     
@@ -513,10 +513,10 @@
     
     
     
-    <category term="计算机网络" scheme="http://huaeryi.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <category term="计算机网络" scheme="http://blog.huaeryi.top/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
     
     
-    <category term="Network" scheme="http://huaeryi.com/tags/Network/"/>
+    <category term="Network" scheme="http://blog.huaeryi.top/tags/Network/"/>
     
   </entry>
   

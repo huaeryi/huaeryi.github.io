@@ -1,133 +1,238 @@
-<!doctype html>
-<html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="robots" content="noindex"><meta><title>分类: 操作系统 - Huayi</title><link rel="manifest" href="/manifest.json"><meta name="application-name" content="Huayi"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Huayi"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="description" content="A blog of huayi"><meta property="og:type" content="blog"><meta property="og:title" content="Huayi"><meta property="og:url" content="http://huaeryi.com/"><meta property="og:site_name" content="Huayi"><meta property="og:description" content="A blog of huayi"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="http://huaeryi.com/img/og_image.png"><meta property="article:author" content="huayi"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="http://huaeryi.com/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://huaeryi.com"},"headline":"Huayi","image":["http://huaeryi.com/img/og_image.png"],"author":{"@type":"Person","name":"huayi"},"publisher":{"@type":"Organization","name":"Huayi","logo":{"@type":"ImageObject","url":"http://huaeryi.com/img/favicon.svg"}},"description":"A blog of huayi"}</script><link rel="alternate" href="/atom.xml" title="Huayi" type="application/atom+xml"><link rel="icon" href="/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link rel="stylesheet" href="/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
-  (function () {
-      function switchTab() {
-          if (!location.hash) {
-            return;
-          }
-
-          const id = '#' + CSS.escape(location.hash.substring(1));
-          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
-          if (!$tabMenu) {
-            return;
-          }
-
-          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
-          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
-          Array.from($tabMenuContainer.querySelectorAll('a'))
-              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
-              .forEach($content => $content.classList.add('is-hidden'));
-
-          if ($tabMenu) {
-              $tabMenu.parentElement.classList.add('is-active');
-          }
-          const $activeTab = document.querySelector(id);
-          if ($activeTab) {
-              $activeTab.classList.remove('is-hidden');
-          }
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>分类: 操作系统 | Huayi</title><meta name="author" content="Huayi"><meta name="copyright" content="Huayi"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="A blog of Huayi">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Huayi">
+<meta property="og:url" content="http://blog.huaeryi.top/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.html">
+<meta property="og:site_name" content="Huayi">
+<meta property="og:description" content="A blog of Huayi">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://blog.huaeryi.top/image/sheep.png">
+<meta property="article:author" content="Huayi">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://blog.huaeryi.top/image/sheep.png"><script type="application/ld+json"></script><link rel="shortcut icon" href="/image/sheep.png"><link rel="canonical" href="http://blog.huaeryi.top/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
       }
-      switchTab();
-      window.addEventListener('hashchange', switchTab, false);
-  })();
-  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.1.0"></head><body class="is-3-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/"><img src="/img/favicon.svg" alt="Huayi" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/">Home</a><a class="navbar-item" href="/archives">Archives</a><a class="navbar-item" href="/categories">Categories</a><a class="navbar-item" href="/tags">Tags</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/huaeryi"><i class="fab fa-github"></i></a><a class="navbar-item search" title="搜索" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/categories">分类</a></li><li class="is-active"><a href="#" aria-current="page">操作系统</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-17T13:38:56.000Z" title="2023/5/17 21:38:56">2023-05-17</time>发表</span><span class="level-item"><time dateTime="2023-05-17T13:39:41.216Z" title="2023/5/17 21:39:41">2023-05-17</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">几秒读完 (大约1个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/17/CS162-Lecture-5/">CS162 Lecture 5: Device Drivers, Sockets, and IPC (Finished), Concurrency (Processes and Threads)</a></p><div class="content"><span id="more"></span>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-17T06:29:06.000Z" title="2023/5/17 14:29:06">2023-05-17</time>发表</span><span class="level-item"><time dateTime="2023-05-17T13:38:27.346Z" title="2023/5/17 21:38:27">2023-05-17</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">3 分钟读完 (大约384个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/17/CS162-Lecture-4/">CS162 Lecture 4: Fork, Introduction to I/O</a></p><div class="content"><h3 id="pthread">pthread</h3>
-<ul class="lvl-0">
-<li class="lvl-2">pthread library: POSIX thread library</li>
-<li class="lvl-2"><strong>POSIX</strong>: <strong>P</strong>ortable <strong>O</strong>perating <strong>S</strong>ystem <strong>I</strong>nterface(for uni<strong>X</strong>?)</li>
-<li class="lvl-2">一个重要的观点是,Every is a “File”</li>
-</ul></div><a class="article-more button is-small is-size-7" href="/2023/05/17/CS162-Lecture-4/#more">阅读更多</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-11T15:15:36.000Z" title="2023/5/11 23:15:36">2023-05-11</time>发表</span><span class="level-item"><time dateTime="2023-05-17T07:20:37.327Z" title="2023/5/17 15:20:37">2023-05-17</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">1 分钟读完 (大约162个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/11/CS162-Lecture-3/">CS162 Lecture 3: Processes, System Calls, and Fork</a></p><div class="content"><h3 id="Process-2">Process</h3>
-<ul class="lvl-0">
-<li class="lvl-2">PCB<br>
-<img src="/2023/05/11/CS162-Lecture-3/pcb.png" alt></li>
-</ul></div><a class="article-more button is-small is-size-7" href="/2023/05/11/CS162-Lecture-3/#more">阅读更多</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-10T08:09:33.000Z" title="2023/5/10 16:09:33">2023-05-10</time>发表</span><span class="level-item"><time dateTime="2023-05-12T14:11:49.858Z" title="2023/5/12 22:11:49">2023-05-12</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">3 分钟读完 (大约445个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/10/CS162-Lecture-2/">CS162 Lecture 2: Four Fundamental Concepts of Operating Systems</a></p><div class="content"><h3 id="4-Concepts">4 Concepts</h3>
-<p><img src="/2023/05/10/CS162-Lecture-2/f.png" alt></p></div><a class="article-more button is-small is-size-7" href="/2023/05/10/CS162-Lecture-2/#more">阅读更多</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-06T14:58:10.000Z" title="2023/5/6 22:58:10">2023-05-06</time>发表</span><span class="level-item"><time dateTime="2023-05-06T15:01:31.683Z" title="2023/5/6 23:01:31">2023-05-06</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">几秒读完 (大约0个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/06/CS162-HW-1/">CS162 HW 1: List</a></p><div class="content"><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-06T14:58:08.000Z" title="2023/5/6 22:58:08">2023-05-06</time>发表</span><span class="level-item"><time dateTime="2023-05-17T13:40:41.563Z" title="2023/5/17 21:40:41">2023-05-17</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">几秒读完 (大约1个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/06/CS162-Project-0/">CS162 Project 0: Pregame</a></p><div class="content"><span id="more"></span><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-06T14:58:04.000Z" title="2023/5/6 22:58:04">2023-05-06</time>发表</span><span class="level-item"><time dateTime="2023-05-15T07:45:29.672Z" title="2023/5/15 15:45:29">2023-05-15</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">几秒读完 (大约106个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/06/CS162-HW-0/">CS162 HW 0: Introduction</a></p><div class="content"><h3 id="Docker配置环境">Docker配置环境</h3>
-<ul class="lvl-0">
-<li class="lvl-2"><a target="_blank" rel="noopener" href="https://alfredthiel.gitbook.io/pintosbook/">教程</a></li>
-<li class="lvl-2">也可以参考课程网站配置VirtualBox，但我的机子跑不出来😭</li>
-</ul>
-<h3 id="Docker目录挂载">Docker目录挂载</h3>
-<ul class="lvl-0">
-<li class="lvl-2">
-<p>获取实验仓库</p>
-</li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone git@github.com:Berkeley-CS162/student0.git</span><br></pre></td></tr></table></figure>
-<ul class="lvl-0">
-<li class="lvl-2">
-<p>目录挂载</p>
-</li>
-</ul>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run -it --rm --name pintos --mount type=bind,source=/home/huayi/student0,target=/home/PKUOS/pintos pkuflyingpig/pintos bash</span><br></pre></td></tr></table></figure>
-<ul class="lvl-0">
-<li class="lvl-2">
-<p>可以让主机和docker镜像共用目录</p>
-</li>
-</ul>
-<h3 id="Tools">Tools</h3>
-<ul class="lvl-0">
-<li class="lvl-2">
-<p>老生常谈的几个工具了</p>
-</li>
-</ul>
-<h3 id="exercise">exercise</h3>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-06T14:52:39.000Z" title="2023/5/6 22:52:39">2023-05-06</time>发表</span><span class="level-item"><time dateTime="2023-05-10T08:08:56.886Z" title="2023/5/10 16:08:56">2023-05-10</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">1 分钟读完 (大约219个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/06/CS162-Lecture-1/">CS162 Lecture 1: Intro to CS162: What is an operating system?</a></p><div class="content"><h3 id="软硬件接口">软硬件接口</h3>
-<p><img src="/2023/05/06/CS162-Lecture-1/hs.png" alt></p>
-<ul class="lvl-0">
-<li class="lvl-2">在CS61C中我们已经学习过机器架构，操作系统的一大目的是，为应用程序抽象硬件的细节，而只提供特定功能的接口。</li>
-</ul></div><a class="article-more button is-small is-size-7" href="/2023/05/06/CS162-Lecture-1/#more">阅读更多</a></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-03T08:03:34.000Z" title="2023/5/3 16:03:34">2023-05-03</time>发表</span><span class="level-item"><time dateTime="2023-05-06T14:52:50.248Z" title="2023/5/6 22:52:50">2023-05-06</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">几秒读完 (大约42个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/03/UCB-CS162/">UCB CS162: Operating Systems and Systems Programming</a></p><div class="content"><h3 id="Course-About-7">Course About</h3>
-<p>介绍有关操作系统的问题</p>
-<h3 id="Links-19">Links</h3>
-<ul class="lvl-0">
-<li class="lvl-2">
-<p><a target="_blank" rel="noopener" href="https://cs162.org/">课程主页</a></p>
-</li>
-<li class="lvl-2">
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1ab4y1b7BU">课程视频</a></p>
-</li>
-<li class="lvl-2">
-<p><a target="_blank" rel="noopener" href="https://benpfaff.org/papers/pintos.pdf">Pintos</a></p>
-</li>
-</ul>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script></div></article></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item"><time dateTime="2023-05-03T07:44:11.000Z" title="2023/5/3 15:44:11">2023-05-03</time>发表</span><span class="level-item"><time dateTime="2023-05-03T07:51:59.283Z" title="2023/5/3 15:51:59">2023-05-03</time>更新</span><span class="level-item"><a class="link-muted" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">操作系统</a></span><span class="level-item">2 分钟读完 (大约242个字)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/2023/05/03/6-S081-Lab-thread/">MIT 6.S081 Lab thread</a></p><div class="content"><h3 id="Compulsory-exercises-4">Compulsory exercises</h3>
-<h4 id="Preparation-4">Preparation</h4>
-<ul class="lvl-0">
-<li class="lvl-2">reading<br>
-<img src="/2023/05/03/6-S081-Lab-thread/pre.png" alt><br>
-To start the lab, switch to the thread branch:</li>
-</ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git fetch</span><br><span class="line">git checkout thread</span><br><span class="line">make clean</span><br></pre></td></tr></table></figure></div><a class="article-more button is-small is-size-7" href="/2023/05/03/6-S081-Lab-thread/#more">阅读更多</a></article></div><nav class="pagination" role="navigation" aria-label="pagination"><div class="pagination-previous is-invisible is-hidden-mobile"><a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/0/">上一页</a></div><div class="pagination-next"><a href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/2/">下一页</a></div><ul class="pagination-list is-hidden-mobile"><li><a class="pagination-link is-current" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/">1</a></li><li><a class="pagination-link" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/2/">2</a></li><li><a class="pagination-link" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/3/">3</a></li><li><a class="pagination-link" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/4/">4</a></li></ul></nav></div><div class="column column-left is-2-tablet is-2-desktop is-2-widescreen  order-1 is-sticky"><!--!--><div class="card widget" data-type="categories"><div class="card-content"><div class="menu"><h3 class="menu-label">分类</h3><ul class="menu-list"><li><a class="level is-mobile" href="/categories/CS-Language/"><span class="level-start"><span class="level-item">CS Language</span></span><span class="level-end"><span class="level-item tag">7</span></span></a></li><li><a class="level is-mobile" href="/categories/CS-Project/"><span class="level-start"><span class="level-item">CS Project</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/CS-Tools/"><span class="level-start"><span class="level-item">CS Tools</span></span><span class="level-end"><span class="level-item tag">15</span></span></a></li><li><a class="level is-mobile" href="/categories/CTF/"><span class="level-start"><span class="level-item">CTF</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/Others/"><span class="level-start"><span class="level-item">Others</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"><span class="level-start"><span class="level-item">人工智能</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"><span class="level-start"><span class="level-item">体系结构</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/%E5%89%8D%E7%AB%AF/"><span class="level-start"><span class="level-item">前端</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"><span class="level-start"><span class="level-item">操作系统</span></span><span class="level-end"><span class="level-item tag">33</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%95%B0%E5%AD%A6/"><span class="level-start"><span class="level-item">数学</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/"><span class="level-start"><span class="level-item">数据结构&amp;算法</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%96%87%E5%AD%A6/"><span class="level-start"><span class="level-item">文学</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"><span class="level-start"><span class="level-item">机器学习</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li><li><a class="level is-mobile" href="/categories/%E7%89%A9%E7%90%86/"><span class="level-start"><span class="level-item">物理</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"><span class="level-start"><span class="level-item">电子&amp;嵌入式</span></span><span class="level-end"><span class="level-item tag">2</span></span></a></li><li><a class="level is-mobile" href="/categories/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/"><span class="level-start"><span class="level-item">系统安全</span></span><span class="level-end"><span class="level-item tag">3</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"><span class="level-start"><span class="level-item">计算机网络</span></span><span class="level-end"><span class="level-item tag">9</span></span></a></li><li><a class="level is-mobile" href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"><span class="level-start"><span class="level-item">软件工程</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">标签</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/tags/0-1/"><span class="tag">0-&gt;1</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/8051/"><span class="tag">8051</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/ASCII/"><span class="tag">ASCII</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/C/"><span class="tag">C</span><span class="tag">45</span></a></div><div class="control"><a class="tags has-addons" href="/tags/C/"><span class="tag">C++</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/CMake/"><span class="tag">CMake</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/CSS/"><span class="tag">CSS</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/CTF/"><span class="tag">CTF</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/ChatGPT/"><span class="tag">ChatGPT</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Docker/"><span class="tag">Docker</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/GNU-Make/"><span class="tag">GNU Make</span><span class="tag">24</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Git/"><span class="tag">Git</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Github/"><span class="tag">Github</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Golang/"><span class="tag">Golang</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/HTML/"><span class="tag">HTML</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Java/"><span class="tag">Java</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Javascript/"><span class="tag">Javascript</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Latex/"><span class="tag">Latex</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Linux/"><span class="tag">Linux</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/MCU/"><span class="tag">MCU</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Markdown/"><span class="tag">Markdown</span><span class="tag">2</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Math/"><span class="tag">Math</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Network/"><span class="tag">Network</span><span class="tag">10</span></a></div><div class="control"><a class="tags has-addons" href="/tags/OS/"><span class="tag">OS</span><span class="tag">33</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Physics/"><span class="tag">Physics</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Plan/"><span class="tag">Plan</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Python/"><span class="tag">Python</span><span class="tag">9</span></a></div><div class="control"><a class="tags has-addons" href="/tags/RISC-V/"><span class="tag">RISC-V</span><span class="tag">26</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Rust/"><span class="tag">Rust</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/STM32/"><span class="tag">STM32</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Shell/"><span class="tag">Shell</span><span class="tag">3</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Vim/"><span class="tag">Vim</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/Windows/"><span class="tag">Windows</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/gdb/"><span class="tag">gdb</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/jupyter/"><span class="tag">jupyter</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/tmux/"><span class="tag">tmux</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/tags/x86/"><span class="tag">x86</span><span class="tag">14</span></a></div></div></div></div></div><div class="column-right-shadow is-hidden-widescreen"></div></div><div class="column column-right is-2-tablet is-2-desktop is-2-widescreen is-hidden-touch is-hidden-desktop-only order-3"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar is-rounded" src="/img/sheep.png" alt="Huayi"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Huayi</p><p class="is-size-6 is-block">time to code</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>China</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">文章</p><a href="/archives"><p class="title">93</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">分类</p><a href="/categories"><p class="title">18</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">标签</p><a href="/tags"><p class="title">37</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/huaeryi" target="_blank" rel="noopener">关注我</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="noopener" title="Github" href="https://github.com/huaeryi"><i class="fab fa-github"></i></a></div></div></div><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">链接</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://lin1043.github.io/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">大哥🔥のblog</span></span><span class="level-right"><span class="level-item tag">lin1043.github.io</span></span></a></li><li><a class="level is-mobile" href="https://huaeryi.github.io/notebook/" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Notebook</span></span><span class="level-right"><span class="level-item tag">huaeryi.github.io</span></span></a></li><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li></ul></div></div></div><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">最新文章</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-11-13T13:54:06.000Z">2023-11-13</time></p><p class="title"><a href="/2023/11/13/CSAPP-bomblab/">CSAPP bomblab</a></p><p class="categories"><a href="/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/">体系结构</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-11-11T05:46:54.000Z">2023-11-11</time></p><p class="title"><a href="/2023/11/11/CSAPP-datalab/">CSAPP datalab</a></p><p class="categories"><a href="/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/">体系结构</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-11-08T04:39:59.000Z">2023-11-08</time></p><p class="title"><a href="/2023/11/08/Latex/">Latex</a></p><p class="categories"><a href="/categories/CS-Tools/">CS Tools</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-11-04T12:01:38.000Z">2023-11-04</time></p><p class="title"><a href="/2023/11/04/hackergame2023/">Hackergame2023</a></p><p class="categories"><a href="/categories/CTF/">CTF</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2023-10-20T02:18:49.000Z">2023-10-20</time></p><p class="title"><a href="/2023/10/20/About-Physics/">About Physics</a></p><p class="categories"><a href="/categories/%E7%89%A9%E7%90%86/">物理</a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">归档</h3><ul class="menu-list"><li><a class="level is-mobile" href="/archives/2023/"><span class="level-start"><span class="level-item">2023</span></span><span class="level-end"><span class="level-item tag">89</span></span></a></li><li><a class="level is-mobile" href="/archives/2022/"><span class="level-start"><span class="level-item">2022</span></span><span class="level-end"><span class="level-item tag">4</span></span></a></li></ul></div></div></div></div></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/"><img src="/img/favicon.svg" alt="Huayi" height="28"></a><p class="is-size-7"><span>&copy; 2024 huayi</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/huaeryi"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("zh-cn");</script><script>var IcarusThemeSettings = {
-            article: {
-                highlight: {
-                    clipboard: true,
-                    fold: 'unfolded'
-                }
-            }
-        };</script><script src="/js/column.js"></script><script src="/js/animation.js"></script><a id="back-to-top" title="回到顶端" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script src="/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
-            if (typeof $.fn.lightGallery === 'function') {
-                $('.article').lightGallery({ selector: '.gallery-item' });
-            }
-            if (typeof $.fn.justifiedGallery === 'function') {
-                if ($('.justified-gallery > p > .gallery-item').length) {
-                    $('.justified-gallery > p > .gallery-item').unwrap();
-                }
-                $('.justified-gallery').justifiedGallery();
-            }
-        });</script><!--!--><!--!--><script type="text/x-mathjax-config">MathJax.Hub.Config({
-            'HTML-CSS': {
-                matchFontHeight: false
-            },
-            SVG: {
-                matchFontHeight: false
-            },
-            CommonHTML: {
-                matchFontHeight: false
-            },
-            tex2jax: {
-                inlineMath: [
-                    ['$','$'],
-                    ['\\(','\\)']
-                ]
-            }
-        });</script><script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/unpacked/MathJax.js?config=TeX-MML-AM_CHTML" defer></script><!--!--><!--!--><!--!--><script src="/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="想要查找什么..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script src="/js/insight.js" defer></script><script>document.addEventListener('DOMContentLoaded', function () {
-            loadInsight({"contentUrl":"/content.json"}, {"hint":"想要查找什么...","untitled":"(无标题)","posts":"文章","pages":"页面","categories":"分类","tags":"标签"});
-        });</script></body></html>
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '分类: 操作系统',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'category'
+}</script><meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="Huayi" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img text-center"><img src="/image/sheep.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data text-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">92</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">18</div></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="not-home-page" id="page-header" style="background-image: url(/image/background.png);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/image/sheep.png" alt="Logo"><span class="site-name">Huayi</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div></div><div id="toggle-menu"><span class="site-page"><i class="fas fa-bars fa-fw"></i></span></div></div></nav><div id="page-site-info"><h1 id="site-title">操作系统</h1></div></header><main class="layout" id="content-inner"><div id="category"><div class="article-sort-title">分类 - 操作系统</div><div class="article-sort"><div class="article-sort-item year">2023</div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-17T13:38:56.000Z" title="发表于 2023-05-17 21:38:56">2023-05-17</time></div><a class="article-sort-item-title" href="/2023/05/17/CS162-Lecture-5/" title="CS162 Lecture 5: Device Drivers, Sockets, and IPC (Finished), Concurrency (Processes and Threads)">CS162 Lecture 5: Device Drivers, Sockets, and IPC (Finished), Concurrency (Processes and Threads)</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-17T06:29:06.000Z" title="发表于 2023-05-17 14:29:06">2023-05-17</time></div><a class="article-sort-item-title" href="/2023/05/17/CS162-Lecture-4/" title="CS162 Lecture 4: Fork, Introduction to I/O">CS162 Lecture 4: Fork, Introduction to I/O</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-11T15:15:36.000Z" title="发表于 2023-05-11 23:15:36">2023-05-11</time></div><a class="article-sort-item-title" href="/2023/05/11/CS162-Lecture-3/" title="CS162 Lecture 3: Processes, System Calls, and Fork">CS162 Lecture 3: Processes, System Calls, and Fork</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-10T08:09:33.000Z" title="发表于 2023-05-10 16:09:33">2023-05-10</time></div><a class="article-sort-item-title" href="/2023/05/10/CS162-Lecture-2/" title="CS162 Lecture 2: Four Fundamental Concepts of Operating Systems">CS162 Lecture 2: Four Fundamental Concepts of Operating Systems</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-06T14:58:10.000Z" title="发表于 2023-05-06 22:58:10">2023-05-06</time></div><a class="article-sort-item-title" href="/2023/05/06/CS162-HW-1/" title="CS162 HW 1: List">CS162 HW 1: List</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-06T14:58:08.000Z" title="发表于 2023-05-06 22:58:08">2023-05-06</time></div><a class="article-sort-item-title" href="/2023/05/06/CS162-Project-0/" title="CS162 Project 0: Pregame">CS162 Project 0: Pregame</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-06T14:58:04.000Z" title="发表于 2023-05-06 22:58:04">2023-05-06</time></div><a class="article-sort-item-title" href="/2023/05/06/CS162-HW-0/" title="CS162 HW 0: Introduction">CS162 HW 0: Introduction</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-06T14:52:39.000Z" title="发表于 2023-05-06 22:52:39">2023-05-06</time></div><a class="article-sort-item-title" href="/2023/05/06/CS162-Lecture-1/" title="CS162 Lecture 1: Intro to CS162: What is an operating system?">CS162 Lecture 1: Intro to CS162: What is an operating system?</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-03T08:03:34.000Z" title="发表于 2023-05-03 16:03:34">2023-05-03</time></div><a class="article-sort-item-title" href="/2023/05/03/UCB-CS162/" title="UCB CS162: Operating Systems and Systems Programming">UCB CS162: Operating Systems and Systems Programming</a></div></div><div class="article-sort-item no-article-cover"><div class="article-sort-item-info"><div class="article-sort-item-time"><i class="far fa-calendar-alt"></i><time class="post-meta-date-created" datetime="2023-05-03T07:44:11.000Z" title="发表于 2023-05-03 15:44:11">2023-05-03</time></div><a class="article-sort-item-title" href="/2023/05/03/6-S081-Lab-thread/" title="MIT 6.S081 Lab thread">MIT 6.S081 Lab thread</a></div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/4/">4</a><a class="extend next" rel="next" href="/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/page/2/"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/image/sheep.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">Huayi</div><div class="author-info-description">Time to Code.</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">92</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">37</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">18</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/huaeryi"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">🚧施工中...</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/13/CSAPP-bomblab/" title="CSAPP bomblab">CSAPP bomblab</a><time datetime="2023-11-13T13:54:06.000Z" title="发表于 2023-11-13 21:54:06">2023-11-13</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/11/CSAPP-datalab/" title="CSAPP datalab">CSAPP datalab</a><time datetime="2023-11-11T05:46:54.000Z" title="发表于 2023-11-11 13:46:54">2023-11-11</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/08/Latex/" title="Latex">Latex</a><time datetime="2023-11-08T04:39:59.000Z" title="发表于 2023-11-08 12:39:59">2023-11-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/11/04/hackergame2023/" title="Hackergame2023">Hackergame2023</a><time datetime="2023-11-04T12:01:38.000Z" title="发表于 2023-11-04 20:01:38">2023-11-04</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/10/20/About-Physics/" title="About Physics">About Physics</a><time datetime="2023-10-20T02:18:49.000Z" title="发表于 2023-10-20 10:18:49">2023-10-20</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            <a class="card-more-btn" href="/categories/" title="查看更多">
+      <i class="fas fa-angle-right"></i></a>
+          </div>
+          <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/CS-Language/"><span class="card-category-list-name">CS Language</span><span class="card-category-list-count">7</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/CS-Project/"><span class="card-category-list-name">CS Project</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/CS-Tools/"><span class="card-category-list-name">CS Tools</span><span class="card-category-list-count">15</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/CTF/"><span class="card-category-list-name">CTF</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/Others/"><span class="card-category-list-name">Others</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/"><span class="card-category-list-name">人工智能</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/"><span class="card-category-list-name">体系结构</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E5%89%8D%E7%AB%AF/"><span class="card-category-list-name">前端</span><span class="card-category-list-count">1</span></a></li>
+          </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/Java/" style="font-size: 1.14em; color: #999b9d">Java</a> <a href="/tags/OS/" style="font-size: 1.46em; color: #99a7bb">OS</a> <a href="/tags/Python/" style="font-size: 1.26em; color: #999fa8">Python</a> <a href="/tags/MCU/" style="font-size: 1.14em; color: #999b9d">MCU</a> <a href="/tags/tmux/" style="font-size: 1.1em; color: #999">tmux</a> <a href="/tags/CSS/" style="font-size: 1.1em; color: #999">CSS</a> <a href="/tags/Markdown/" style="font-size: 1.14em; color: #999b9d">Markdown</a> <a href="/tags/jupyter/" style="font-size: 1.1em; color: #999">jupyter</a> <a href="/tags/Vim/" style="font-size: 1.1em; color: #999">Vim</a> <a href="/tags/C/" style="font-size: 1.5em; color: #99a9bf">C</a> <a href="/tags/Shell/" style="font-size: 1.18em; color: #999ca1">Shell</a> <a href="/tags/RISC-V/" style="font-size: 1.42em; color: #99a6b7">RISC-V</a> <a href="/tags/Linux/" style="font-size: 1.1em; color: #999">Linux</a> <a href="/tags/ChatGPT/" style="font-size: 1.1em; color: #999">ChatGPT</a> <a href="/tags/STM32/" style="font-size: 1.1em; color: #999">STM32</a> <a href="/tags/Docker/" style="font-size: 1.1em; color: #999">Docker</a> <a href="/tags/0-1/" style="font-size: 1.14em; color: #999b9d">0->1</a> <a href="/tags/Github/" style="font-size: 1.1em; color: #999">Github</a> <a href="/tags/Plan/" style="font-size: 1.22em; color: #999ea4">Plan</a> <a href="/tags/CTF/" style="font-size: 1.14em; color: #999b9d">CTF</a> <a href="/tags/Physics/" style="font-size: 1.1em; color: #999">Physics</a> <a href="/tags/HTML/" style="font-size: 1.1em; color: #999">HTML</a> <a href="/tags/x86/" style="font-size: 1.34em; color: #99a3b0">x86</a> <a href="/tags/ASCII/" style="font-size: 1.1em; color: #999">ASCII</a> <a href="/tags/gdb/" style="font-size: 1.1em; color: #999">gdb</a> <a href="/tags/Network/" style="font-size: 1.3em; color: #99a1ac">Network</a> <a href="/tags/Javascript/" style="font-size: 1.1em; color: #999">Javascript</a> <a href="/tags/GNU-Make/" style="font-size: 1.38em; color: #99a4b4">GNU Make</a> <a href="/tags/CMake/" style="font-size: 1.1em; color: #999">CMake</a> <a href="/tags/C/" style="font-size: 1.14em; color: #999b9d">C++</a> <a href="/tags/Math/" style="font-size: 1.22em; color: #999ea4">Math</a> <a href="/tags/Windows/" style="font-size: 1.1em; color: #999">Windows</a> <a href="/tags/Latex/" style="font-size: 1.1em; color: #999">Latex</a> <a href="/tags/Rust/" style="font-size: 1.1em; color: #999">Rust</a> <a href="/tags/Golang/" style="font-size: 1.14em; color: #999b9d">Golang</a> <a href="/tags/8051/" style="font-size: 1.1em; color: #999">8051</a> <a href="/tags/Git/" style="font-size: 1.1em; color: #999">Git</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      <a class="card-more-btn" href="/archives/"
+            title="查看更多">
+            <i class="fas fa-angle-right"></i>
+          </a>
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/11/">
+            <span class="card-archive-list-date">
+              十一月 2023
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/10/">
+            <span class="card-archive-list-date">
+              十月 2023
+            </span>
+            <span class="card-archive-list-count">1</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/09/">
+            <span class="card-archive-list-date">
+              九月 2023
+            </span>
+            <span class="card-archive-list-count">3</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/08/">
+            <span class="card-archive-list-date">
+              八月 2023
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/07/">
+            <span class="card-archive-list-date">
+              七月 2023
+            </span>
+            <span class="card-archive-list-count">5</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/06/">
+            <span class="card-archive-list-date">
+              六月 2023
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/05/">
+            <span class="card-archive-list-date">
+              五月 2023
+            </span>
+            <span class="card-archive-list-count">20</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2023/04/">
+            <span class="card-archive-list-date">
+              四月 2023
+            </span>
+            <span class="card-archive-list-count">30</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">92</div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">31.9k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-08-19T17:31:55.041Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By Huayi</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 6.1.0</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.4.3</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
