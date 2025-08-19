@@ -875,6 +875,20 @@
 
   
   <url>
+    <loc>http://blog.huaeryi.top/tags/8051/</loc>
+    <lastmod>2025-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.huaeryi.top/tags/MCU/</loc>
+    <lastmod>2025-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.huaeryi.top/tags/C/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -903,14 +917,7 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/tags/8051/</loc>
-    <lastmod>2025-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.huaeryi.top/tags/MCU/</loc>
+    <loc>http://blog.huaeryi.top/tags/Plan/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -924,7 +931,7 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/tags/Plan/</loc>
+    <loc>http://blog.huaeryi.top/tags/OI/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -938,7 +945,7 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/tags/OI/</loc>
+    <loc>http://blog.huaeryi.top/tags/Shell/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -946,13 +953,6 @@
   
   <url>
     <loc>http://blog.huaeryi.top/tags/C/</loc>
-    <lastmod>2025-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.huaeryi.top/tags/Shell/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -980,14 +980,14 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/tags/CTF/</loc>
+    <loc>http://blog.huaeryi.top/tags/ChatGPT/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/tags/ChatGPT/</loc>
+    <loc>http://blog.huaeryi.top/tags/CTF/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1008,6 +1008,13 @@
   </url>
   
   <url>
+    <loc>http://blog.huaeryi.top/tags/Docker/</loc>
+    <lastmod>2025-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.huaeryi.top/tags/Git/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1022,21 +1029,14 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/tags/Java/</loc>
-    <lastmod>2025-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://blog.huaeryi.top/tags/Docker/</loc>
-    <lastmod>2025-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.huaeryi.top/tags/Latex/</loc>
+    <lastmod>2025-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.huaeryi.top/tags/Java/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1099,6 +1099,13 @@
   </url>
   
   <url>
+    <loc>http://blog.huaeryi.top/tags/gdb/</loc>
+    <lastmod>2025-08-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://blog.huaeryi.top/tags/jupyter/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1133,14 +1140,14 @@
     <priority>0.2</priority>
   </url>
   
+
+  
   <url>
-    <loc>http://blog.huaeryi.top/tags/gdb/</loc>
+    <loc>http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
-  
-
   
   <url>
     <loc>http://blog.huaeryi.top/categories/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</loc>
@@ -1150,7 +1157,7 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/</loc>
+    <loc>http://blog.huaeryi.top/categories/Others/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1164,13 +1171,6 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/categories/%E7%89%A9%E7%90%86/</loc>
-    <lastmod>2025-08-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://blog.huaeryi.top/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
@@ -1178,7 +1178,7 @@
   </url>
   
   <url>
-    <loc>http://blog.huaeryi.top/categories/Others/</loc>
+    <loc>http://blog.huaeryi.top/categories/%E7%89%A9%E7%90%86/</loc>
     <lastmod>2025-08-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

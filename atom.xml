@@ -6,7 +6,7 @@
   <link href="http://blog.huaeryi.top/atom.xml" rel="self"/>
   
   <link href="http://blog.huaeryi.top/"/>
-  <updated>2025-08-19T18:29:35.938Z</updated>
+  <updated>2025-08-19T18:31:07.630Z</updated>
   <id>http://blog.huaeryi.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://blog.huaeryi.top/2025/08/20/AtCoder-Beginner-Contest-419/"/>
     <id>http://blog.huaeryi.top/2025/08/20/AtCoder-Beginner-Contest-419/</id>
     <published>2025-08-19T18:27:05.000Z</published>
-    <updated>2025-08-19T18:29:35.938Z</updated>
+    <updated>2025-08-19T18:31:07.630Z</updated>
     
     
       
@@ -316,7 +316,7 @@
     <updated>2023-07-31T01:26:51.811Z</updated>
     
     
-    <summary type="html">&lt;h3 id=&quot;Links-19&quot;&gt;Links&lt;/h3&gt;
+    <summary type="html">&lt;h3 id=&quot;Links-20&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;&lt;a href=&quot;https://www.bilibili.com/video/BV1th411z7sn&quot;&gt;STM32入门教程视频&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</summary>
@@ -326,9 +326,9 @@
     <category term="电子&amp;嵌入式" scheme="http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
-    
     <category term="MCU" scheme="http://blog.huaeryi.top/tags/MCU/"/>
+    
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
     <category term="STM32" scheme="http://blog.huaeryi.top/tags/STM32/"/>
     
@@ -352,11 +352,11 @@
     <category term="电子&amp;嵌入式" scheme="http://blog.huaeryi.top/categories/%E7%94%B5%E5%AD%90-%E5%B5%8C%E5%85%A5%E5%BC%8F/"/>
     
     
-    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
-    
     <category term="8051" scheme="http://blog.huaeryi.top/tags/8051/"/>
     
     <category term="MCU" scheme="http://blog.huaeryi.top/tags/MCU/"/>
+    
+    <category term="C" scheme="http://blog.huaeryi.top/tags/C/"/>
     
   </entry>
   
@@ -449,7 +449,7 @@
     
     <summary type="html">&lt;h3 id=&quot;Intro-5&quot;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;jupyter是一个基于web的可交互的应用程序，广泛用于数据分析中，同时支持多种编程语言。&lt;/p&gt;
-&lt;h3 id=&quot;Links-23&quot;&gt;Links&lt;/h3&gt;
+&lt;h3 id=&quot;Links-24&quot;&gt;Links&lt;/h3&gt;
 &lt;ul class=&quot;lvl-0&quot;&gt;
 &lt;li class=&quot;lvl-2&quot;&gt;
 &lt;p&gt;&lt;a href=&quot;https://jupyter.org/try-jupyter/lab/&quot;&gt;jupyter lab&lt;/a&gt;&lt;/p&gt;
