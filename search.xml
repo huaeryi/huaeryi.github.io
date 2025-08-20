@@ -3,7 +3,7 @@
   <entry>
     <title>数据结构和算法笔记</title>
     <url>/2023/09/03/algorithm-note/</url>
-    <content><![CDATA[<h3 id="Intro-4">Intro</h3>
+    <content><![CDATA[<h3 id="Intro">Intro</h3>
 <ul class="lvl-0">
 <li class="lvl-2">记录数据结构和算法题</li>
 <li class="lvl-2"><a href="https://huaeryi.github.io/notebook/">笔记</a></li>
@@ -107,7 +107,7 @@
 <figure class="highlight cpp"><figcaption><span>>folded</span></figcaption><table><tr><td class="code"><pre><span class="line">set&lt;<span class="type">int</span>&gt; st;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">auto</span> i : st) &#123;</span><br><span class="line">  cout &lt;&lt; *it &lt;&lt; endl;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">map&lt;string, <span class="type">int</span>&gt; mp;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">auto</span> it = mp.<span class="built_in">begin</span>(); it != mp.<span class="built_in">end</span>(); it++) &#123;</span><br><span class="line">  cout &lt;&lt; it-&gt;first &lt;&lt; endl;</span><br><span class="line">  cout &lt;&lt; it-&gt;second &lt;&lt; endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>数据结构&amp;算法</category>
+        <category>算法</category>
       </categories>
       <tags>
         <tag>C++</tag>
@@ -150,29 +150,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Literature and Philosophy</title>
-    <url>/2023/03/31/Literature-and-Philosophy/</url>
-    <content><![CDATA[<h3 id="Book-List">Book List</h3>
-<span id="more"></span>
-<h4 id="Literature">Literature</h4>
-<h5 id="德">德</h5>
-<ul class="lvl-0">
-<li class="lvl-2">魔山</li>
-</ul>
-<h5 id="中">中</h5>
-<ul class="lvl-0">
-<li class="lvl-2">活着</li>
-</ul>
-<h4 id="Philosophy">Philosophy</h4>
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
-      <categories>
-        <category>文学</category>
-      </categories>
-      <tags>
-        <tag>Plan</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>AtCoder Beginner Contest 419</title>
     <url>/2025/08/20/AtCoder-Beginner-Contest-419/</url>
     <content><![CDATA[<h2 id="C-特殊距离">C 特殊距离</h2>
@@ -180,7 +157,7 @@
 <h2 id="D-差分">D 差分</h2>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="type">const</span> <span class="type">int</span> N = <span class="number">5e5</span>+<span class="number">10</span>;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> n, m;</span><br><span class="line">string s, t;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 差分数组 sub[i] = cnt[i] - cnt[i - 1], cnt[0] = 0</span></span><br><span class="line"><span class="type">int</span> sub[N];</span><br><span class="line"><span class="type">int</span> cnt[N];</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    std::ios::<span class="built_in">sync_with_stdio</span>(<span class="literal">false</span>);</span><br><span class="line">    std::cin.<span class="built_in">tie</span>(<span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    cin &gt;&gt; n &gt;&gt; m;</span><br><span class="line">    cin &gt;&gt; s &gt;&gt; t;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; m; i++) &#123;</span><br><span class="line">        <span class="type">int</span> l, r;</span><br><span class="line">        cin &gt;&gt; l &gt;&gt; r;</span><br><span class="line">        sub[l]++;</span><br><span class="line">        sub[r + <span class="number">1</span>]--;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">        cnt[i] = cnt[i - <span class="number">1</span>] + sub[i];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt;= n; i++) &#123;</span><br><span class="line">        <span class="keyword">if</span> (cnt[i] % <span class="number">2</span> == <span class="number">1</span>) &#123;</span><br><span class="line">            s[i - <span class="number">1</span>] = t[i - <span class="number">1</span>];</span><br><span class="line">        &#125; </span><br><span class="line">    &#125;</span><br><span class="line">    cout &lt;&lt; s &lt;&lt; endl;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
       <categories>
-        <category>数据结构&amp;算法</category>
+        <category>算法</category>
       </categories>
       <tags>
         <tag>OI</tag>
@@ -5049,6 +5026,29 @@ $</p>
         <tag>OS</tag>
         <tag>RISC-V</tag>
         <tag>GNU Make</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Literature and Philosophy</title>
+    <url>/2023/03/31/Literature-and-Philosophy/</url>
+    <content><![CDATA[<h3 id="Book-List">Book List</h3>
+<span id="more"></span>
+<h4 id="Literature">Literature</h4>
+<h5 id="德">德</h5>
+<ul class="lvl-0">
+<li class="lvl-2">魔山</li>
+</ul>
+<h5 id="中">中</h5>
+<ul class="lvl-0">
+<li class="lvl-2">活着</li>
+</ul>
+<h4 id="Philosophy">Philosophy</h4>
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
+      <categories>
+        <category>文学</category>
+      </categories>
+      <tags>
+        <tag>Plan</tag>
       </tags>
   </entry>
   <entry>
