@@ -145,8 +145,8 @@
         <category>数学</category>
       </categories>
       <tags>
-        <tag>Plan</tag>
         <tag>Math</tag>
+        <tag>Plan</tag>
       </tags>
   </entry>
   <entry>
@@ -209,7 +209,7 @@ $$</p>
   <entry>
     <title>CSAPP bomblab</title>
     <url>/2023/11/13/CSAPP-bomblab/</url>
-    <content><![CDATA[<h3 id="Intro-2">Intro</h3>
+    <content><![CDATA[<h3 id="Intro">Intro</h3>
 <ul class="lvl-0">
 <li class="lvl-2">CSAPP里传奇的实验</li>
 <li class="lvl-2">通过汇编能力拆除二进制炸弹，拯救世界！</li>
@@ -300,12 +300,12 @@ $$</p>
     <title>CSAPP datalab</title>
     <url>/2023/11/11/CSAPP-datalab/</url>
     <content><![CDATA[<p>突发奇想，重做下CSAPP的lab，顺便把以前没做完的补上，希望能坚持下来</p>
-<h3 id="Links-5">Links</h3>
+<h3 id="Links-6">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="http://csapp.cs.cmu.edu/3e/labs.html">lab download</a></li>
 </ul>
 <span id="more"></span>
-<h3 id="Intro">Intro</h3>
+<h3 id="Intro-2">Intro</h3>
 <ul class="lvl-0">
 <li class="lvl-2">datalab主要是使用位运算来实现函数，考验对底层数据类型的掌握</li>
 <li class="lvl-2">修改<code>bit.c</code>文件以彰显你的位运算技术</li>
@@ -729,7 +729,7 @@ The cone was so delicious and she was so</p>
   <entry>
     <title>MIT 6.858</title>
     <url>/2023/09/22/MIT-6-858/</url>
-    <content><![CDATA[<h3 id="Links-12">Links</h3>
+    <content><![CDATA[<h3 id="Links-11">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="http://css.csail.mit.edu/6.858/2022/">课程主页</a></li>
 <li class="lvl-2"><a href="https://www.bilibili.com/video/BV1Jp4y167N5">课程视频</a></li>
@@ -994,7 +994,7 @@ The cone was so delicious and she was so</p>
   <entry>
     <title>STM32入门教程</title>
     <url>/2023/07/31/STM32MCU/</url>
-    <content><![CDATA[<h3 id="Links-20">Links</h3>
+    <content><![CDATA[<h3 id="Links-19">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://www.bilibili.com/video/BV1th411z7sn">STM32入门教程视频</a></li>
 </ul>
@@ -2281,7 +2281,7 @@ The cone was so delicious and she was so</p>
   <entry>
     <title>USTC Computer Networking: A Top-Down Approach</title>
     <url>/2023/05/23/USTC-Computer-Networking/</url>
-    <content><![CDATA[<h3 id="Introduction-18">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-17">Introduction</h3>
 <p>介绍有关计算机网络的问题</p>
 <h3 id="Links-22">Links</h3>
 <ul class="lvl-0">
@@ -2307,7 +2307,7 @@ The cone was so delicious and she was so</p>
   <entry>
     <title>Rust</title>
     <url>/2023/05/18/Rust/</url>
-    <content><![CDATA[<h3 id="Introduction-15">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-14">Introduction</h3>
 <p>Rust是注重于安全的一门语言，其特色是没有Garbage Collector和无需手动内存管理，广泛运用于系统设计项目中。</p>
 <h3 id="编译过程">编译过程</h3>
 <h3 id="Cargo">Cargo</h3>
@@ -2531,7 +2531,7 @@ The cone was so delicious and she was so</p>
   <entry>
     <title>CS162 Lecture 3: Processes, System Calls, and Fork</title>
     <url>/2023/05/11/CS162-Lecture-3/</url>
-    <content><![CDATA[<h3 id="Process">Process</h3>
+    <content><![CDATA[<h3 id="Process-2">Process</h3>
 <ul class="lvl-0">
 <li class="lvl-2">PCB<br>
 <img src="/2023/05/11/CS162-Lecture-3/pcb.png" alt></li>
@@ -2563,7 +2563,7 @@ The cone was so delicious and she was so</p>
 <img src="/2023/05/11/CS162-Lecture-3/fork.png" alt></p>
 </li>
 </ul>
-<h3 id="Thread-2">Thread</h3>
+<h3 id="Thread-3">Thread</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>posix pthread是一种行业标准，其致力于提供一个在不同操作系统中适用的半标准的线程接口</p>
@@ -2585,7 +2585,7 @@ The cone was so delicious and she was so</p>
     <content><![CDATA[<h3 id="4-Concepts">4 Concepts</h3>
 <p><img src="/2023/05/10/CS162-Lecture-2/f.png" alt></p>
 <span id="more"></span>
-<h3 id="Thread-3">Thread</h3>
+<h3 id="Thread-2">Thread</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>独立执行的上下文单元</p>
@@ -2619,7 +2619,7 @@ The cone was so delicious and she was so</p>
 <p>32bit和64bit处理器拥有的地址空间是不一样的</p>
 </li>
 </ul>
-<h3 id="Process-2">Process</h3>
+<h3 id="Process">Process</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>有隔离性的运行环境</p>
@@ -3380,7 +3380,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 16: File system performance and fast crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-16/</url>
-    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/readings/microkernel.pdf">Read Journaling the Linux ext2fs Filesystem (1998)</a></li>
 </ul>
@@ -3422,7 +3422,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 15: Crash recovery</title>
     <url>/2023/04/22/6-S081-Lecture-15/</url>
-    <content><![CDATA[<h3 id="Reading-6">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-5">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read logging sections of “File system”</a></li>
 <li class="lvl-2">read code<br>
@@ -3501,7 +3501,7 @@ To start the lab, switch to the thread branch:</li>
 </ul>
 </li>
 </ul>
-<h3 id="Summary-2">Summary</h3>
+<h3 id="Summary">Summary</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>log for multi-step ops</p>
@@ -3524,7 +3524,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>Network Protocol</title>
     <url>/2023/04/20/Network-Protocol/</url>
-    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-11">Introduction</h3>
 <p>计算机网络的架构分为很多层，其中主流的分类方法是四层的TCP/IP结构，本文将从这四层结构出发（又是自顶向下😆），介绍属于网络不同层的网络协议。</p>
 <span id="more"></span>
 <h3 id="Layer">Layer</h3>
@@ -3548,7 +3548,7 @@ To start the lab, switch to the thread branch:</li>
   <entry>
     <title>MIT 6.S081 Lecture 14: File systems</title>
     <url>/2023/04/20/6-S081-Lecture-14/</url>
-    <content><![CDATA[<h3 id="Reading-5">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-8">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter8</a></li>
 <li class="lvl-2">read code<br>
@@ -3718,7 +3718,7 @@ To start the lab, switch to the thread branch:</li>
 </ul>
 </li>
 </ul>
-<h3 id="Summary">Summary</h3>
+<h3 id="Summary-2">Summary</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p>fs = on-disk data structure</p>
@@ -3858,7 +3858,7 @@ $</p>
   <entry>
     <title>RISC-V</title>
     <url>/2023/04/16/RISC-V/</url>
-    <content><![CDATA[<h3 id="Introduction-14">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-13">Introduction</h3>
 <p>RISC-V是一种精简指令集架构的汇编语言</p>
 <h3 id="Feeling-7">Feeling</h3>
 <p>RISC-V的核心说明文档只有一页纸那么大，相比起x86臃肿的指令集架构，RISC-V的简单易学很适合作为汇编语言的入门，近年来指令集架构也有从CISC到RISC转变的倾向，但是大部分的机器仍然在x86下运行，整个世界的结构可以说是以x86为主流的。</p>
@@ -4206,7 +4206,7 @@ $</p>
     <url>/2023/04/13/CTF/</url>
     <content><![CDATA[<h3 id="Introduction-5">Introduction</h3>
 <p>CTF（Capture The Flag）夺旗赛，是网络安全爱好者之间的竞技游戏。</p>
-<h3 id="Links-6">Links</h3>
+<h3 id="Links-5">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://ctf-wiki.org">CTF wiki</a></li>
 <li class="lvl-2"><a href="https://www.ctfhub.com">CTFHub</a></li>
@@ -4361,7 +4361,7 @@ $</p>
 <p><code>vim ~/.bashrc</code></p>
 </li>
 </ul>
-<h3 id="Links-19">Links</h3>
+<h3 id="Links-20">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md">详细命令</a></p>
@@ -4379,7 +4379,7 @@ $</p>
   <entry>
     <title>Vim</title>
     <url>/2023/04/09/Vim/</url>
-    <content><![CDATA[<h3 id="Introduction-17">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-18">Introduction</h3>
 <p>Vim是一个类似于Vi的著名的功能强大、高度可定制的文本编辑器</p>
 <span id="more"></span>
 <h3 id="Usage-3">Usage</h3>
@@ -4659,10 +4659,10 @@ $</p>
   <entry>
     <title>Manim</title>
     <url>/2023/04/06/Manim/</url>
-    <content><![CDATA[<h3 id="Introduction-11">Introduction</h3>
+    <content><![CDATA[<h3 id="Introduction-10">Introduction</h3>
 <p>Manim是数学视频博主3b1b开发并使用的Python图形引擎，用于制作数学科普视频。<br>
 <img src="/2023/04/06/Manim/manim.png" alt="manim"></p>
-<h3 id="Usage-2">Usage</h3>
+<h3 id="Usage">Usage</h3>
 <h4 id="基本框架">基本框架</h4>
 <figure class="highlight python"><figcaption><span>python</span></figcaption><table><tr><td class="code"><pre><span class="line"><span class="keyword">from</span> manimlib <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">SceneName</span>(<span class="title class_ inherited__">Scene</span>):</span><br><span class="line">    <span class="keyword">def</span> <span class="title function_">construct</span>(<span class="params">self</span>):</span><br></pre></td></tr></table></figure>
 <link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>]]></content>
@@ -4799,7 +4799,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 7: Page faults</title>
     <url>/2023/04/04/6-S081-Lecture-7/</url>
-    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read 4.6</a></li>
 </ul>
@@ -4963,7 +4963,7 @@ $</p>
   <entry>
     <title>MIT 6.S081 Lecture 6: Isolation &amp; system call entry/exit</title>
     <url>/2023/04/01/6-S081-Lecture-6/</url>
-    <content><![CDATA[<h3 id="Reading-13">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-14">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter4</a><br>
 <img src="/2023/04/01/6-S081-Lecture-6/Chapter4.png" alt="Chapter4"></li>
@@ -5453,7 +5453,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 4: Page tables</title>
     <url>/2023/03/29/6-S081-Lecture-4/</url>
-    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter3</a><br>
 <img src="/2023/03/29/6-S081-Lecture-4/Chapter3.png" alt="Chapter3"></li>
@@ -5530,7 +5530,7 @@ at the specified location.<br>
   <entry>
     <title>MIT 6.S081 Lecture 3: OS organization and system calls</title>
     <url>/2023/03/28/6-S081-Lecture-3/</url>
-    <content><![CDATA[<h3 id="Reading-11">Reading</h3>
+    <content><![CDATA[<h3 id="Reading-10">Reading</h3>
 <ul class="lvl-0">
 <li class="lvl-2"><a href="https://pdos.csail.mit.edu/6.828/2021/xv6/book-riscv-rev2.pdf">Read Chapter2</a><br>
 <img src="/2023/03/28/6-S081-Lecture-3/Chapter2.png" alt="Chapter2"></li>
@@ -5915,11 +5915,11 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>CS50ai</title>
     <url>/2023/03/28/CS50ai/</url>
-    <content><![CDATA[<h3 id="Course-About-2">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About">Course About</h3>
 <p><strong>介绍有关人工智能的问题，内容包括搜索、优化、学习、神经网络等</strong></p>
-<h3 id="Feeling-2">Feeling</h3>
+<h3 id="Feeling">Feeling</h3>
 <p>人工智能在今天已经是一个时代性的话题，仅仅是在这短短的一年之间，我已经见证了它对不同领域的冲击，从AI绘画到ChatGPT,或者是其他的更多方面，真正的AI时代似乎已经到来。以我肤浅的认识，以我在课程中学到的内容还有我粗浅的理解，我确实很难想象神经网络和反向传播，最后居然能训练出ChatGPT这样现象级的人工智能。绘画和CS都是我思考过想要投入其中的行业，我一方面明白人工智能的发展是科技进步的象征，它的应用必将让这个世界走向更加智能和美好的方向，但同时不可阻挡的发展，也正像浪潮一般席卷了从业者。我斗胆自诩为绘画行业的旁观者，又或者是踏入CS半只脚的半吊子，但我却深深体会到了AI所带来的追赶不上和将被替代的压迫感。我在以前无法预知现在的科技发展，而现在也仍然对未来的日子一无所知。我正像几年前的高考那样，迷茫地走向前去。我不知道人工智能的未来，甚至也不知道自己的未来。但即便如此，我还是想要去了解现代的人工智能，了解它的原理和实现，并且尝试去使用它。</p>
-<h3 id="Links-4">Links</h3>
+<h3 id="Links-3">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://cs50.harvard.edu/ai/2020/">课程主页</a></p>
@@ -5971,10 +5971,10 @@ user mode被允许执行add sub等指令，而kernel mode被允许执行受限�
   <entry>
     <title>CS61C</title>
     <url>/2023/03/27/CS61C/</url>
-    <content><![CDATA[<h3 id="Course-About">Course About</h3>
+    <content><![CDATA[<h3 id="Course-About-2">Course About</h3>
 <p><strong>介绍有关计算机组成的问题，内容包括电路设计、RISC-V汇编、CPU流水线等等</strong></p>
-<h3 id="Feeling">Feeling</h3>
-<h3 id="Links-3">Links</h3>
+<h3 id="Feeling-2">Feeling</h3>
+<h3 id="Links-4">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="https://inst.eecs.berkeley.edu/~cs61c/su20/">课程主页</a></p>
@@ -6367,7 +6367,7 @@ Maybe Learning later…</p>
     <url>/2023/03/26/MIT-6-031/</url>
     <content><![CDATA[<h3 id="Course-About-4">Course About</h3>
 <p><strong>介绍有关软件工程的问题</strong></p>
-<h3 id="Links-11">Links</h3>
+<h3 id="Links-13">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-4">
 <p><a href="http://web.mit.edu/6.031/www/sp21/">课程主页</a></p>
@@ -6391,7 +6391,7 @@ Maybe Learning later…</p>
 </blockquote>
 <h3 id="Feeling-5">Feeling</h3>
 <p>操作系统层的编程以它注重硬件直接交互，兼顾性能与安全的特征而为人所知。操作系统和机器架构方面的问题，时常让我在想，先有鸡还是先有蛋。所谓的Shell是内核之外的用户程序，它执行不同种类的系统调用以让我觉得，Shell就是内核的包装和外壳(Shell)。但是在Shell之前的事情呢，机器如何摆放它在屏幕上的文字，以让我觉得我在使用Shell？如果没有Shell，事情又会变得怎样呢？网络是一种I/O设备，它在操作系统下的接口是怎样的？我们所熟悉的C语言中那些理所应当的函数和数据结构，是怎样由操作系统封装提供的？操作系统是硬件与用户层之间的重要桥梁，它不仅仅是某种&quot;Cache&quot;，不仅仅是某种GUI，它是很多东西的集合和封装，但幸运的是，它是运行中的程序，它不由谁提供环境，它要自己适应环境。</p>
-<h3 id="Links-13">Links</h3>
+<h3 id="Links-12">Links</h3>
 <ul class="lvl-0">
 <li class="lvl-2">
 <p><a href="https://pdos.csail.mit.edu/6.828/2021/schedule.html">课程主页(Fall21)</a></p>
@@ -6977,10 +6977,10 @@ $</p>
   <entry>
     <title>Markdown</title>
     <url>/2022/07/14/MarkdownHelp/</url>
-    <content><![CDATA[<h2 id="Introduction-10">Introduction</h2>
+    <content><![CDATA[<h2 id="Introduction-15">Introduction</h2>
 <p>Markdown是一种标记语言，而Latex是一种排版系统</p>
 <span id="more"></span>
-<h2 id="Usage">Usage</h2>
+<h2 id="Usage-2">Usage</h2>
 <h3 id="标题">标题</h3>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># Title</span></span><br><span class="line"><span class="section">## Title</span></span><br><span class="line"><span class="section">### Title</span></span><br><span class="line"><span class="section">#### Title</span></span><br><span class="line"><span class="section">##### Title</span></span><br><span class="line"><span class="section">###### Title</span></span><br></pre></td></tr></table></figure>
 <hr>
